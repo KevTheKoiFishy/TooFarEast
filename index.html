@@ -42,19 +42,19 @@
         position: absolute;
         overflow: hidden;
         
-        background: black;
-        font-size: 20vw;
+                animation: WelcomeText 2s linear;
+
+        font-size: 25vw;
         font-family: "Staatliches";
+        -webkit-background-clip: text;
         color: white;
         
-        animation: welcomeText 3s linear 1s;
         
         z-index: 3;
       }
       @keyframes WelcomeText{
-        0% {left: -100vw; width: 200vw;}
-        20% {left: 0vw; width: 200vw;}
-        50% {h}
+        0% {height: 170px;}
+        100% {height: 0px;}
       }
       
       h1{
@@ -95,12 +95,17 @@
   <body>
     
     <div id="Welcome_Container" align="center">
-      <div class="Welcome_Text center" style="top: 05vw;" >Welcome</div>
-      <div class="Welcome_Text center" style="top: 25vw;" >To</div>
-      <div class="Welcome_Text center" style="top: 45vw;" >The</div>
-      <h1  class="left"                style="top: 05vw;" >Asian</h1>
-      <h1  class="center"              style="top: 25vw;" >Culture</h1>
-      <h1  class="right"               style="top: 45vw;" >Society</h1>
+      <h1  class="left"                style="top: 05vw;" >
+        <div class="Welcome_Text">Welcome</div>
+        Asian
+      </h1>
+      <h1  class="center"              style="top: 25vw;" >
+        <div class="Welcome_Text">To</div>
+        Culture
+      </h1>
+      <h1  class="right"               style="top: 45vw;" >
+        <div class="Welcome_Text">The</div>
+        Society</h1>
       <div class="dark_overlay"></div>
     </div>
     
