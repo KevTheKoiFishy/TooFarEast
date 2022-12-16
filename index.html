@@ -39,7 +39,14 @@
       }
       
       @keyframes title_color{
-        10% {background: }
+        0%          {color: #ffcaea; }
+        14.2857143% {color: #ce3b3b; }
+        28.5714286% {color: #e18a30; }
+        42.8571429% {color: #d4af27; }
+        57.1428571% {color: #549d21; }
+        71.4285714% {color: #067ec4; }
+        85.7142857% {color: #6c44ad; }
+        100%        {color: #a73f7e; }
       }
       h1{
         position: absolute;
@@ -48,11 +55,12 @@
         background-position: center;
         background-attachment: fixed;
         
-        font-size: 20vw;
+        animation: title_color 10s linear 0s infinite;
+        
+        font-size: 25vw;
         text-weight: bold;
         font-family: "Staatliches";
         -webkit-background-clip: text;
-        -webkit-text-fill-color: #FFFFFF;
         
         z-index: 2;
       }
@@ -68,12 +76,11 @@
   <body>
     
     <div id="Welcome_Container" align="center">
+      <div id="WelcomeTo">Welcome To</div>
       <div class="dark_overlay"></div>
-      <div class="tilt" style="opacity: 0.9; width: 30vw;">
         <h1 class="left"   style="top: -10vw;">Asian</h1>
         <h1 class="center" style="top: 10vw;">Culture</h1>
         <h1 class="right"  style="top: 30vw;">Society</h1>
-      </div>
     </div>
     
   </body>
