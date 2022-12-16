@@ -16,7 +16,7 @@
       Kolker Brush
     -->
     <style>
-      body {margin: 20;}
+      body {margin: 20; overflow-x: hidden;}
       
       #Welcome_Container{
         width: 100%;
@@ -24,22 +24,41 @@
         background: black;
       }
       
+      @keyframes title_background{
+        10% {background: }
+      }
       h1{
         position: absolute;
-        color: white;
-        font-size: 40vw;
-        font-family: "Kolker Brush";
-      }      
-      h1.left{
-        text-align: left;
-        top: -50px;
-        left: -20px;
+        
+        background: url("https://photo.kidzworld.com/images/2019226/cb11fbe1-a25d-4f4f-b294-0635fb96b4c2/feature_asian-cultures-traditions-feat.jpg");
+        background-position: absolute;
+        background-size: 100vw;
+        
+        font-size: 20vw;
+        text-weight: bold;
+        font-family: "Staatliches";
+        /*-webkit-background-clip: text;*/
+        -webkit-text-fill-color: transparent;
       }
+      .tilt   { transform: rotate(-3deg); }
+      .left   { left:  -5vw;                             }
+      .center { left:   50%; transform: translate(-50%); }
+      .right  { right: -1vw;                             }
     </style>
+    
   </head>
+  
+  
   <body>
+    
     <div id="Welcome_Container">
-      <h1 class="left">Asian</h1>
+      <div class="tilt">
+        <h1 class="left"   style="top: -10vw;">Asian</h1>
+        <h1 class="center" style="top: 10vw;">Culture</h1>
+        <h1 class="right"  style="top: 30vw;">Society</h1>
+      </div>
     </div>
+    
   </body>
+  
 </html>
