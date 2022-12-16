@@ -16,11 +16,11 @@
       Kolker Brush
     -->
     <style>
-      body {margin: 3vw; overflow-x: hidden;}
+      body {margin: 0; overflow-x: hidden;}
       
       #Welcome_Container{
         width: 100%;
-        height: 100vh;
+        height: 65vw;
         background: black;
         
         animation: title_background;
@@ -33,12 +33,12 @@
       }
       .dark_overlay{
         position: absolute;
-        width: 92vw;
-        height: 100%;
-        background: #00000099;
+        width: inherit;
+        height: inherit;
+        background: #FFFFFFDD;
       }
       
-      @keyframes title_background{
+      @keyframes title_color{
         10% {background: }
       }
       h1{
@@ -48,19 +48,18 @@
         background-position: center;
         background-attachment: fixed;
         
-        -webkit-text-stroke-width: 10px;
         font-size: 20vw;
         text-weight: bold;
         font-family: "Staatliches";
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        -webkit-text-fill-color: #00000077;
         
         z-index: 2;
       }
       .tilt   { transform: rotate(-3deg); }
-      .left   { left:  -5vw;                             }
+      .left   { left:  -2vw;                             }
       .center { text-align:  center; width: 100% }
-      .right  { right: -1vw;                             }
+      .right  { right: -2vw;                             }
     </style>
     
   </head>
