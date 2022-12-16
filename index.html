@@ -38,8 +38,28 @@
         background: #00000088;
       }
       
-      h1{
+      .Welcome_Text{
         position: absolute;
+        overflow: hidden;
+        
+        background: black;
+        font-size: 20vw;
+        font-family: "Staatliches";
+        color: white;
+        
+        animation: welcomeText 3s linear 1s;
+        
+        z-index: 3;
+      }
+      @keyframes WelcomeText{
+        0% {left: -100vw; width: 200vw;}
+        20% {left: 0vw; width: 200vw;}
+        50% {h}
+      }
+      
+      h1{
+        position: absolute;        
+        margin: 0px;
         
         background: inherit;
         background-position: center;
@@ -48,7 +68,6 @@
         animation: title_color 10s linear 0s infinite;
         
         font-size: 25vw;
-        text-weight: bold;
         font-family: "Staatliches";
         -webkit-background-clip: text;
         
@@ -66,19 +85,8 @@
       }
       .tilt   { transform: rotate(-3deg); }
       .left   { left:  -2vw;                             }
-      .center { text-align:  center; width: 100% }
+      .center { text-align:  center; width: 100%;        }
       .right  { right: -2vw;                             }
-      
-      .Welcome_Text{
-        position: absolute;
-        
-        font-size: 25vw;
-        text-weight: bold;
-        font-family: "Staatliches";
-        -webkit-background-clip: text;
-        
-        z-index: 2;
-      }
     </style>
     
   </head>
@@ -87,12 +95,12 @@
   <body>
     
     <div id="Welcome_Container" align="center">
-      <div class="Welcome_Text" style="top: -10vw;" >Welcome</div>
-      <div class="Welcome_Text" style="top:  10vw;" >To</div>
-      <div class="Welcome_Text" style="top:  30vw;" >The</div>
-      <h1  class="left"         style="top: -10vw;" >Asian</h1>
-      <h1  class="center"       style="top:  10vw;" >Culture</h1>
-      <h1  class="right"        style="top:  30vw;" >Society</h1>
+      <div class="Welcome_Text center" style="top: 05vw;" >Welcome</div>
+      <div class="Welcome_Text center" style="top: 25vw;" >To</div>
+      <div class="Welcome_Text center" style="top: 45vw;" >The</div>
+      <h1  class="left"                style="top: 05vw;" >Asian</h1>
+      <h1  class="center"              style="top: 25vw;" >Culture</h1>
+      <h1  class="right"               style="top: 45vw;" >Society</h1>
       <div class="dark_overlay"></div>
     </div>
     
