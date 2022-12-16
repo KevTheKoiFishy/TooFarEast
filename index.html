@@ -35,19 +35,9 @@
         position: absolute;
         width: inherit;
         height: inherit;
-        background: #00000077;
+        background: #00000088;
       }
       
-      @keyframes title_color{
-        0%          {color: #ffcaea; }
-        14.2857143% {color: #ce3b3b; }
-        28.5714286% {color: #e18a30; }
-        42.8571429% {color: #d4af27; }
-        57.1428571% {color: #549d21; }
-        71.4285714% {color: #067ec4; }
-        85.7142857% {color: #6c44ad; }
-        100%        {color: #a73f7e; }
-      }
       h1{
         position: absolute;
         
@@ -64,10 +54,31 @@
         
         z-index: 2;
       }
+      @keyframes title_color{
+        0%          {color: #ffcaeacc; }
+        14.2857143% {color: #ffa9a9cc; }
+        28.5714286% {color: #ffddb9cc; }
+        42.8571429% {color: #ffea9dcc; }
+        57.1428571% {color: #c1eda3cc; }
+        71.4285714% {color: #abd9f4cc; }
+        85.7142857% {color: #d5c3f1cc; }
+        100%        {color: #ffcaeacc; }
+      }
       .tilt   { transform: rotate(-3deg); }
       .left   { left:  -2vw;                             }
       .center { text-align:  center; width: 100% }
       .right  { right: -2vw;                             }
+      
+      .Welcome_Text{
+        position: absolute;
+        
+        font-size: 25vw;
+        text-weight: bold;
+        font-family: "Staatliches";
+        -webkit-background-clip: text;
+        
+        z-index: 2;
+      }
     </style>
     
   </head>
@@ -76,11 +87,13 @@
   <body>
     
     <div id="Welcome_Container" align="center">
-      <div id="WelcomeTo">Welcome To</div>
+      <div class="Welcome_Text" style="top: -10vw;" >Welcome</div>
+      <div class="Welcome_Text" style="top:  10vw;" >To</div>
+      <div class="Welcome_Text" style="top:  30vw;" >The</div>
+      <h1  class="left"         style="top: -10vw;" >Asian</h1>
+      <h1  class="center"       style="top:  10vw;" >Culture</h1>
+      <h1  class="right"        style="top:  30vw;" >Society</h1>
       <div class="dark_overlay"></div>
-        <h1 class="left"   style="top: -10vw;">Asian</h1>
-        <h1 class="center" style="top: 10vw;">Culture</h1>
-        <h1 class="right"  style="top: 30vw;">Society</h1>
     </div>
     
   </body>
