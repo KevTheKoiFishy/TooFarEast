@@ -20,7 +20,7 @@
       
       #Welcome_Container{
         width: 100%;
-        height: 65vw;
+        height: 80vw;
         background: black;
         
         animation: title_background;
@@ -35,7 +35,7 @@
         position: absolute;
         width: inherit;
         height: inherit;
-        background: #FFFFFFDD;
+        background: #00000077;
       }
       
       @keyframes title_color{
@@ -52,7 +52,7 @@
         text-weight: bold;
         font-family: "Staatliches";
         -webkit-background-clip: text;
-        -webkit-text-fill-color: #00000077;
+        -webkit-text-fill-color: #FFFFFF;
         
         z-index: 2;
       }
@@ -67,11 +67,13 @@
   
   <body>
     
-    <div id="Welcome_Container">
+    <div id="Welcome_Container" align="center">
       <div class="dark_overlay"></div>
+      <div class="tilt" style="opacity: 0.9; width: 30vw;">
         <h1 class="left"   style="top: -10vw;">Asian</h1>
         <h1 class="center" style="top: 10vw;">Culture</h1>
         <h1 class="right"  style="top: 30vw;">Society</h1>
+      </div>
     </div>
     
   </body>
