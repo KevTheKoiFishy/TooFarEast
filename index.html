@@ -16,12 +16,26 @@
       Kolker Brush
     -->
     <style>
-      body {margin: 20; overflow-x: hidden;}
+      body {margin: 3vw; overflow-x: hidden;}
       
       #Welcome_Container{
         width: 100%;
         height: 100vh;
         background: black;
+        
+        animation: title_background;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        background: url("https://photo.kidzworld.com/images/2019226/cb11fbe1-a25d-4f4f-b294-0635fb96b4c2/feature_asian-cultures-traditions-feat.jpg");
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+      .dark_overlay{
+        position: absolute;
+        width: 92vw;
+        height: 100%;
+        background: #00000099;
       }
       
       @keyframes title_background{
@@ -30,19 +44,22 @@
       h1{
         position: absolute;
         
-        background: url("https://photo.kidzworld.com/images/2019226/cb11fbe1-a25d-4f4f-b294-0635fb96b4c2/feature_asian-cultures-traditions-feat.jpg");
-        background-position: absolute;
-        background-size: 100vw;
+        background: inherit;
+        background-position: center;
+        background-attachment: fixed;
         
+        -webkit-text-stroke-width: 10px;
         font-size: 20vw;
         text-weight: bold;
         font-family: "Staatliches";
-        /*-webkit-background-clip: text;*/
+        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        
+        z-index: 2;
       }
       .tilt   { transform: rotate(-3deg); }
       .left   { left:  -5vw;                             }
-      .center { left:   50%; transform: translate(-50%); }
+      .center { text-align:  center; width: 100% }
       .right  { right: -1vw;                             }
     </style>
     
@@ -52,11 +69,10 @@
   <body>
     
     <div id="Welcome_Container">
-      <div class="tilt">
+      <div class="dark_overlay"></div>
         <h1 class="left"   style="top: -10vw;">Asian</h1>
         <h1 class="center" style="top: 10vw;">Culture</h1>
         <h1 class="right"  style="top: 30vw;">Society</h1>
-      </div>
     </div>
     
   </body>
