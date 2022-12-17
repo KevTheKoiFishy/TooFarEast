@@ -22,7 +22,7 @@
          10% { background: url("https://video-images.vice.com/articles/5d3196f6c86320000821ffd2/lede/1563531161660-NCT-127_Highway-to-Heaven_PR1-embargo-July-17.jpeg")    fixed center; background-size: cover;}
          20% { background: url("https://thechinaproject.com/wp-content/uploads/2022/06/image1-1.jpg")                                                                      fixed center; background-size: cover;}
          30% { background: url("https://shoutoutla.com/wp-content/uploads/2021/04/c-PersonalAnnieZhou__IMG_9190_1614736607928.jpg")                                        fixed center; background-size: cover;}
-         40% { background: url("https://shoutoutla.com/wp-content/uploads/2021/04/c-PersonalAnnieZhou__IMG_9190_1614736607928.jpg")                                        fixed center; background-size: cover;}
+         40% { background: url("https://a.cdn-hotels.com/gdcs/production36/d1408/062ba219-35d7-451e-8d2e-dacbaaa647e1.jpg")                                                fixed center; background-size: cover;}
          50% { background: url("https://shoutoutla.com/wp-content/uploads/2021/04/c-PersonalAnnieZhou__IMG_9190_1614736607928.jpg")                                        fixed center; background-size: cover;}
          60% { background: url("https://shoutoutla.com/wp-content/uploads/2021/04/c-PersonalAnnieZhou__IMG_9190_1614736607928.jpg")                                        fixed center; background-size: cover;}
          70% { background: url("https://shoutoutla.com/wp-content/uploads/2021/04/c-PersonalAnnieZhou__IMG_9190_1614736607928.jpg")                                        fixed center; background-size: cover;}
@@ -46,7 +46,7 @@
         position: absolute;
         width: inherit;
         height: inherit;
-        background: #00000055;
+        background: #000000AA;
       }
       
       @keyframes WelcomeText{
@@ -77,14 +77,14 @@
         to   {opacity: 1;}
       }
       @keyframes title_color{
-        0%          {color: #ffcaeaee; }
-        14.2857143% {color: #ffa9a9ee; }
-        28.5714286% {color: #ffddb9ee; }
-        42.8571429% {color: #ffea9dee; }
-        57.1428571% {color: #c1eda3ee; }
-        71.4285714% {color: #abd9f4ee; }
-        85.7142857% {color: #d5c3f1ee; }
-        100%        {color: #ffcaeaee; }
+        0%          {color: #ffcaea55; }
+        14.2857143% {color: #ffa9a955; }
+        28.5714286% {color: #ffddb955; }
+        42.8571429% {color: #ffea9d55; }
+        57.1428571% {color: #c1eda355; }
+        71.4285714% {color: #abd9f455; }
+        85.7142857% {color: #d5c3f155; }
+        100%        {color: #ffcaea55; }
       }
       h1{
         position: absolute;        
@@ -94,7 +94,7 @@
         background-position: center;
         background-attachment: fixed;
         
-        animation: title_color 10s linear 0s infinite;
+        
         
         font-size: 25vw;
         font-family: "Staatliches";
@@ -102,9 +102,9 @@
         
         z-index: 2;
       }
-      #Title_Text_Container{
+      .Title_Text{
         opacity: 0;
-        animation: fadein 3s cubic-bezier(0.59, 0.03, 0.24, 1.03) 2s forwards;
+        animation: title_color 10s linear 0s infinite, fadein 3s linear 0s;
       }
       .tilt   { transform: rotate(-3deg); }
       .left   { left:  -2vw;                             }
@@ -122,11 +122,9 @@
         <div class="Welcome_Text" style="top: 7vw; animation-delay: .6s;">Welcome</div>
         <div class="Welcome_Text" style="top: 27vw; animation-delay: 1s;">To</div>
         <div class="Welcome_Text" style="top: 47vw; animation-delay: 1.3s;">The</div>
-      <div id="Title_Text_Container">
-        <h1  class="left"   style="top: 05vw;" > Asian   </h1>
-        <h1  class="center" style="top: 25vw;" > Culture </h1>
-        <h1  class="right"  style="top: 45vw;" > Society </h1>
-      </div>
+        <h1  class="Title_Text left"   style="top: 05vw;" > Asian   </h1>
+        <h1  class="Title_Text center" style="top: 25vw;" > Culture </h1>
+        <h1  class="Title_Text right"  style="top: 45vw;" > Society </h1>
     </div>
     
   </body>
