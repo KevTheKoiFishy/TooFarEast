@@ -18,15 +18,16 @@
     <style>
       body {margin: 0; overflow-x: hidden;}
       
+      @keyframes title_background{
+        0% { url("https://photo.kidzworld.com/images/2019226/cb11fbe1-a25d-4f4f-b294-0635fb96b4c2/feature_asian-cultures-traditions-feat.jpg") }
+      }
       #Welcome_Container{
         width: 100%;
         height: 80vw;
         background: black;
         
-        animation: title_background;
-        animation-duration: 1s;
-        animation-iteration-count: infinite;
-        background: url("https://photo.kidzworld.com/images/2019226/cb11fbe1-a25d-4f4f-b294-0635fb96b4c2/feature_asian-cultures-traditions-feat.jpg");
+        animation: title_background 60s infinite;
+        
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
