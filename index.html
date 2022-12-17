@@ -38,14 +38,20 @@
         background: #00000088;
       }
       
+      @keyframes WelcomeText{
+        0% {right: -10vw; width: 0vw; padding-left: 0vw;}
+        33% {right: -10vw; width: 100vw; padding-left: 10vw;}
+        63% {left: 0px; width: 100vw; padding-left: 10vw;}
+        100% {left: 0px; width: 0vw; padding-left: 0vw}
+      }
       .Welcome_Text{
         position: absolute;
-        left: 0;
+        right: -10vw;
         overflow: hidden;
-        width: 100vw;
+        width: 0vw;
         padding-left: 10vw;
         
-        animation: WelcomeText 1s cubic-bezier(0.59, 0.03, 0.24, 1.03) forwards;
+        animation: WelcomeText 2s cubic-bezier(0.59, 0.03, 0.24, 1.03) forwards;
         
         background: repeating-linear-gradient(90deg, #ce3b3b  0px, #ce3b3b 20px, #e18a30 20px, #e18a30 40px, #d4af27 40px, #d4af27 60px, #549d21 60px, #549d21 80px, #067ec4 80px, #067ec4 100px, #6c44ad 100px, #6c44ad 120px, #a73f7e 120px, #a73f7e 140px);
         color: white;
@@ -54,11 +60,21 @@
         text-align: left;
         z-index: 3;
       }
-      @keyframes WelcomeText{
-        0% {width: 100vw; padding-left: 10vw;}
-        100% {width: 0vw; padding-left: 0vw}
-      }
       
+      @keyframes fadein{
+        from {opacity: 0;}
+        to   {opacity: 1;}
+      }
+      @keyframes title_color{
+        0%          {color: #ffcaeacc; }
+        14.2857143% {color: #ffa9a9cc; }
+        28.5714286% {color: #ffddb9cc; }
+        42.8571429% {color: #ffea9dcc; }
+        57.1428571% {color: #c1eda3cc; }
+        71.4285714% {color: #abd9f4cc; }
+        85.7142857% {color: #d5c3f1cc; }
+        100%        {color: #ffcaeacc; }
+      }
       h1{
         position: absolute;        
         margin: 0px;
@@ -75,15 +91,9 @@
         
         z-index: 2;
       }
-      @keyframes title_color{
-        0%          {color: #ffcaeacc; }
-        14.2857143% {color: #ffa9a9cc; }
-        28.5714286% {color: #ffddb9cc; }
-        42.8571429% {color: #ffea9dcc; }
-        57.1428571% {color: #c1eda3cc; }
-        71.4285714% {color: #abd9f4cc; }
-        85.7142857% {color: #d5c3f1cc; }
-        100%        {color: #ffcaeacc; }
+      #Title_Text_Container{
+        opacity: 0;
+        animation: fadein 3s cubic-bezier(0.59, 0.03, 0.24, 1.03) 2s forwards;
       }
       .tilt   { transform: rotate(-3deg); }
       .left   { left:  -2vw;                             }
@@ -97,13 +107,15 @@
   <body>
     
     <div id="Welcome_Container" align="center">
-      <div class="Welcome_Text" style="top: 7vw; animation-delay: .6s;">Welcome</div>
-      <div class="Welcome_Text" style="top: 27vw; animation-delay: 1s;">To</div>
-      <div class="Welcome_Text" style="top: 47vw; animation-delay: 1.3s;">The</div>
-      <h1  class="left"   style="top: 05vw;" > Asian   </h1>
-      <h1  class="center" style="top: 25vw;" > Culture </h1>
-      <h1  class="right"  style="top: 45vw;" > Society </h1>
       <div class="dark_overlay"></div>
+        <div class="Welcome_Text" style="top: 7vw; animation-delay: .6s;">Welcome</div>
+        <div class="Welcome_Text" style="top: 27vw; animation-delay: 1s;">To</div>
+        <div class="Welcome_Text" style="top: 47vw; animation-delay: 1.3s;">The</div>
+      <div id="Title_Text_Container">
+        <h1  class="left"   style="top: 05vw;" > Asian   </h1>
+        <h1  class="center" style="top: 25vw;" > Culture </h1>
+        <h1  class="right"  style="top: 45vw;" > Society </h1>
+      </div>
     </div>
     
   </body>
