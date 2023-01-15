@@ -180,6 +180,8 @@
       .left   { left:  -2vw;                             }
       .center { text-align:  center; width: 100%;        }
       .right  { right: -2vw;                             }
+      
+      
     </style>
     
   </head>
@@ -194,7 +196,7 @@
       <a href="/Team">       Meet the Team </a>
       <a href="/Contact">    Contact Us    </a>
     </div>
-    <marquee id="LatestNews"><a>Weekly Ideas on All Things Asia</a></marquee>
+    <marquee id="LatestNews" scrollmount="2"><a>Weekly Ideas on All Things Asia</a></marquee>
     
     <div id="Welcome_Container" align="center">
       <div class="dark_overlay"></div>
@@ -212,16 +214,16 @@
     
     <script>
       //Marquee Articles
-      var newsBar = document.getElementById("LastestNews");
+      var newsBar = document.getElementById("LatestNews");
       var blogPosts =
       [
-        ["180 Rohingya Refugees Prsumed Dead at Sea", ""],
-        ["A Tragic Review of China's Zero-Covid Days", ""],
-        ["Iron Fist to Let it Rip | China's Reopening", ""]
+        ["180 Rohingya Refugees Presumed Dead at Sea", ""],
+        ["A Review of China's Zero-Covid Days", ""],
+        ["Iron Fist to Let it Rip - China's Reopening", ""]
       ];
       
       for (var i = 0; i < blogPosts.length; ++i){
-        newsBar.innerHTML += " "
+        newsBar.innerHTML += " • <a href=\"" + blogPosts[i][1] + "\">" + blogPosts[i][0] + "</a>";
       }
       
       //Content Blocks
