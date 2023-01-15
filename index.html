@@ -233,7 +233,7 @@
     <div class="header">
       <div id="logo"><div id="logoImg"></div></div>
       <a href="/">           Welcome       </a>
-      <a href="/BlogPosts">  Blog Posts    </a>
+      <a href="/Posts">   Posts            </a>
       <a href="/Team">       Meet the Team </a>
       <a href="/Contact">    Contact Us    </a>
     </div>
@@ -254,7 +254,12 @@
     </div>
     
     <script>
-      window.setTimeOut(function(){window.scroll(0, window.innerWidth * 0.03);}, 666);
+      if (window.innerWidth/window.innerHeight > 4/3){
+        window.setTimeout(function(){window.scroll(0, window.innerWidth * 0.02);},  500);
+        window.setTimeout(function(){window.scroll(0, window.innerWidth * 0.22);}, 1000);
+        window.setTimeout(function(){window.scroll(0, window.innerWidth * 0.42);}, 1500);
+        window.setTimeout(function(){window.scroll(0, window.innerWidth * 0.05);}, 2000);
+      }
       
       //Marquee Articles
       var newsBar = document.getElementById("LatestNews");
@@ -273,16 +278,19 @@
       var contentDIV = document.getElementById("CONTENT");
       var content =
       [
-        ["Snippet",
+        {"Snippet",
          "Who We Are",
          "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Who%2Bwe%2Bare.jpg",
-         '"Too Far East!" is run by 5 asian high school students. Finding our heritage in four different cultures, we endeavor to create a space of dialogue about different East and Southeast Asian cultures. Our mission is to spread awareness about current events, to provide well organized facts of the beautiful Asian cultures and to support Asian organizations in need'
+         '"Too Far East!" is run by 5 asian high school students. Finding our heritage in four different cultures, we endeavor to create a space of dialogue about different East and Southeast Asian cultures. Our mission is to spread awareness about current events, to provide well organized facts of the beautiful Asian cultures and to support Asian organizations in need',
+         [["More on our Authors", "/Team"]],
         ],
         
         ["Snippet",
          "What We Do",
          "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/990193a214ac8d1c01cd287f843258e6.jpg",
-         'As a multicultural organization, Too Far East hopes to increase communication using our informative blog posts and passionate opinions. All Asian countries have voices that need to be heard. Using in-depth research and personal experiences as both native Asians and Asian Americans, we hope to provide the knowledge and resources to form a more multifaceted worldview.'],
+         'As a multicultural organization, Too Far East hopes to increase communication using our informative blog posts and passionate opinions. All Asian countries have voices that need to be heard. Using in-depth research and personal experiences as both native Asians and Asian Americans, we hope to provide the knowledge and resources to form a more multifaceted worldview.',
+         [["Extra Extra!", "/Posts"], ["These Orgs are Looking for Help", "/Fundraising"]],
+        ],
       ];
       for (var i = 0; i < content.length; ++i)
       {
