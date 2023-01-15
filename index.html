@@ -26,42 +26,45 @@
       ::-webkit-scrollbar-thumb:hover       { background: #0c5b7a; }
             
       .header {
-            width: 100%;
-            height: 3vw;
-            background: #e9f3ffdd;
-            padding: 2vw;
-            position: fixed;
-            top: 0;
-            left: 0;
-            text-align: center;
-            z-index:5;
+        width: 100%;
+        height: 3vw;
+        background: #FFFFFFe9;
+        padding: 2vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+        text-align: center;
+        z-index:5;
       }
       a {
         font-family: "Staatliches";
-          font-size: 3vw;
-          margin: 0 2vw;
-          text-decoration: none;
-          color: transparent;
-          background-color: #647fbc;
-          background-attachment: fixed;
-          -webkit-background-clip: text;
+        font-size: 3vw;
+        margin: 0 2vw;
+        text-decoration: none;
+        color: transparent;
+        background-color: #647fbc;
+        background-attachment: fixed;
+        -webkit-background-clip: text;
 
-          transition: background 0.5s;
+        transition: background 0.5s;
       }
       #logo {
         z-index :    2;
         position:    fixed;
-        width   :    10vw;
-        height  :    10vw;
-        background:  url("https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Logo.png");
-        background-size:       100%;
-        transition:            top 0.15s, left 0.15s, width 0.15s, height 0.15s;
+        top     :    -2vw;
+        left    :    -2vw;
+        width   :    15vw;
+        height  :    15vw;
+        background:  #EEE;
+        background-repeat:     no-repeat;
+        background-size:       160%;
+        background-position:   center;
+        transition:            0.15s;
       }
-      #logo.header_active {
-        top     :    30px;
-        left    :    55px;
-        width   :    180px;
-        height  :    180px;
+      #logoIMG {
+        width:  100%;
+        height: 100%;
+        background: 
       }
 
       a:hover{
@@ -167,11 +170,12 @@
   <body>
     
     <div class="header">
-      <div id="logo"></div>
+      <div id="logo"><div id="logoImg"></div></div>
       <a href="/Welcome">    Welcome       </a>
       <a href="/BlogPosts">  Blog Posts    </a>
       <a href="/Team">       Meet the Team </a>
       <a href="/Contact">    Contact Us    </a>
+      <marquee id="LatestNews"></marquee>
     </div>
     
     <div id="Welcome_Container" align="center">
