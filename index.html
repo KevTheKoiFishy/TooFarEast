@@ -216,6 +216,17 @@
         font-family: "Staatliches";
         -webkit-background-clip: text;
       }
+      .Snippet>.buttonContainer{
+        margin-top: 24vw;
+      }
+      .Snippet>a{
+        color: white;
+        background: #647fbc;
+        transition: background 0.5s;
+      }
+      .Snippet>aa:hover{
+        background: repeating-linear-gradient(45deg, #1c78e9, #2d9cc6, #57c28d);
+      }
       .light_overlay{
         position: absolute;
         width: inherit;
@@ -254,12 +265,14 @@
     </div>
     
     <script>
+      /*
       if (window.innerWidth/window.innerHeight > 4/3){
         window.setTimeout(function(){window.scroll(0, window.innerWidth * 0.02);},  500);
         window.setTimeout(function(){window.scroll(0, window.innerWidth * 0.22);}, 1000);
         window.setTimeout(function(){window.scroll(0, window.innerWidth * 0.42);}, 1500);
         window.setTimeout(function(){window.scroll(0, window.innerWidth * 0.05);}, 2000);
       }
+      */
       
       //Marquee Articles
       var newsBar = document.getElementById("LatestNews");
@@ -297,12 +310,19 @@
       
       for (var i = 0; i < content.length; ++i)
       {
-        switch (content[i][0])
+        var HTMLToAdd = "";
+        switch (content[i].type)
         {
           case "Snippet":
-            contentDIV.innerHTML += '<div class="Snippet" style="background-image: url(' + content[i].image + ');" align="center"><div class="light_overlay snippet"></div><h2>' + content[i].title + '</h2><div class="paragraph">' + content[i].para + '</p></div>';
+            HTMLToAdd += '<div class="Snippet" style="background-image: url(' + content[i].image + ');" align="center"><div class="light_overlay snippet"></div><h2>' + content[i].title + '</h2><div class="paragraph">' + content[i].para + '</div>';
+            HTMLToAdd += "<div class=\"buttonContainer\">";
+            for (var buttonNum = 0; buttonNum < content[i].buttons.length; ++buttonNum)
+              HTMLToAdd += "<a href=\"" + content[i].buttons[buttonNum][1] + "\">" + content[i].buttons[buttonNum][0] + "</a>";
+            
+            HTMLToAdd += "</div></div>"
             break;
         }
+        contentDIV.innerHTML += HTMLToAdd;
       }
     </script>
     
