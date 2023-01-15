@@ -68,6 +68,24 @@
         background-size:       120%;
         background-position:   center;
       }
+      #LatestNews {
+        z-index: 4;
+
+        position: fixed;
+        top: 4vw;
+        left: 0;
+        height: 3.5vw;
+        width: 100%;
+        margin: 0 2vw;
+        background: #000;
+      }
+      #LatestNews>span{
+        font-family: "Staatliches";
+        font-size: 2.6vw;
+        color: transparent;
+        background: repeating-linear-gradient(45deg, #1c78e9, #2d9cc6, #57c28d);
+        -webkit-background-clip: text;
+      }
       
       @keyframes title_background{
          10% { background: url("https://video-images.vice.com/articles/5d3196f6c86320000821ffd2/lede/1563531161660-NCT-127_Highway-to-Heaven_PR1-embargo-July-17.jpeg")    fixed center; background-size: cover;}
@@ -172,8 +190,8 @@
       <a href="/BlogPosts">  Blog Posts    </a>
       <a href="/Team">       Meet the Team </a>
       <a href="/Contact">    Contact Us    </a>
-      <marquee id="LatestNews">Bonjour</marquee>
     </div>
+    <marquee id="LatestNews"><span>BONJOUR</span></marquee>
     
     <div id="Welcome_Container" align="center">
       <div class="dark_overlay"></div>
