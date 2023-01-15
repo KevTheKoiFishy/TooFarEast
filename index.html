@@ -183,6 +183,7 @@
       
       .Snippet {
         height: 30vw;
+        width: 100%;
         background-attachment: fixed;
         background-size: cover;
       }
@@ -202,11 +203,22 @@
         
         animation: title_color 10s linear 0s infinite;
       }
+      .Snippet>span {    
+        width     : 60%;
+        background: inherit;
+        background-position: center;
+        background-attachment: fixed;
+        
+        color    : transparent;
+        font-size: 2vw;
+        font-family: "Staatliches";
+        -webkit-background-clip: text;
+      }
       .light_overlay{
         position: absolute;
         width: inherit;
         height: inherit;
-        background: #FFFFFF55;
+        background: #FFFFFFED;
       }
       
     </style>
