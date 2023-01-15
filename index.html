@@ -203,14 +203,16 @@
         
         animation: title_color 10s linear 0s infinite;
       }
-      .Snippet>span {    
+      .Snippet>div.paragraph {
+        left: 20%;
+        margin-top: 13vw;
         width     : 60%;
         background: inherit;
         background-position: center;
         background-attachment: fixed;
         
-        color    : transparent;
-        font-size: 2vw;
+        color    : #00000059;
+        font-size: 1.7vw;
         font-family: "Staatliches";
         -webkit-background-clip: text;
       }
@@ -252,6 +254,8 @@
     </div>
     
     <script>
+      window.setTimeOut(function(){window.scroll(0, window.innerWidth * 0.03);}, 666);
+      
       //Marquee Articles
       var newsBar = document.getElementById("LatestNews");
       var blogPosts =
@@ -285,7 +289,7 @@
         switch (content[i][0])
         {
           case "Snippet":
-            contentDIV.innerHTML += '<div class="Snippet" style="background-image: url(' + content[i][2] + ');" align="center"><div class="light_overlay snippet"></div><h2>' + content[i][1] + '</h2><p>' + content[i][3] + '</p></div>';
+            contentDIV.innerHTML += '<div class="Snippet" style="background-image: url(' + content[i][2] + ');" align="center"><div class="light_overlay snippet"></div><h2>' + content[i][1] + '</h2><div class="paragraph">' + content[i][3] + '</p></div>';
             break;
         }
       }
