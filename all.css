@@ -1,0 +1,179 @@
+html {scroll-behavior: smooth;}
+body {margin: 0; overflow-x: hidden;}
+
+::-webkit-scrollbar                   { width: 20px; }
+::-webkit-scrollbar-track             { background: #EEE; }
+::-webkit-scrollbar-track-piece:start { background: repeating-linear-gradient(130deg, #ce8b3b  0px, #ce8b3b 20px, #c24219 20px, #c24219 40px, #d4af27 40px, #d4af27 60px, #549d21 60px); }
+::-webkit-scrollbar-thumb             { background: #d22b0a; height: 20px; }
+::-webkit-scrollbar-thumb:hover       { background: #a93103; }
+
+.header {
+  width: 100%;
+  height: 3vw;
+  background: #FFFFFFe9;
+  padding: .5vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  z-index:5;
+}
+a {
+  font-family: "Staatliches";
+  font-size: 2.4vw;
+  margin: 0 2vw;
+  text-decoration: none;
+  color: transparent;
+  background: #647fbc;
+  background-attachment: fixed;
+  -webkit-background-clip: text;
+}
+a:hover{
+  background: repeating-linear-gradient(45deg, #1c78e9, #2d9cc6, #57c28d);
+  -webkit-background-clip: text;
+}
+#logo {
+  z-index :    2;
+  position:    fixed;
+  transform:   translate(-1vw, -1vw);
+  width   :    8vw;
+  height  :    8vw;
+  background:  #EEE;
+}
+#logoIMG {
+  width:  105%;
+  height: 105%;
+  background: url("https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Logo.png") no-repeat;
+  background-repeat:     no-repeat;
+  background-size:       120%;
+  background-position:   center;
+}
+#LatestNews {
+  z-index: 4;
+
+  position: fixed;
+  top: 4vw;
+  left: 0;
+  height: 3.5vw;
+  width: 100%;
+  margin: 0 2vw;
+  background: #000;
+  marquee-speed: fast;
+}
+#LatestNews>a{
+  font-family: "Space Mono";
+  font-size: 2.3vw;
+  font-weight: bold;
+  color: transparent;
+  background: repeating-linear-gradient(90deg, #f83333, #e064d4, #28c8de);
+  background-attachment: fixed;
+  -webkit-background-clip: text;
+}
+
+.Snippet {
+  height: 30vw;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.Snippet>* {
+  position: absolute;
+  width: 100%;
+}
+.Snippet>h2 {
+  background: inherit;
+  background-position: center;
+  background-attachment: fixed;
+
+  color    : transparent;
+  font-size: 5vw;
+  font-family: "Alfa Slab One";
+  -webkit-background-clip: text;
+
+  animation: title_color 10s linear 0s infinite;
+}
+.Snippet>div.paragraph {
+  left: 15%;
+  margin-top: 13vw;
+  width     : 70%;
+  background: inherit;
+  background-position: center;
+  background-attachment: fixed;
+
+  color    : #00000059;
+  font-size: 1.8vw;
+  font-family: "Staatliches";
+  -webkit-background-clip: text;
+}
+.Snippet>.buttonContainer{
+  margin-top: 24vw;
+}
+.button{
+  padding: 0.5vw 1vw;
+  color: white;
+  background: #647fbc;
+}
+.button:hover{
+  background: repeating-linear-gradient(45deg, #1c78e9, #2d9cc6, #57c28d);
+}
+.light_overlay{
+  position: absolute;
+  left: 10%;
+  width: 80%;
+  height: inherit;
+  background: linear-gradient(90deg, transparent 0%, #FFFFFFED 1%, #FFFFFFED 99%, transparent 100%);
+}
+
+#footer {
+  width: 100%;
+  height: 20vw;
+  background: #576d9d;
+  color: white;
+  display: flex;
+
+  color: #d5e7ff;
+  font-family: "Staatliches";
+  font-size: 3.3vw;
+}
+#footer>div {
+  margin: 2vw;
+}
+
+#footer>*>a {
+  margin: 0;
+
+  font-size: 1.4vw;
+  font-family: "Space Mono";
+  color: transparent;
+  background: #c7d0e5;
+  background-attachment: fixed;
+  -webkit-background-clip: text;
+}
+#footer>*>a:hover {
+  background: repeating-linear-gradient(45deg, #ff8ec0, #e38aff, #64d5ff, #99ffcc);
+  -webkit-background-clip: text;
+}
+#copyright{
+  position: absolute;
+  left: 0vw;
+  margin-top: 16vw !important;
+  font-size: 2vw;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 1vw;
+  border: none;
+  border-bottom: 0.3vw solid #d5e7ff;
+
+  font-family: "Space Mono";
+  font-size: 1.4vw;
+  text-align: start;
+  color: transparent;
+  background: repeating-linear-gradient(45deg, #ff8ec0 2vw, #e38aff 4vw, #64d5ff 6vw, #99ffcc 8vw, #64d5ff 10vw, #e38aff 12vw, #ff8ec0 16vw);
+  background-attachment: fixed;
+  -webkit-background-clip: text;
+}
+input::placeholder{
+  color: #c7d0e5;
+}

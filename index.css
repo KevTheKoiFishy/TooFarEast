@@ -1,0 +1,90 @@
+@keyframes title_background{
+   10% { background: url("https://video-images.vice.com/articles/5d3196f6c86320000821ffd2/lede/1563531161660-NCT-127_Highway-to-Heaven_PR1-embargo-July-17.jpeg")    fixed center; background-size: cover;}
+   20% { background: url("https://a.cdn-hotels.com/gdcs/production143/d1112/c4fedab1-4041-4db5-9245-97439472cf2c.jpg")                                               fixed center; background-size: cover;}
+   30% { background: url("https://shoutoutla.com/wp-content/uploads/2021/04/c-PersonalAnnieZhou__IMG_9190_1614736607928.jpg")                                        fixed center; background-size: cover;}
+   40% { background: url("https://a.cdn-hotels.com/gdcs/production36/d1408/062ba219-35d7-451e-8d2e-dacbaaa647e1.jpg")                                                fixed center; background-size: cover;}
+   50% { background: url("https://static01.nyt.com/images/2020/03/26/world/26japan-virus01/26japan-virus01-videoSixteenByNine3000.jpg")                              fixed center; background-size: cover;}
+   60% { background: url("https://cdn.britannica.com/44/147344-050-D0F9FCAF/encampment-valley-Orkhon-River-Mongolia.jpg")                                            fixed center; background-size: cover;}
+   70% { background: url("https://unctad.org/sites/default/files/2020-10/2020-10-20_Myanmar-e-commerce_1200x675.jpg")                                                fixed center; background-size: cover;}
+   80% { background: url("")                                        fixed center; background-size: cover;}
+   90% { background: url("")                                        fixed center; background-size: cover;}
+  100% { background: url("")                                        fixed center; background-size: cover;}
+
+}
+#Welcome_Container{
+  width: 100%;
+  height: 80vw;
+  background: black;
+
+  animation: title_background 100s infinite;
+
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.dark_overlay{
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  background: #000000AA;
+}
+
+@keyframes WelcomeText{
+  0%   {right: -10vw; width:   0vw; padding-left: 0vw;  }
+  33%  {right: -10vw; width: 100vw; padding-left: 10vw; }
+  63%  { left:   0px; width: 100vw; padding-left: 10vw; }
+  100% { left:   0px; width:   0vw; padding-left: 0vw;  }
+}
+.Welcome_Text{
+  position: absolute;
+  right: -10vw;
+  overflow: hidden;
+  width: 0vw;
+  padding-left: 10vw;
+
+  animation: WelcomeText 2s cubic-bezier(0.59, 0.03, 0.24, 1.03) forwards;
+
+  background: repeating-linear-gradient(90deg, #ce3b3b 0, #ce3b3b 05vw, #e18a30 05vw, #e18a30 12vw, #d4af27 12vw, #d4af27 18vw, #549d21 18vw, #549d21 26vw, #067ec4 26vw, #067ec4 32vw, #6c44ad 32vw, #6c44ad 46vw, #a73f7e 46vw, #a73f7e 62vw);
+  color: white;
+  font-size: 21vw;
+  font-family: "Staatliches";
+  text-align: left;
+  z-index: 3;
+}
+
+@keyframes fadein{
+  from {opacity: 0;}
+  to   {opacity: 1;}
+}
+@keyframes title_color{
+  0%          {color: #ffcaea66; }
+  14.2857143% {color: #ffa9a966; }
+  28.5714286% {color: #ffddb966; }
+  42.8571429% {color: #ffea9d66; }
+  57.1428571% {color: #c1eda366; }
+  71.4285714% {color: #abd9f466; }
+  85.7142857% {color: #d5c3f166; }
+  100%        {color: #ffcaea66; }
+}
+h1{
+  position: absolute;        
+  margin: 0px;
+
+  background: inherit;
+  background-position: center;
+  background-attachment: fixed;
+
+  font-size: 23vw;
+  font-family: "Alfa Slab One";
+  -webkit-background-clip: text;
+
+  z-index: 2;
+}
+.Title_Text{
+  opacity: 0;
+  animation: title_color 10s linear 0s infinite, fadein 1s linear forwards;
+}
+.tilt   { transform: rotate(-3deg); }
+.left   { left:  -2vw;                             }
+.center { text-align:  center; width: 100%;        }
+.right  { right: -2vw;                             }
