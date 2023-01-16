@@ -253,7 +253,7 @@
       #footer>*>a {
         margin: 0;
         
-        font-size: 1.7vw;
+        font-size: 1.4vw;
         font-family: "Space Mono";
         color: transparent;
         background: #c7d0e5;
@@ -261,7 +261,7 @@
         -webkit-background-clip: text;
       }
       #footer>*>a:hover{
-        background: repeating-linear-gradient(45deg, #1c78e9, #2d9cc6, #57c28d);
+        background: repeating-linear-gradient(45deg, #ff8ec0, #e38aff, #64d5ff, #99ffcc);
         -webkit-background-clip: text;
       }
       #copyright{
@@ -272,14 +272,18 @@
       }
       
       input {
-        font-family: "Staatliches";
-        font-size: 2.4vw;
-        margin: 0 2vw;
-        text-decoration: none;
+        width: 100%;
+        font-family: "Space Mono";
+        font-size: 1.7vw;
+        border: none;
+        border-bottom: 0.3vw solid #d5e7ff;
         color: transparent;
-        background: #647fbc;
+        background: repeating-linear-gradient(45deg, #ff8ec0 2vw, #e38aff 4vw, #64d5ff 6vw, #99ffcc 8vw, #64d5ff 10vw, #e38aff 12vw, #ff8ec0 16vw);
         background-attachment: fixed;
         -webkit-background-clip: text;
+      }
+      input::placeholder{
+        color: #FFFFFFAA;
       }
       
     </style>
