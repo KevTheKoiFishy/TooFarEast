@@ -227,9 +227,10 @@
       }
       .light_overlay{
         position: absolute;
-        width: inherit;
+        left: 10%;
+        width: 80%;
         height: inherit;
-        background: #FFFFFFED;
+        background: linear-gradient(90deg, transparent 0%, #FFFFFFED 1%, #FFFFFFED 99%, transparent 100%);
       }
       
       #footer {
@@ -240,12 +241,11 @@
         display: grid;
       }
       .contact {
-        color: #d5e7ff;
-        font-family: "Staatliches";
-        font-size: 3.3vw;
+        
         margin: 2vw;
       }
-      .contact>a {
+      
+      #footer>*>a {
         margin: 0;
         font-size: 1.7vw;
         color: transparent;
@@ -253,7 +253,7 @@
         background-attachment: fixed;
         -webkit-background-clip: text;
       }
-      a:hover{
+      #footer>*>a:hover{
         background: repeating-linear-gradient(45deg, #1c78e9, #2d9cc6, #57c28d);
         -webkit-background-clip: text;
       }
@@ -293,6 +293,9 @@
         <b>Contact</b><br>
         <a href="mailto:yingyingwu051@gmail.com">yingyingwu051@gmail.com</a><br>
         <a href="tel:860-318-6243">860-318-6243</a>
+      </div>
+      <div class="media">
+        <b>Find us on Social Media!</b>
       </div>
     </div>
     
