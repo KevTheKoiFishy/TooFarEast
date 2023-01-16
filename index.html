@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Too Far East - Your Source of Asia News</title>
+    <title>Too Far East | Your Source of Asia News | </title>
     <link rel="icon" href="https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Icon1.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -322,6 +322,16 @@
         window.setTimeout(function(){window.scroll(0, window.innerWidth * 0.05);}, 2000);
       }
       */
+      
+      //Marquee Title
+      var titleTag = document.getElementsByTagName("title")[0];
+      var marqueeTitle = window.setInterval(
+        function(){
+          var titleText = titleTag.innerText;
+          var newTitleText = titleText.substring(1, titleText.length) + titleText[0];
+          titleTag.innerText = newTitleText;
+        }
+        , 300);
       
       //Marquee Articles
       var newsBar = document.getElementById("LatestNews");
