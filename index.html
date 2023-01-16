@@ -219,12 +219,12 @@
       .Snippet>.buttonContainer{
         margin-top: 24vw;
       }
-      .buttonContainer>a{
+      .button{
         padding: 0.5vw 1vw;
         color: white;
         background: #647fbc;
       }
-      .buttonContainer>a:hover{
+      .button:hover{
         background: repeating-linear-gradient(45deg, #1c78e9, #2d9cc6, #57c28d);
       }
       .light_overlay{
@@ -260,7 +260,7 @@
         background-attachment: fixed;
         -webkit-background-clip: text;
       }
-      #footer>*>a:hover{
+      #footer>*>a:hover {
         background: repeating-linear-gradient(45deg, #ff8ec0, #e38aff, #64d5ff, #99ffcc);
         -webkit-background-clip: text;
       }
@@ -273,17 +273,20 @@
       
       input {
         width: 100%;
-        font-family: "Space Mono";
-        font-size: 1.7vw;
+        margin-bottom: 1vw;
         border: none;
         border-bottom: 0.3vw solid #d5e7ff;
+        
+        font-family: "Space Mono";
+        font-size: 1.4vw;
+        text-align: start;
         color: transparent;
         background: repeating-linear-gradient(45deg, #ff8ec0 2vw, #e38aff 4vw, #64d5ff 6vw, #99ffcc 8vw, #64d5ff 10vw, #e38aff 12vw, #ff8ec0 16vw);
         background-attachment: fixed;
         -webkit-background-clip: text;
       }
       input::placeholder{
-        color: #FFFFFFAA;
+        color: #c7d0e5;
       }
       
     </style>
@@ -323,12 +326,15 @@
         <a href="tel:860-318-6243">860-318-6243</a>
       </div>
       <div>
-        <b>Find us on Social Media!</b><br>
+        <b>Find us on Social Media</b><br>
         <a href="https://www.instagram.com/toofareast_/">@toofareast_ Official Instagram</a>
       </div>
       <div>
         <b>Subscribe to the Weekly</b><br>
-        <input type="email" placeholder="no_spam@we.promise">
+        <form action="/subscribe.php" method="GET">
+          <input type="email" name="email" placeholder="no_spam@we.promise">
+          <input type="submit" class="button">
+        </form>
       </div>
       <div id="copyright">
         © 2022-2023 Too Far East, Nonprofit. All Rights Reserved.
@@ -398,7 +404,7 @@
             HTMLToAdd += '<div class="Snippet" style="background-image: url(' + content[i].image + ');" align="center"><div class="light_overlay snippet"></div><h2>' + content[i].title + '</h2><div class="paragraph">' + content[i].para + '</div>';
             HTMLToAdd += "<div class=\"buttonContainer\">";
             for (var buttonNum = 0; buttonNum < content[i].buttons.length; ++buttonNum)
-              HTMLToAdd += "<a href=\"" + content[i].buttons[buttonNum][1] + "\">" + content[i].buttons[buttonNum][0] + "</a>";
+              HTMLToAdd += "<a class=\"button\" href=\"" + content[i].buttons[buttonNum][1] + "\">" + content[i].buttons[buttonNum][0] + "</a>";
             
             HTMLToAdd += "</div></div>"
             break;
