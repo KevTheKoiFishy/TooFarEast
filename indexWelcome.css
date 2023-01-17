@@ -1,16 +1,20 @@
 @keyframes title_background{
   /*places*/
-  /**/                05% { background-image: url(""); }
+  /*Singapore*/       05% { background-image: url("https://a.cdn-hotels.com/gdcs/production36/d1408/062ba219-35d7-451e-8d2e-dacbaaa647e1.jpg"); }
   /*Ulun Danu*/       10% { background-image: url("https://a.cdn-hotels.com/gdcs/production143/d1112/c4fedab1-4041-4db5-9245-97439472cf2c.jpg");                                            }
-  /*Beratan Temple*/
-  /*Bali,Indonesia*/
-  /**/                15% { background-image: url("");                                     }
+    /*Beratan Temple*/
+    /*Bali,Indonesia*/
+  /**/                15% { background-image: url("http://cdn.cnn.com/cnnnext/dam/assets/170706113328-south-korea.jpg");                                     }
   /**/                20% { background-image: url("");                                             }
-  /**/                25% { background-image: url("https://cdn.mos.cms.futurecdn.net/tvEFJUkxNwhsd2kEmFNCkY.jpg");                                                                          }
-  /**/                30% { background-image: url("https://static01.nyt.com/images/2020/03/26/world/26japan-virus01/26japan-virus01-videoSixteenByNine3000.jpg");                           }
-  /**/                35% { background-image: url("https://cdn.britannica.com/44/147344-050-D0F9FCAF/encampment-valley-Orkhon-River-Mongolia.jpg");                                         }
-  /**/                40% { background-image: url("https://unctad.org/sites/default/files/2020-10/2020-10-20_Myanmar-e-commerce_1200x675.jpg");                                             }
-  /**/                45% { background-image: url("https://cdn.britannica.com/03/198203-050-138BB1C3/entrance-Gate-of-Divine-Might-Beijing-Forbidden.jpg"); }
+  /**/                25% { background-image: url("http://cdn.cnn.com/cnnnext/dam/assets/170706113328-south-korea.jpg");                                                                          }
+  /*Osaka Japan*/     30% { background-image: url("https://static01.nyt.com/images/2020/03/26/world/26japan-virus01/26japan-virus01-videoSixteenByNine3000.jpg");                           }
+  /*Orkhon River*/    35% { background-image: url("https://cdn.britannica.com/44/147344-050-D0F9FCAF/encampment-valley-Orkhon-River-Mongolia.jpg");                                         }
+    /*Mongolia*/
+  /*Lotus Fabric*/    40% { background-image: url("https://unctad.org/sites/default/files/2020-10/2020-10-20_Myanmar-e-commerce_1200x675.jpg");                                             }
+    /*Inle Lake*/
+    /*Myanmar*/
+  /*Forbidden City*/  45% { background-image: url("https://cdn.britannica.com/03/198203-050-138BB1C3/entrance-Gate-of-Divine-Might-Beijing-Forbidden.jpg"); }
+    /*Beijing CN*/
   
   /*music + dance*/
   /**/                50% { background-image: url(""); }
@@ -25,7 +29,7 @@
   /**/                85% { background-image: url(""); }
   /**/                90% { background-image: url(""); }
   /**/                95% { background-image: url(""); }
-  /**/               100% { background-image: url("https://a.cdn-hotels.com/gdcs/production36/d1408/062ba219-35d7-451e-8d2e-dacbaaa647e1.jpg"); }
+  /*TSMC Fab*/       100% { background-image: url("https://cdn.mos.cms.futurecdn.net/tvEFJUkxNwhsd2kEmFNCkY.jpg"); }
 
 }
 #Welcome_Container{
