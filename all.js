@@ -37,8 +37,8 @@ for (var i = 0; i < content.length; ++i)
 
       HTMLToAdd += "</div></div>"
       break;
-    case "Snippet":
-      HTMLToAdd += '<div class="Snippet" style="background-image: url(' + content[i].image + ');" align="center"><div class="light_overlay snippet"></div><h2>' + content[i].title + '</h2><div class="snippet"><div class="paragraph">' + content[i].para + '</div>';
+    case "Article Snippet":
+      HTMLToAdd += '<div class="Snippet Article" style="background-image: url(' + content[i].image + ');" align="left"><div class="light_overlay snippet article"></div><h2>' + content[i].title + '</h2><div class="snippet"><div class="paragraph">' + content[i].para + '</div>';
       HTMLToAdd += "<div class=\"buttonContainer\">";
       for (var buttonNum = 0; buttonNum < content[i].buttons.length; ++buttonNum)
         HTMLToAdd += "<a class=\"button\" href=\"" + content[i].buttons[buttonNum][1] + "\">" + content[i].buttons[buttonNum][0] + "</a>";
