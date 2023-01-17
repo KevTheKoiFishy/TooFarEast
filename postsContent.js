@@ -33,8 +33,8 @@ var content =
   {
    type:     "Article Snippet",
    title:    "South Koreans Are All Soon Becoming Younger?",
-   subtitle: "The Consequence of a Much Larger Issue",
-   date:     "Dec 27 2022",
+   subtitle: "Age = Age - 1;",
+   date:     "Dec 20 2022",
    image:    "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Who%2Bwe%2Bare.jpg",
    para:     'On December 15th, 2022, South Korea passed a law that would adopt the international standard of age counting. South Korean used to have a traditional age system that when everyone is born at the age of 1 and will grow older every New Year. This previous age system has caused a huge amount of confusion...',
    buttons:  [["Read More", "/posts/0_SKYounger.html"]],
