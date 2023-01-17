@@ -30,7 +30,7 @@ for (var i = 0; i < content.length; ++i)
   switch (content[i].type)
   {
     case "Snippet":
-      HTMLToAdd += '<div class="Snippet" style="background-image: url(' + content[i].image + ');" align="left">';
+      HTMLToAdd += '<div class="Snippet" style="background-image: url(' + content[i].image + ');" align="center">';
       HTMLToAdd += '<div class="light_overlay snippet"></div>';
       HTMLToAdd += '<h2>' + content[i].title + '</h2>';
       HTMLToAdd += '<div class="paragraph">' + content[i].para + '</div>';
@@ -46,6 +46,7 @@ for (var i = 0; i < content.length; ++i)
       HTMLToAdd += '<div class="light_overlay snippet article"></div>';
       HTMLToAdd += '<h2>' + content[i].title + '</h2>';
       HTMLToAdd += '<h3>' + content[i].subtitle + '</h3>';
+      HTMLToAdd += '<h4>' + content[i].date + '</h4>';
       HTMLToAdd += '<div class="paragraph">' + content[i].para + '</div>';
       HTMLToAdd += "<div class=\"buttonContainer\">";
       for (var buttonNum = 0; buttonNum < content[i].buttons.length; ++buttonNum)

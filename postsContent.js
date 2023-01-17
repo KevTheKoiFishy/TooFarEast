@@ -16,7 +16,7 @@ var content =
    subtitle: "A Review of China's Zero-Tolerance Days",
    date:     "Jan 3 2023",
    image:    "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Who%2Bwe%2Bare.jpg",
-   para:     'Written by an anonymous "Bridge Man," this October 13 poster encapsulates Chinese citizens\' growing dissent towards Xi and the Zero-COVID policy. While the western world has been accused of prioritizing economic profit over public health, China has done the opposite extreme',
+   para:     'Written by an anonymous "Bridge Man," this October 13 poster encapsulates Chinese citizens\' growing dissent towards Xi and the Zero-COVID policy. While the western world has been accused of prioritizing economic profit over public health, China has done the opposite extreme...',
    buttons:  [["Read More", "/posts/2_ChinaZeroTolerance.html"]],
   },
   

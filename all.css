@@ -80,7 +80,7 @@ a:hover{
   position: absolute;
   width: 100%;
 }
-.Snippet>h2, .Snippet>h3 {
+.Snippet>h2, .Snippet>h3, .Snippet>h4 {
   background: inherit;
   background-position: center;
   background-attachment: fixed;
