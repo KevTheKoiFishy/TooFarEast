@@ -80,7 +80,7 @@ a:hover{
   position: absolute;
   width: 100%;
 }
-.Snippet>h2 {
+.Snippet>h2, .Snippet>h3 {
   background: inherit;
   background-position: center;
   background-attachment: fixed;
@@ -122,23 +122,6 @@ a:hover{
   width: 80%;
   height: inherit;
   background: linear-gradient(90deg, transparent 0%, #FFFFFFED 1%, #FFFFFFED 99%, transparent 100%);
-}
-
-.light_overlay.article {
-  left: 0;
-  background: linear-gradient(90deg,                 #FFFFFFED 0%, #FFFFFFED 99%, transparent 100%);
-}
-.Snippet.Article>h2{
-  color: #00000055;
-  left: 2vw;
-  font-size: 2.71828183vw;
-  width: calc(80% - 4vw);
-}
-.Snippet.Article>h3{
-  color: #00000055;
-  left: 2vw;
-  font-size: 2.71828183vw;
-  width: calc(80% - 4vw);
 }
 
 #footer {

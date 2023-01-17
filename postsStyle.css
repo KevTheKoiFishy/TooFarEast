@@ -1,0 +1,18 @@
+.light_overlay.article {
+  left: 0;
+  background: linear-gradient(90deg, #FFFFFFED 0%, #FFFFFFED 99%, transparent 100%);
+}
+.Snippet.Article>h2, .Snippet.Article>h3{
+  left: 2vw;
+  width: calc(80% - 4vw);
+}
+.Snippet.Article>h2{
+  color: #00000055;
+  font-size: 2.71828183vw;
+}
+.Snippet.Article>h3{
+  margin-top: 7vw;
+  
+  color: #00000055;
+  font-size: 1.61803399vw;
+}
