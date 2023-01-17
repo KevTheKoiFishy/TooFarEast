@@ -2,18 +2,32 @@ var content =
 [
   {
    type:     "Article Snippet",
-   title:    "Who We Are",
-   subtitle: "",
+   title:    "Iron Fist to Let it Rip",
+   subtitle: "Why China completely FLIPPED its COVID policy in just One Month",
+   date:     "",
    image:    "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Who%2Bwe%2Bare.jpg",
-   para:     '"Too Far East!" is run by 5 asian high school students. Finding our heritage in four different cultures, we endeavor to create a space of dialogue about different East and Southeast Asian cultures. Our mission is to spread awareness about current events, to provide well organized facts of the beautiful Asian cultures and to support Asian organizations in need',
-   buttons:  [["More on our Authors", "/Team"]],
+   para:     '',
+   buttons:  [["Read More", "/posts/3_LetItRip.html"]],
   },
-
+  
   {
-   type:    "Snippet",
-   title:   "What We Do",
-   image:   "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/990193a214ac8d1c01cd287f843258e6.jpg",
-   para:    'As a multicultural organization, Too Far East hopes to increase communication using our informative blog posts and passionate opinions. All Asian countries have voices that need to be heard. Using in-depth research and personal experiences as both native Asians and Asian Americans, we hope to provide the knowledge and resources to form a more multifaceted worldview.',
-   buttons: [["Extra Extra!", "/Posts"], ["These Orgs are Looking for Help", "/Fundraising"]],
+   type:     "Article Snippet",
+   title:    "The Real Tragedy Wasn't The Virus",
+   subtitle: "A Review of China's Zero-Tolerance Days",
+   date:     "",
+   image:    "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Who%2Bwe%2Bare.jpg",
+   para:     '',
+   buttons:  [["Read More", "/posts/2_ChinaZeroTolerance.html"]],
   },
+  
+  {
+   type:     "Article Snippet",
+   title:    "180 Rohingya Refugees Presumed Dead at Sea",
+   subtitle: "",
+   date:     "",
+   image:    "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Who%2Bwe%2Bare.jpg",
+   para:     '',
+   buttons:  [["Read More", "/posts/1_180RohingyaDead.html"]],
+  },
+  
 ];
