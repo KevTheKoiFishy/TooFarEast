@@ -12,21 +12,18 @@
   width: calc(80% - 4vw);
 }
 .Snippet.Article>h2{
-  color: #00000055;
   font-size: 2.71828183vw;
 }
 .Snippet.Article>h3{
   left: 12vw;
   margin-top: 6.7vw;
   
-  color: #00000055;
   font-size: 2vw;
   font-family: "Rokkitt";
 }
 .Snippet.Article>h4{
   margin-top: 6.5vw;
   
-  color: #00000055;
   font-size: 2vw;
   font-family: "Staatliches";
   font-style: italic;

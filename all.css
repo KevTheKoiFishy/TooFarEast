@@ -90,12 +90,10 @@ a:hover{
   background-position: center;
   background-attachment: fixed;
 
-  color    : transparent;
+  color: #00000033;
   font-size: 5vw;
   font-family: "Alfa Slab One";
   -webkit-background-clip: text;
-
-  animation: title_color 10s linear 0s infinite;
 }
 .Snippet>div.paragraph {
   left: 15%;
