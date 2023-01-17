@@ -3,10 +3,10 @@
    20% { background-image: url("https://a.cdn-hotels.com/gdcs/production143/d1112/c4fedab1-4041-4db5-9245-97439472cf2c.jpg");                                            }
    30% { background-image: url("https://shoutoutla.com/wp-content/uploads/2021/04/c-PersonalAnnieZhou__IMG_9190_1614736607928.jpg");                                     }
    40% { background-image: url("https://a.cdn-hotels.com/gdcs/production36/d1408/062ba219-35d7-451e-8d2e-dacbaaa647e1.jpg");                                             }
-   50% { background-image: url("https://static01.nyt.com/images/2020/03/26/world/26japan-virus01/26japan-virus01-videoSixteenByNine3000.jpg");                           }
-   60% { background-image: url("https://cdn.britannica.com/44/147344-050-D0F9FCAF/encampment-valley-Orkhon-River-Mongolia.jpg");                                         }
-   70% { background-image: url("https://unctad.org/sites/default/files/2020-10/2020-10-20_Myanmar-e-commerce_1200x675.jpg");                                             }
-   80% { background-image: url(""); }
+   50% { background-image: url("https://cdn.mos.cms.futurecdn.net/tvEFJUkxNwhsd2kEmFNCkY.jpg"); }
+   60% { background-image: url("https://static01.nyt.com/images/2020/03/26/world/26japan-virus01/26japan-virus01-videoSixteenByNine3000.jpg");                           }
+   70% { background-image: url("https://cdn.britannica.com/44/147344-050-D0F9FCAF/encampment-valley-Orkhon-River-Mongolia.jpg");                                         }
+   80% { background-image: url("https://unctad.org/sites/default/files/2020-10/2020-10-20_Myanmar-e-commerce_1200x675.jpg");                                             }
    90% { background-image: url(""); }
   100% { background-image: url(""); }
 
@@ -16,7 +16,7 @@
   height: 80vw;
   background: black;
 
-  animation: title_background 100s infinite;
+  animation: title_background 10s infinite;
 
   background-position: center;
   background-size: cover;
