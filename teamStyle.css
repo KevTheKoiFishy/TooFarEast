@@ -6,11 +6,11 @@
 .biography.snippet {
   width: 40vw;
   height: 40vw;
-  display: inline-block;
+  display: inline-table;
   
   background-attachment: unset;
   background-size: 200%;
-  background-position: center; 
+  background-position: 50% calc(50% - 26vw); 
   
 }
 

@@ -1,7 +1,7 @@
 html {scroll-behavior: smooth;}
 body {margin: 0; overflow-x: hidden;}
 
-::-webkit-scrollbar                   { width: 20px; }
+::-webkit-scrollbar                   { width: 2.2vw; height: 2.2vw; }
 ::-webkit-scrollbar-track             { background: #EEE; }
 ::-webkit-scrollbar-track-piece:start { background: repeating-linear-gradient(130deg, #ce8b3b  0px, #ce8b3b 20px, #c24219 20px, #c24219 40px, #d4af27 40px, #d4af27 60px); }
 ::-webkit-scrollbar-thumb             { background: #d22b0a; height: 20px; }
