@@ -11,4 +11,12 @@
   width: 40vw;
   height: 40vw;
   display: inline-block;
+  
+  background-size: cover;
+}
+
+.biography>.dark_overlay{
+  position: absolute;
+  left: 0;
+  width: 100%;
 }
