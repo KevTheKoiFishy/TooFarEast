@@ -13,10 +13,11 @@
   display: inline-block;
   
   background-size: cover;
+  background-position: center;
 }
 
 .biography>.dark_overlay{
   position: absolute;
-  left: 0;
-  width: 100%;
+  left: inherit;
+  width: 40vw;
 }
