@@ -18,21 +18,27 @@
   
 }
 
-.biography>.light_overlay{
-  position: relative;
-  left: 0;
-  margin-top: 70%;
-  height: 30%;
-  width: 100%;
+.biography.snippet>.light_overlay{
+  position: absolute;
+  left: inherit;
+  margin-top: 30vw;
+  height: 7.4vw;
+  width: 40vw;
   
   background: #FFFFFFDE;
-  transition: .2s;
+  opacity: 1;
 }
 .biography:hover > .light_overlay{
   margin-top: 0;
-  height: 100%;
+  height: 37.4vw;
 }
 
-.biography > h2{
-  
+.biography.snippet > *{
+  position: absolute;
+  width: 40vw;
+  opacity: 0;
+  transition: .3s, opacity .3s linear .3s;
+}
+.biography.snippet:hover > *{
+  opacity: 1;
 }
