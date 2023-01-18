@@ -12,20 +12,26 @@
   height: 40vw;
   display: inline-block;
   
-  background-size: cover;
+  background-size: 200%;
   background-position: center;
   
-  transition: .3s;
+  transition: .2s;
 }
 
-.biography>.dark_overlay{
-  position: absolute;
-  margin-top: 30vw;
-  height: 7.8vw;
-  width: 40vw;
-  transform: translate(-20vw, 0);
+.biography>.light_overlay{
+  position: relative;
+  left: 0;
+  margin-top: 70%;
+  height: 30%;
+  width: 100%;
+  
+  background: #FFFFFFDE;
 }
-.biography:hover > .dark_overlay{
-  margin-top: 0vw;
-  height: 41.8vw;
+.biography:hover > .light_overlay{
+  margin-top: 0;
+  height: 100%;
+}
+
+.biography > h1{
+  
 }
