@@ -63,7 +63,7 @@ for (var i = 0; i < content.length; ++i)
       
     case "Biography":
       
-      HTMLToAdd += '<div class="Biography" style="background-image: url(' + content[i].image + ');" align="center">';
+      HTMLToAdd += '<div class="snippet Biography" style="background-image: url(' + content[i].image + ');" align="center">';
       HTMLToAdd += '<div class="light_overlay biography"></div>';
       HTMLToAdd += '<h2>' + content[i].name + '</h2>';
       HTMLToAdd += '<ul>';

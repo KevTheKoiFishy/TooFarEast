@@ -7,15 +7,15 @@
   width: 500vw;
 }
 
-.biography {
+.biography.snippet {
   width: 40vw;
   height: 40vw;
   display: inline-block;
   
+  background-attachment: unset;
   background-size: 200%;
-  background-position: center;
+  background-position: center; 
   
-  transition: .2s;
 }
 
 .biography>.light_overlay{
@@ -26,12 +26,13 @@
   width: 100%;
   
   background: #FFFFFFDE;
+  transition: .2s;
 }
 .biography:hover > .light_overlay{
   margin-top: 0;
   height: 100%;
 }
 
-.biography > h1{
+.biography > h2{
   
 }
