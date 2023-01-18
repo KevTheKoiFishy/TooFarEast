@@ -11,7 +11,8 @@
   /*Damnoen Saduak*/  25% { background-image: url("https://i.natgeofe.com/k/42af29c1-91aa-4475-a0bd-03a6af1ed24e/thailand-floating-market_16x9.jpg");                                                                          }
     /*Floating Market*/
     /*Thailand*/
-  /*Osaka Japan*/     30% { background-image: url("https://static01.nyt.com/images/2020/03/26/world/26japan-virus01/26japan-virus01-videoSixteenByNine3000.jpg");                           }
+  /*Itsukushima*/     30% { background-image: url("https://www.esl-languages.com/sites/default/files/country/esl-japan-language-stay-hero.jpg");                           }
+    /*Jinja, Shinto Shrine Japan*/
   /*Orkhon River*/    35% { background-image: url("https://cdn.britannica.com/44/147344-050-D0F9FCAF/encampment-valley-Orkhon-River-Mongolia.jpg");                                         }
     /*Mongolia*/
   /*Lotus Fabric*/    40% { background-image: url("https://unctad.org/sites/default/files/2020-10/2020-10-20_Myanmar-e-commerce_1200x675.jpg");                                             }
@@ -31,9 +32,9 @@
   
   /*tech*/
   /*China PCB*/       80% { background-image: url("https://www.raypcb.com/wp-content/uploads/2018/04/pcb-assembly-cost-down.jpg"); }
-  /**/                85% { background-image: url(""); }
-  /**/                90% { background-image: url(""); }
-  /**/                95% { background-image: url(""); }
+  /*Fold4 Teardown*/  85% { background-image: url("https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Untitled1664.jpg"); }
+  /*Jp Robotics*/     90% { background-image: url("https://storage.googleapis.com/afs-prod/media/c9c47252e5594893987d9216718bee2f/3000.jpeg"); }
+  /*Vietnam Semi*/    95% { background-image: url("https://vatvostudio.vn/wp-content/uploads/2022/07/28nmwafer.jpg"); }
   /*TSMC Fab*/       100% { background-image: url("https://cdn.mos.cms.futurecdn.net/tvEFJUkxNwhsd2kEmFNCkY.jpg"); }
 
 }
