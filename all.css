@@ -85,14 +85,12 @@ a:hover{
   position: absolute;
   width: 100%;
 }
-.Snippet>h2, .Snippet>h3, .Snippet>h4 {
+.Snippet>* {
   background: inherit;
   background-position: center;
   background-attachment: fixed;
 
   color: #00000033;
-  font-size: 5vw;
-  font-family: "Alfa Slab One";
   -webkit-background-clip: text;
 }
 .Snippet>div.paragraph {
