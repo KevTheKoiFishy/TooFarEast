@@ -14,10 +14,18 @@
   
   background-size: cover;
   background-position: center;
+  
+  transition: .3s;
 }
 
 .biography>.dark_overlay{
   position: absolute;
-  left: inherit;
+  margin-top: 30vw;
+  height: 7.8vw;
   width: 40vw;
+  transform: translate(-20vw, 0);
+}
+.biography:hover > .dark_overlay{
+  margin-top: 0vw;
+  height: 41.8vw;
 }

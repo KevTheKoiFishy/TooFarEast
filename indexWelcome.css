@@ -52,7 +52,6 @@
   background-attachment: fixed;
 }
 .dark_overlay{
-  position: absolute;
   width: inherit;
   height: inherit;
   background: #000000AA;
