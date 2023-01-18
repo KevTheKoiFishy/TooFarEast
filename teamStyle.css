@@ -9,7 +9,7 @@
   display: inline-table;
   
   background-attachment: unset;
-  background-size: 200%;
+  background-size: cover;
   background-position: 50% calc(50% - 26vw); 
   
 }
@@ -42,7 +42,7 @@
 
 .biography.snippet>h2 {
   opacity: 1;
-  transform: translateY(-11vw);
+  transform: translateY(-12vw);
   background-position: 50% calc(50% - 15.2vw);
 }
 .biography.snippet:hover>h2 {
