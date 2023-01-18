@@ -33,14 +33,19 @@
   position: relative;
   width: 40vw;
   opacity: 0;
-  transition: .2s, opacity 0s linear 0s;   //namecard moves down immediate
+  transition: .2s, opacity 0s ease 0s;   //namecard moves down immediate
 }
 .biography.snippet:hover > *{
   opacity: 1;
-  transition: .2s, opacity .2s linear .2s; //namecard moves up transition
+  transition: .3s, opacity .2s ease .2s; //namecard moves up transition
 }
 
 .biography.snippet>h2 {
+  opacity: 1;
+  transform: translateY(-11vw);
+  background-position: 50% calc(50% - 15.2vw);
+}
+.biography.snippet:hover>h2 {
   transform: translateY(-40vw);
   background-position: 50% calc(50% + 13.5vw);
 }
@@ -50,11 +55,18 @@
   font-style: italic;
   font-family: "Space Mono";
   width: 20vw;
+  transition: opacity 0s ease 0s;
+}
+.biography.snippet:hover>.rolesList {
+  transition: opacity .2s ease .4s;
 }
 .biography.snippet>.paragraph {
   transform: translateY(-56vw);
   left: inherit;
   width: 35vw;
   text-align: justify;
-
+  transition: opacity 0s ease 0s;
+}
+.biography.snippet:hover>.paragraph {
+  transition: opacity .2s ease .6s;
 }
