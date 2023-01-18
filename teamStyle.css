@@ -1,5 +1,5 @@
 #scrollContainer{
-  height: 80vw;
+  height: 40vw;
   overflow: auto hidden;
 }
 
@@ -22,7 +22,7 @@
   position: relative;
   left: inherit;
   margin-top: 30vw;
-  height: 7.4vw;
+  height: calc(10vw - 15px);
   width: 40vw;
   
   background: #FFFFFFDE;
@@ -30,7 +30,7 @@
 }
 .biography:hover > .light_overlay{
   margin-top: 0;
-  height: 37.4vw;
+  height: calc(40vw - 15px);
 }
 
 .biography.snippet > *{
@@ -45,10 +45,20 @@
 }
 
 .biography.snippet>h2 {
-  margin-top: 0vw;
+  transform: translateY(-40vw);
+  background-position: 50% 20%;
 }
-.biography.snippet>ul {
-  margin-top: 9vw;
+.biography.snippet>.rolesList {
+  transform: translateY(-44vw);
   font-size: 1.6vw;
+  font-style: italic;
   font-family: "Space Mono";
+  width: 20vw;
+}
+.biography.snippet>.paragraph {
+  transform: translateY(-56vw);
+  left: inherit;
+  width: 35vw;
+  text-align: justify;
+
 }

@@ -66,11 +66,11 @@ for (var i = 0; i < content.length; ++i)
       HTMLToAdd += '<div class="snippet Biography" style="background-image: url(' + content[i].image + ');" align="center">';
       HTMLToAdd += '<div class="light_overlay biography"></div>';
       HTMLToAdd += '<h2>' + content[i].name + '</h2>';
-      HTMLToAdd += '<ul>';
+      HTMLToAdd += '<div class="rolesList">';
         for (var j = 0; j < content[i].roles.length; ++j){
-          HTMLToAdd += "<li>" + content[i].roles[j] + "</li>";
+          HTMLToAdd += content[i].roles[j] + "<br>";
         }
-        HTMLToAdd += "</ul>"
+        HTMLToAdd += "</div>"
       HTMLToAdd += '<div class="paragraph">' + content[i].statement + '</div>';
       
       HTMLToAdd += "</div>";
