@@ -3,10 +3,6 @@
   overflow: auto hidden;
 }
 
-#SCROLLER {
-  width: 500vw;
-}
-
 .biography.snippet {
   width: 40vw;
   height: 40vw;
@@ -46,7 +42,7 @@
 
 .biography.snippet>h2 {
   transform: translateY(-40vw);
-  background-position: 50% 20%;
+  background-position: 50% calc(50% + 13.5vw);
 }
 .biography.snippet>.rolesList {
   transform: translateY(-44vw);

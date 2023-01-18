@@ -45,7 +45,7 @@
   height: 80vw;
   background: black;
 
-  animation: title_background 20s infinite;
+  animation: title_background 40s infinite;
 
   background-position: center;
   background-size: cover;
@@ -110,7 +110,7 @@ h1{
 }
 .Title_Text{
   opacity: 0;
-  animation: title_color 10s linear 0s infinite, fadein 1s linear forwards;
+  animation: title_color 4s linear 0s infinite, fadein 1s linear forwards;
 }
 .tilt   { transform: rotate(-3deg); }
 .left   { left:  -2vw;                             }
