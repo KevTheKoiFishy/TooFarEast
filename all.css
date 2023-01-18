@@ -1,9 +1,10 @@
 html {scroll-behavior: smooth;}
 body {margin: 0; overflow-x: hidden;}
 
-::-webkit-scrollbar                   { width: 1.2vw; height: 1.2vw; }
+::-webkit-scrollbar                   { width: 1.3vw; height: 1.3vw; }
 ::-webkit-scrollbar-track             { background: #EEE; }
-::-webkit-scrollbar-track-piece:start { background: repeating-linear-gradient(130deg, #ce8b3b  0px, #ce8b3b 20px, #c24219 20px, #c24219 40px, #d4af27 40px, #d4af27 60px); }
+::-webkit-scrollbar-track-piece:start { /*background: repeating-linear-gradient(130deg, #ce8b3b  0px, #ce8b3b 20px, #c24219 20px, #c24219 40px, #d4af27 40px, #d4af27 60px);*/ 
+                                        background: repeating-linear-gradient(45deg, #1c78e9, #2d9cc6, #57c28d); }
 ::-webkit-scrollbar-thumb             { background: #d22b0a; height: 20px; }
 ::-webkit-scrollbar-thumb:hover       { background: #a93103; }
 ::selection {

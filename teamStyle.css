@@ -9,7 +9,7 @@
   display: inline-table;
   
   background-attachment: unset;
-  background-size: cover;
+  background-size: 100%;
   background-position: 50% calc(50% - 26vw); 
   
 }
@@ -18,7 +18,7 @@
   position: relative;
   left: inherit;
   margin-top: 30vw;
-  height: calc(10vw - 15px);
+  height: 8.8vw;
   width: 40vw;
   
   background: #FFFFFFDE;
@@ -26,7 +26,7 @@
 }
 .biography:hover > .light_overlay{
   margin-top: 0;
-  height: calc(40vw - 15px);
+  height: 38.8vw;
 }
 
 .biography.snippet > *{
