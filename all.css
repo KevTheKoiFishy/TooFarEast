@@ -132,7 +132,7 @@ a:hover{
   height: 20vw;
   background: #576d9d;
   color: white;
-  display: flex;
+  display: inline-flex;
 
   color: #d5e7ff;
   font-family: "Staatliches";

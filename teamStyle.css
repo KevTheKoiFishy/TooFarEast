@@ -1,3 +1,14 @@
+#scrollContainer{
+  height: 40vw;
+  overflow: auto hidden;
+}
+
 #SCROLLER {
-  display: grid;
+  width: 500vw;
+}
+
+.biography {
+  width: 40vw;
+  height: 40vw;
+  display: inline-block;
 }
