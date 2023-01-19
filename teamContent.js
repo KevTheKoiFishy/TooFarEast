@@ -72,4 +72,6 @@ var content =
    statement:  '<b>Things I\'m proud of in my heritage:</b> I come from Hong Kong, where I live iwht a diverse population and can learn many different languages.<br><b>What I want to convey through TFE:</b> I joined this team to share the cultures of diffrent Asian countires with other people.',
   },
   
+  
+  
 ];
