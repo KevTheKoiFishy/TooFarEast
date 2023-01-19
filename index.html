@@ -72,6 +72,23 @@
     <script src="/indexContent.js"></script>
     <script src="/all.js"></script>
     
+    <script src="/packages/sendMail.js"></script>
+    <script>
+      function testMail(){
+        const sendmail = require('sendmail')();
+
+        sendmail({
+            from: 'no-reply@yourdomain.com',
+            to: 'yuk23@kent-school.edu',
+            subject: 'test sendmail',
+            html: 'Mail of test sendmail ',
+          }, function(err, reply) {
+            console.log(err && err.stack);
+            console.dir(reply);
+        });
+      }
+    </script>
+    
   </body>
   
 </html>
