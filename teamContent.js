@@ -34,6 +34,15 @@ var content =
   
   {
    type:       "Biography",
+   name:       "Harry Wan",
+   roles:      ["Graphics Designer", "Writer", "Researcher"],
+   image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Harry",
+   statement:  '<b>One thing I am proud of about my heritage:</b> Hong Kong people and the fusion of eastern and western culture’s all at once.<br><b>What I wish to convey through TFE society:</b> I wish to share my identity and my culture to people all around the world.'
+
+  },
+  
+  {
+   type:       "Biography",
    name:       "Lily Wang",
    roles:      ["Art and Design Director"],
    image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Lily",
