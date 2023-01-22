@@ -87,7 +87,7 @@ a:hover{
   position: absolute;
   width: 100%;
 }
-.Snippet>*, #CONTENT>*>h2 {
+.Snippet>* {
   background: inherit;
 
   color: #00000033;
