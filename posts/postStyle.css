@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display');
 @import url('https://fonts.googleapis.com/css2?family=Lora');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
 
-#CONTENT{
-  background: url("https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2023-01/230117-rural-china-medicine-mb-0954-315516.jpg") center/cover;
-}
 
 #ArticleContainer {
   margin-left: 10vw;
