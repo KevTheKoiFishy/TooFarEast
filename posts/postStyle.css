@@ -3,17 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora');
 
 #CONTENT{
-  background: white;
+  background: url("https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2023-01/230117-rural-china-medicine-mb-0954-315516.jpg") center cover;
 }
 
 #ArticleContainer {
   margin-left: 10vw;
   width: 70vw;
   padding: 12vw 5vw;
-  background: #000000CC;
-  color: #EEE;
+  background: #FFFFFFCC;
+  color: #000;
 }
 
-#ArticleContainer>p{
-  text-indent: 36px;
+#ArticleContainer>img {
+  max-width: 69vw;
+  width: auto;
+  height: auto;
 }
