@@ -17,3 +17,8 @@
   width: 50vw;
   height: auto;
 }
+
+#ArticleContainer>*>a {
+  margin: 0;
+  font-weight: bold;
+}
