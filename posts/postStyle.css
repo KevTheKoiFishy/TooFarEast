@@ -20,5 +20,6 @@
 
 #ArticleContainer>*>a {
   margin: 0;
+  font-size: 13px;  
   font-weight: bold;
 }
