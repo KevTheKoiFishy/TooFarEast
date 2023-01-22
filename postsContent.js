@@ -2,6 +2,16 @@ var content =
 [
   {
    type:     "Article Snippet",
+   title:    "The Long Fight to Democracy",
+   subtitle: "What can we learn about the Myanmar coup through the Gwangju uprising?",
+   date:     "Jan 19 2023",
+   image:    "https://www.marxist.com/images/stories/south_korea/2022_May/mourning_Image_May_18_Democratic_Uprising_Archive.jpg",
+   para:     'Does everyone remember the Myanmar coup in 2021? The Myanmar coup d’état began on the morning of February 1st 2021. The National League for Democracy, the democratically elected leadership of the country, was deposed by the Tatmadaw, Myanmar’s military...<br>On the 16th of May 1961, Park Chung-hee and his allies took over the Korean government. Their dictatorship lasted twenty-seven years...',
+   buttons:  [["Read More", "/posts/4_LongFightToDemocracy.html"]],
+  },
+  
+  {
+   type:     "Article Snippet",
    title:    "Iron Fist to Let it Rip",
    subtitle: "Why China completely FLIPPED its COVID policy in just One Month",
    date:     "Jan 11 2023",
