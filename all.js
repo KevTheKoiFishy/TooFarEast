@@ -12,9 +12,10 @@ var marqueeTitle = window.setInterval(
 var newsBar = document.getElementById("LatestNews");
 var blogPosts =
 [
-  ["180 Rohingya Refugees Presumed Dead at Sea",     "1_180RohingyaDead.html"       ],
-  ["A Review of China's Zero-Covid Days",            "2_ChinaZeroTolerance.html"    ],
-  ["Iron Fist to Let it Rip - China's Reopening",    "3_LetItRip.html"              ],
+  ["Comparing the Myanmar Coup and Gwangju Uprising", "/posts/4_LongFightToDemocracy.html"  ],
+  ["Iron Fist to Let it Rip - China's Reopening",     "/posts/3_LetItRip.html"              ],
+  ["A Review of China's Zero-Covid Days",             "/posts/2_ChinaZeroTolerance.html"    ],
+  ["180 Rohingya Refugees Presumed Dead at Sea",      "/posts/1_180RohingyaDead.html"       ],
 ];
 
 for (var i = 0; i < blogPosts.length; ++i){
