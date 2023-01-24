@@ -2,7 +2,7 @@ var content =
 [
   {
    type:       "Biography",
-   name:       "Janet Wu",
+   name:       "Janet Wu 吳————",
    roles:      ["Executive Director", "Website Operator", "Social Media Manager", "Writer + Researcher"],
    image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/JaneyWoo",
    statement:  '<b>Things I\'m proud of in my heritage:</b> Growing up in Taiwan, I have always been happy and proud of my Taiwanese heritage. I am grateful for thie beautiful and unique culture, especially the yummy food like brown sugar bubble milk!<br><b>What I want to convey through TFE:</b> I wish everyone can respect and value foreing cultures as much as they value their own culture(s)!',
@@ -10,7 +10,7 @@ var content =
   
   {
    type:       "Biography",
-   name:       "Yaelin Hough",
+   name:       "Yaelin Hough ",
    roles:      ["Lead Writer", "Researcher"],
    image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Yaelin",
    statement:  '<b>Things I\'m proud of in my heritage:</b> I\'m proud of South Korea\'s ability to overcome its past hardships. Despite years under colonial rule and the subsequent destitution, South Korea has managed to cultivate a vibrant culture and a powerful democracy.<br><b>What I want to convey through TFE:</b> I hope that we are able to display the history and connections between all East and Southeast Asian cultures that exist beyond the common knowledge of the West.',
@@ -34,7 +34,7 @@ var content =
   
   {
    type:       "Biography",
-   name:       "Harry Wan",
+   name:       "Harry Wan 尹維安",
    roles:      ["Graphics Designer", "Writer", "Researcher"],
    image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Harry",
    statement:  '<b>One thing I am proud of about my heritage:</b> Hong Kong people and the fusion of eastern and western culture’s all at once.<br><b>What I wish to convey through TFE society:</b> I wish to share my identity and my culture to people all around the world.'
@@ -93,15 +93,15 @@ var content =
    type:       "Biography",
    name:       "Emma Liu",
    roles:      ["Social Media Assistant"],
-   image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Nathan",
+   image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Emma",
    statement:  '<b>Things I\'m proud of in my heritage:</b> I come from Hong Kong, where I live iwht a diverse population and can learn many different languages.<br><b>What I want to convey through TFE:</b> I joined this team to share the cultures of diffrent Asian countires with other people.',
   },
   
   {
    type:       "Biography",
-   name:       "Emma Liu",
+   name:       "Morgan Synn",
    roles:      ["Social Media Assistant"],
-   image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Nathan",
+   image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Morgan",
    statement:  '<b>Things I\'m proud of in my heritage:</b> I come from Hong Kong, where I live iwht a diverse population and can learn many different languages.<br><b>What I want to convey through TFE:</b> I joined this team to share the cultures of diffrent Asian countires with other people.',
   },
   

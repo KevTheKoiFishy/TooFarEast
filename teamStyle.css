@@ -42,15 +42,16 @@
 
 .biography.snippet>h2 {
   opacity: 1;
-  transform: translateY(-12vw);
+  font-size: 3vw;
+  transform: translateY(-9vw);
   background-position: 50% calc(50% - 15.2vw);
 }
 .biography.snippet:hover>h2 {
-  transform: translateY(-40vw);
+  transform: translateY(-37vw);
   background-position: 50% calc(50% + 13.5vw);
 }
 .biography.snippet>.rolesList {
-  transform: translateY(-44vw);
+  transform: translateY(-39vw);
   font-size: 1.6vw;
   font-style: italic;
   font-family: "Space Mono";
@@ -61,7 +62,7 @@
   transition: opacity .2s ease .4s;
 }
 .biography.snippet>.paragraph {
-  transform: translateY(-56vw);
+  transform: translateY(-51vw);
   left: inherit;
   width: 35vw;
   text-align: justify;
