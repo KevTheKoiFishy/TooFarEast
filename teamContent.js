@@ -2,7 +2,7 @@ var content =
 [
   {
    type:       "Biography",
-   name:       "Janet Wu 吳————",
+   name:       "Janet Wu 吳瑩瑩",
    roles:      ["Executive Director", "Website Operator", "Social Media Manager", "Writer + Researcher"],
    image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/JaneyWoo",
    statement:  '<b>Things I\'m proud of in my heritage:</b> Growing up in Taiwan, I have always been happy and proud of my Taiwanese heritage. I am grateful for thie beautiful and unique culture, especially the yummy food like brown sugar bubble milk!<br><b>What I want to convey through TFE:</b> I wish everyone can respect and value foreing cultures as much as they value their own culture(s)!',
@@ -10,7 +10,7 @@ var content =
   
   {
    type:       "Biography",
-   name:       "Yaelin Hough ",
+   name:       "Yaelin Hough 허린",
    roles:      ["Lead Writer", "Researcher"],
    image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Yaelin",
    statement:  '<b>Things I\'m proud of in my heritage:</b> I\'m proud of South Korea\'s ability to overcome its past hardships. Despite years under colonial rule and the subsequent destitution, South Korea has managed to cultivate a vibrant culture and a powerful democracy.<br><b>What I want to convey through TFE:</b> I hope that we are able to display the history and connections between all East and Southeast Asian cultures that exist beyond the common knowledge of the West.',
@@ -18,7 +18,7 @@ var content =
   
   {
    type:       "Biography",
-   name:       "Amy Hwang",
+   name:       "Amy Hwang 황시윈",
    roles:      ["Website Designer", "Writer", "Researcher"],
    image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Amy",
    statement:  '<b>Things I\'m proud of in my heritage:</b> Food, entertainment culture, and Korean culture of \'Jeong\'<br><b>What I want to convey through TFE:</b> To grow awareness of the current affairs in Asia and to be an advocate for my own country\'s culture(I wish to shwo that there are other appealing korean cultures other than the entertainment industry',
@@ -26,7 +26,7 @@ var content =
   
   {
    type:       "Biography",
-   name:       "Kevin Yu",
+   name:       "Kevin Yu 于笑涵",
    roles:      ["Lead Web Designer", "Writer", "Researcher"],
    image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Kevin",
    statement:  '<b>Things I\'m proud of in my heritage:</b> Traditional Chinese stories about love, betrayal, and war.<br><b>What I want to convey through TFE:</b> China is much more than social credit memes or cheap goods. 1.4B people come with a plethora of microcosms, each with unique beliefs and problems. We need a more multifaceted view of the world\'s most populous country—not just world politics but life on the ground.',
@@ -43,7 +43,7 @@ var content =
   
   {
    type:       "Biography",
-   name:       "Lily Wang",
+   name:       "Lily Wang 王雨晴",
    roles:      ["Art and Design Director"],
    image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Lily",
    statement:  '<b>Things I\'m proud of in my heritage:</b> Seeing people around the world appreciate Asian culture through food, media, music, landscape and beautiful traditions.<br><b>What I want to convey through TFE:</b> I want to show the public that countries are far more complex than most common impressions by providing through research.',
@@ -85,13 +85,13 @@ var content =
    type:       "Biography",
    name:       "Veronica Jiang",
    roles:      ["Writer", "Researcher"],
-   image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Nathan",
+   image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Veronica",
    statement:  '<b>Things I\'m proud of in my heritage:</b> I come from Hong Kong, where I live iwht a diverse population and can learn many different languages.<br><b>What I want to convey through TFE:</b> I joined this team to share the cultures of diffrent Asian countires with other people.',
   },
   
   {
    type:       "Biography",
-   name:       "Emma Liu",
+   name:       "Emma Liu 刘明美",
    roles:      ["Social Media Assistant"],
    image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Emma",
    statement:  '<b>Things I\'m proud of in my heritage:</b> I come from Hong Kong, where I live iwht a diverse population and can learn many different languages.<br><b>What I want to convey through TFE:</b> I joined this team to share the cultures of diffrent Asian countires with other people.',
