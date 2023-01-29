@@ -1,13 +1,14 @@
 #logo {
   z-index :    2;
   position:    fixed;
+  top     :    22px;
+  left    :    0px;
   width   :    46px;
   height  :    46px;
-  background:       url("https://cdn.glitch.me/bc0ad395-12bd-4b0f-8eeb-7c1bf41db529/1822d1_55532d828f934f658e744486f1d7b721_mv2.png?v=1640239757044");
-  background-size:  cover;
-  transition:       0.15s;
+  background: #FFF;
 }
-#logo.sidebar_active {
+
+#sidebar:hover #logo {
   top     :    30px;
   left    :    55px;
   width   :    180px;
@@ -21,7 +22,7 @@
   background:  linear-gradient(0deg, hsl(320deg 80% 50%), hsl(55deg 90% 50%));
   transition:  opacity 0.15s;
 }
-#sunset.sidebar_active {
+#sidebar:hover #sunset {
   opacity:     0.9;
 }
 
@@ -54,13 +55,11 @@
 
 
 #sidebar {
-  z-index:     1;
+  z-index:     4;
   position:    fixed;
-  left:        20px;
-  top:         20px;
   width:       50px;
-  height:      calc(100% - 40px);
-  transition:  width 0.15s;
+  height:      100%;
+  transition:  0.15s;
 }
 #sidebar:hover {
   width  :     250px;
@@ -69,7 +68,7 @@
 #selectors {
   position:    fixed;
   top     :    70px;
-  left    :    20px;
+  left    :    1px;
   width   :    35px;
   height  :    calc(100vh - 100px);
   padding :    5px;
@@ -78,7 +77,7 @@
   overflow:    hidden;
   white-space: nowrap;
 }
-#selectors.sidebar_active {
+#sidebar:hover #selectors {
   top     :    220px;
   width   :    240px;
   height  :    calc(100vh - 250px);
