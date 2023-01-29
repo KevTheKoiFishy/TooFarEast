@@ -1,0 +1,117 @@
+#logo {
+  z-index :    2;
+  position:    fixed;
+  width   :    46px;
+  height  :    46px;
+  background:       url("https://cdn.glitch.me/bc0ad395-12bd-4b0f-8eeb-7c1bf41db529/1822d1_55532d828f934f658e744486f1d7b721_mv2.png?v=1640239757044");
+  background-size:  cover;
+  transition:       0.15s;
+}
+#logo.sidebar_active {
+  top     :    30px;
+  left    :    55px;
+  width   :    180px;
+  height  :    180px;
+}
+
+#sunset {
+  width  :     100%;
+  height :     100%;
+  opacity:     0.5;
+  background:  linear-gradient(0deg, hsl(320deg 80% 50%), hsl(55deg 90% 50%));
+  transition:  opacity 0.15s;
+}
+#sunset.sidebar_active {
+  opacity:     0.9;
+}
+
+.icon {
+  transform:   translate(-15px, 0px);
+  width:       38px;
+  height:      50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform 0.2s;
+}
+#sidebar:hover .icon {
+  transform:   translate(0px, 5px);
+}
+#livestream {
+  background: url("https://cdn.glitch.me/bc0ad395-12bd-4b0f-8eeb-7c1bf41db529/Camera%20Icon.svg?v=1640293752019");
+  background-size: cover;
+}
+#timer {
+  background: url("https://cdn.glitch.me/bc0ad395-12bd-4b0f-8eeb-7c1bf41db529/Timer%20Icon.svg?v=1640325303456");
+  background-size: cover;
+}
+#power {
+  background: url("https://cdn.glitch.me/bc0ad395-12bd-4b0f-8eeb-7c1bf41db529/Power%20Icon.svg?v=1640293753946");
+  background-size: cover;
+}
+#peripherals {
+  background: url("https://cdn.glitch.me/bc0ad395-12bd-4b0f-8eeb-7c1bf41db529/Peripherals%20Icon.svg?v=1640325303491")
+}
+
+
+#sidebar {
+  z-index:     1;
+  position:    fixed;
+  left:        20px;
+  top:         20px;
+  width:       50px;
+  height:      calc(100% - 40px);
+  transition:  width 0.15s;
+}
+#sidebar:hover {
+  width  :     250px;
+}
+
+#selectors {
+  position:    fixed;
+  top     :    70px;
+  left    :    20px;
+  width   :    35px;
+  height  :    calc(100vh - 100px);
+  padding :    5px;
+  transition:  top 0.15s, height 0.15s, width 0.15s;
+
+  overflow:    hidden;
+  white-space: nowrap;
+}
+#selectors.sidebar_active {
+  top     :    220px;
+  width   :    240px;
+  height  :    calc(100vh - 250px);
+  overflow:    hidden auto;
+}
+
+#selectors div {
+  padding-left: 15px;
+  padding-right:10px;
+  background  : transparent;
+  color       : white;
+  font-family : "Zilla Slab";
+  font-size   : 29px;
+  transition  : background 0.2s, color 0.2s;
+  cursor      : pointer;
+}
+#selectors div:hover {
+  color       : #85d1cd;
+  background  : #00000066;
+}
+#selectors div:active {
+  color       : #f5be48;
+}
+
+#selectors > div > div, #selectors > div > div > div {
+  font-size: 17px;
+  height  :    0;
+  transform:   translate(-50%, 0);
+  opacity :    0;
+  transition:  transform 0.3s, opacity 0.3s;
+}
+#selectors > div:hover > div, #selectors > div > div:hover > div {
+  height  :    auto;
+  transform:   translate(     0, 0);
+  opacity :    1;
+}
