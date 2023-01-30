@@ -63,7 +63,7 @@ a:hover{
 }
 
 .Snippet {
-  height: 30vw;
+  height: 600px;
   width: 100%;
   background-attachment: fixed;
   background-size: cover;
@@ -76,21 +76,21 @@ a:hover{
   background: inherit;
 
   color: #00000033;
-  font-size: 5vw;
-  font-family: "Alfa Slab One";
   -webkit-background-clip: text;
+}
+.Snippet>h2 {
+  font-size: 100px;
+  font-family: "Alfa Slab One";
 }
 .Snippet>div.paragraph {
   left: 15%;
-  margin-top: 13vw;
   width     : 70%;
 
   color    : #00000059;
-  font-size: 1.8vw;
+  font-size: 40px;
   font-family: "Staatliches";
 }
 .Snippet>.buttonContainer{
-  margin-top: 24vw;
 }
 .button{
   padding: 0.5vw 1vw;

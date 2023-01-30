@@ -71,7 +71,6 @@
   top     :    140px;
   left    :    1px;
   width   :    35px;
-  height  :    calc(100vh - 100px);
   padding :    5px;
   transition:  top 0.15s, height 0.15s, width 0.15s;
 
@@ -81,8 +80,11 @@
 #sidebar:hover #selectors {
   top     :    180px;
   width   :    240px;
-  height  :    calc(100vh - 250px);
+  height  :    calc(100vh - 190px);
   overflow:    hidden auto;
+}
+#selectors::-webkit-scrollbar {
+  display : none;
 }
 
 #selectors div {
