@@ -82,7 +82,8 @@ a:hover{
   -webkit-background-clip: text;
 }
 .Snippet>h2 {
-  margin: 0;
+  margin: 0px;
+  padding-top: 30px;
   font-size: 100px;
   font-family: "Alfa Slab One";
 }

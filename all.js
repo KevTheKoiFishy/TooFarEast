@@ -27,6 +27,7 @@ var contentDIV  = document.getElementById("CONTENT");
 var scrollerDIV = document.getElementById("SCROLLER");
 
 function updateContent(){
+  document.getElementById("CONTENT").innerHTML = "";
   for (var i = 0; i < content.length; ++i)
   {
     var HTMLToAdd = "";
@@ -46,8 +47,8 @@ function updateContent(){
         contentDIV.innerHTML += HTMLToAdd;
 
         var snippet = document.getElementById("Snippet_" + i);
-        snippet.setAttribute("style", 'background-image: url(' + content[i].image + '); height:' + (snippet.offsetHeight( + 'px;');
-        snippet.innerHTML += '<div class="light_overlay snippet" style="transform: translateY(-' + (snippet.offsetHeight( + 'px);"></div>'
+        snippet.setAttribute("style", 'background-image: url(' + content[i].image + '); height:' + (snippet.offsetHeight+50) + 'px;');
+        snippet.innerHTML += '<div class="light_overlay snippet" style="transform: translateY(' + (-snippet.offsetHeight+50) + 'px);"></div>'
         break;
 
       case "Article Snippet":
@@ -86,3 +87,4 @@ function updateContent(){
 }
 
 updateContent();
+window.addEventListener("resize", updateContent);
