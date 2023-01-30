@@ -20,6 +20,10 @@
 
 #ArticleContainer>*>a {
   margin: 0;
+  color: #40588b;
   font-size: 13px;  
   font-weight: bold;
+}
+#ArticleContainer>*>a:hover {
+  color: #bf382f;
 }
