@@ -62,8 +62,11 @@ a:hover{
   -webkit-background-clip: text;
 }
 
+#CONTENT{
+  display: flex;
+}
+
 .Snippet {
-  height: 600px;
   width: 100%;
   background-attachment: fixed;
   background-size: cover;
@@ -73,7 +76,7 @@ a:hover{
   width: 100%;
   background: inherit;
 
-  color: #00000033;
+  color: #FFFFFFCC;
   -webkit-background-clip: text;
 }
 .Snippet>h2 {
@@ -82,10 +85,8 @@ a:hover{
   font-family: "Alfa Slab One";
 }
 .Snippet>div.paragraph {
-  left: 15%;
-  width     : 70%;
+  width    : 70%;
 
-  color    : #00000059;
   font-size: 40px;
   font-family: "Staatliches";
 }
