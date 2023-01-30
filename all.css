@@ -63,20 +63,20 @@ a:hover{
 }
 
 #CONTENT{
-  display: flex;
 }
 
 .Snippet {
   width: 100%;
+  padding: 50px;
   background-attachment: fixed;
   background-size: cover;
 }
 .Snippet>* {
   position: relative;
   width: 100%;
+  
   background: inherit;
-
-  color: #FFFFFFCC;
+  color: #000000AA;
   -webkit-background-clip: text;
 }
 .Snippet>h2 {
@@ -85,15 +85,17 @@ a:hover{
   font-family: "Alfa Slab One";
 }
 .Snippet>div.paragraph {
-  width    : 70%;
-
-  font-size: 40px;
+  width: 80%;
+  padding: 1%;
+  font-size: 38px;
   font-family: "Staatliches";
+  background: #FFFFFFAA;
 }
 .Snippet>.buttonContainer{
+  margin-top: 20px;
 }
 .button{
-  padding: 0.5vw 1vw;
+  padding: 10px 20px;
   color: white;
   background: #647fbc;
 }
@@ -101,11 +103,13 @@ a:hover{
   background: repeating-linear-gradient(45deg, #1c78e9, #2d9cc6, #57c28d);
 }
 .light_overlay{
+  display: none;
+  
   z-index: 0;
   position: absolute;
   left: 10%;
   width: 80%;
-  height: inherit;
+  height: 0;
   background: linear-gradient(90deg, transparent 0%, #FFFFFFED 1%, #FFFFFFED 99%, transparent 100%);
 }
 
