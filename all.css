@@ -71,7 +71,7 @@ a:hover{
   background-size: cover;
 }
 .Snippet>div {
-  top: 0;
+  position: relative;
   width: 80%;
 }
 .textContainer{  

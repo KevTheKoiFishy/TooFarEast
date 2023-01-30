@@ -26,58 +26,63 @@ for (var i = 0; i < blogPosts.length; ++i){
 var contentDIV  = document.getElementById("CONTENT");
 var scrollerDIV = document.getElementById("SCROLLER");
 
-for (var i = 0; i < content.length; ++i)
-{
-  var HTMLToAdd = "";
-  
-  switch (content[i].type)
+function updateContent(){
+  for (var i = 0; i < content.length; ++i)
   {
-      
-    case "Snippet":
-      HTMLToAdd += '<div id="Snippet_' + i + '" class="Snippet" style="background-image: url(' + content[i].image + ');" align="center">';
-      HTMLToAdd += '<div class="textContainer snippet">';
-      HTMLToAdd += '<h2>' + content[i].title + '</h2>';
-      HTMLToAdd += '<div class="paragraph">' + content[i].para + '</div>';
-      HTMLToAdd += "<div class=\"buttonContainer\">";
-      for (var buttonNum = 0; buttonNum < content[i].buttons.length; ++buttonNum)
-        HTMLToAdd += "<a class=\"button\" href=\"" + content[i].buttons[buttonNum][1] + "\">" + content[i].buttons[buttonNum][0] + "</a>";
-      HTMLToAdd += "</div></div></div>";
-      contentDIV.innerHTML += HTMLToAdd;
-      var snippetHeight = document.getElementById("Snippet_"+i).offsetHeight;
-      HTMLToAdd = '<div class="light_overlay" style="height:' + snippetHeight + 'px; transform: translateX(-' + snippetHeight + 'px);"></div>';
-      contentDIV.innerHTML += HTMLToAdd;
-      break;
-      
-    case "Article Snippet":
-      HTMLToAdd += '<div class="Snippet Article" style="background-image: url(' + content[i].image + ');" align="left">';
-      HTMLToAdd += '<div class="light_overlay snippet article"></div>';
-      HTMLToAdd += '<h2>' + content[i].title + '</h2>';
-      HTMLToAdd += '<h3>' + content[i].subtitle + '</h3>';
-      HTMLToAdd += '<h4>' + content[i].date + '</h4>';
-      HTMLToAdd += '<div class="paragraph">' + content[i].para + '</div>';
-      HTMLToAdd += "<div class=\"buttonContainer\">";
-      for (var buttonNum = 0; buttonNum < content[i].buttons.length; ++buttonNum)
-        HTMLToAdd += "<a class=\"button\" href=\"" + content[i].buttons[buttonNum][1] + "\">" + content[i].buttons[buttonNum][0] + "</a>";
+    var HTMLToAdd = "";
 
-      HTMLToAdd += "</div></div>";
-      contentDIV.innerHTML += HTMLToAdd;
-      break;
-      
-    case "Biography":
-      scrollerDIV.setAttribute("style", "width: " + (40*content.length) + "vw;")
-      HTMLToAdd += '<div class="snippet Biography" style="background-image: url(' + content[i].image + ');" align="center">';
-      HTMLToAdd += '<div class="light_overlay biography"></div>';
-      HTMLToAdd += '<h2>' + content[i].name + '</h2>';
-      HTMLToAdd += '<div class="rolesList">';
-        for (var j = 0; j < content[i].roles.length; ++j){
-          HTMLToAdd += content[i].roles[j] + "<br>";
-        }
-        HTMLToAdd += "</div>"
-      HTMLToAdd += '<div class="paragraph">' + content[i].statement + '</div>';
-      
-      HTMLToAdd += "</div>";
-      scrollerDIV.innerHTML += HTMLToAdd;
-      break;
+    switch (content[i].type)
+    {
+
+      case "Snippet":
+        HTMLToAdd += '<div id="Snippet_' + i + '" class="Snippet" align="center">';
+        HTMLToAdd += '<div class="textContainer snippet">';
+        HTMLToAdd += '<h2>' + content[i].title + '</h2>';
+        HTMLToAdd += '<div class="paragraph">' + content[i].para + '</div>';
+        HTMLToAdd += "<div class=\"buttonContainer\">";
+        for (var buttonNum = 0; buttonNum < content[i].buttons.length; ++buttonNum)
+          HTMLToAdd += "<a class=\"button\" href=\"" + content[i].buttons[buttonNum][1] + "\">" + content[i].buttons[buttonNum][0] + "</a>";
+        HTMLToAdd += "</div></div></div>";
+        contentDIV.innerHTML += HTMLToAdd;
+
+        var snippet = document.getElementById("Snippet_" + i);
+        snippet.setAttribute("style", 'background-image: url(' + content[i].image + '); height:' + (snippet.offsetHeight( + 'px;');
+        snippet.innerHTML += '<div class="light_overlay snippet" style="transform: translateY(-' + (snippet.offsetHeight( + 'px);"></div>'
+        break;
+
+      case "Article Snippet":
+        HTMLToAdd += '<div class="Snippet Article" style="background-image: url(' + content[i].image + ');" align="left">';
+        HTMLToAdd += '<div class="light_overlay snippet article"></div>';
+        HTMLToAdd += '<h2>' + content[i].title + '</h2>';
+        HTMLToAdd += '<h3>' + content[i].subtitle + '</h3>';
+        HTMLToAdd += '<h4>' + content[i].date + '</h4>';
+        HTMLToAdd += '<div class="paragraph">' + content[i].para + '</div>';
+        HTMLToAdd += "<div class=\"buttonContainer\">";
+        for (var buttonNum = 0; buttonNum < content[i].buttons.length; ++buttonNum)
+          HTMLToAdd += "<a class=\"button\" href=\"" + content[i].buttons[buttonNum][1] + "\">" + content[i].buttons[buttonNum][0] + "</a>";
+
+        HTMLToAdd += "</div></div>";
+        contentDIV.innerHTML += HTMLToAdd;
+        break;
+
+      case "Biography":
+        scrollerDIV.setAttribute("style", "width: " + (40*content.length) + "vw;")
+        HTMLToAdd += '<div class="snippet Biography" style="background-image: url(' + content[i].image + ');" align="center">';
+        HTMLToAdd += '<div class="light_overlay biography"></div>';
+        HTMLToAdd += '<h2>' + content[i].name + '</h2>';
+        HTMLToAdd += '<div class="rolesList">';
+          for (var j = 0; j < content[i].roles.length; ++j){
+            HTMLToAdd += content[i].roles[j] + "<br>";
+          }
+          HTMLToAdd += "</div>"
+        HTMLToAdd += '<div class="paragraph">' + content[i].statement + '</div>';
+
+        HTMLToAdd += "</div>";
+        scrollerDIV.innerHTML += HTMLToAdd;
+        break;
+    }
+
   }
-  
 }
+
+updateContent();
