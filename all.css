@@ -69,16 +69,15 @@ a:hover{
   background-size: cover;
 }
 .Snippet>* {
-  position: absolute;
+  position: relative;
   width: 100%;
-}
-.Snippet>* {
   background: inherit;
 
   color: #00000033;
   -webkit-background-clip: text;
 }
 .Snippet>h2 {
+  margin: 0;
   font-size: 100px;
   font-family: "Alfa Slab One";
 }
@@ -101,6 +100,7 @@ a:hover{
   background: repeating-linear-gradient(45deg, #1c78e9, #2d9cc6, #57c28d);
 }
 .light_overlay{
+  z-index: 0;
   position: absolute;
   left: 10%;
   width: 80%;
