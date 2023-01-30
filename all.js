@@ -34,16 +34,17 @@ for (var i = 0; i < content.length; ++i)
   {
       
     case "Snippet":
-      HTMLToAdd += '<div class="Snippet" style="background-image: url(' + content[i].image + ');" align="center">';
-      HTMLToAdd += '<div class="light_overlay snippet"></div>';
+      HTMLToAdd += '<div id="Snippet_' + i + '" class="Snippet" style="background-image: url(' + content[i].image + ');" align="center">';
       HTMLToAdd += '<div class="textContainer snippet">';
       HTMLToAdd += '<h2>' + content[i].title + '</h2>';
       HTMLToAdd += '<div class="paragraph">' + content[i].para + '</div>';
       HTMLToAdd += "<div class=\"buttonContainer\">";
       for (var buttonNum = 0; buttonNum < content[i].buttons.length; ++buttonNum)
         HTMLToAdd += "<a class=\"button\" href=\"" + content[i].buttons[buttonNum][1] + "\">" + content[i].buttons[buttonNum][0] + "</a>";
-
       HTMLToAdd += "</div></div></div>";
+      contentDIV.innerHTML += HTMLToAdd;
+      var snippetHeight = document.getElementById("Snippet_"+i).offsetHeight;
+      HTMLToAdd = '<div class="light_overlay" style="height:' + snippetHeight + 'px; transform: translateX(-' + snippetHeight + 'px);"></div>';
       contentDIV.innerHTML += HTMLToAdd;
       break;
       

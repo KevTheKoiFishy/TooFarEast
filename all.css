@@ -71,11 +71,11 @@ a:hover{
   background-size: cover;
 }
 .Snippet>div {
-  position: relative;
   top: 0;
   width: 80%;
 }
 .textContainer{  
+  z-index: 1;
   width: 80%;
   background: inherit;
   color: #000000AA;
@@ -104,7 +104,7 @@ a:hover{
   background: repeating-linear-gradient(45deg, #1c78e9, #2d9cc6, #57c28d);
 }
 .light_overlay{
-  width: 100%;
+  z-index: 0;
   height: 100%;
   background: #FFFFFFCC;
 }
