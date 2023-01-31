@@ -12,7 +12,7 @@
   background:       url("https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Logo.png?v=1673799461084") center/cover;
 }
 #sidebar:hover #logo {
-  width   :    250px;
+  width   :    300px;
   height  :    180px;
 }
 
@@ -29,14 +29,19 @@
 
 .icon {
   transform:   translate(-15px, 0px);
-  width:       38px;
-  height:      50px;
+  width:       40px;
+  height:      25px;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  transition: transform 0.2s;
+  transition: 0.3s;
 }
 #sidebar:hover .icon {
   transform:   translate(0px, 5px);
+  width:       90px;
+  height:      50px;
+  margin-right: 10px;
+
 }
 
 
@@ -48,7 +53,7 @@
   transition:  0.15s;
 }
 #sidebar:hover {
-  width  :     250px;
+  width  :     300px;
 }
 
 #selectors {
@@ -64,7 +69,7 @@
 }
 #sidebar:hover #selectors {
   top     :    180px;
-  width   :    240px;
+  width   :    290px;
   height  :    calc(100vh - 190px);
   overflow:    hidden auto;
 }
