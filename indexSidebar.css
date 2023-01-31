@@ -20,11 +20,11 @@
   width  :     100%;
   height :     100%;
   opacity:     0.5;
-  background:  linear-gradient(0deg, hsl(320deg 80% 50%), hsl(55deg 90% 50%));
+  background:  linear-gradient(0deg, hsl(350deg 80% 50%), hsl(55deg 90% 50%));
   transition:  opacity 0.15s;
 }
 #sidebar:hover #sunset {
-  opacity:     0.9;
+  opacity:     1;
 }
 
 .icon {
@@ -37,21 +37,6 @@
 }
 #sidebar:hover .icon {
   transform:   translate(0px, 5px);
-}
-#livestream {
-  background: url("https://cdn.glitch.me/bc0ad395-12bd-4b0f-8eeb-7c1bf41db529/Camera%20Icon.svg?v=1640293752019");
-  background-size: cover;
-}
-#timer {
-  background: url("https://cdn.glitch.me/bc0ad395-12bd-4b0f-8eeb-7c1bf41db529/Timer%20Icon.svg?v=1640325303456");
-  background-size: cover;
-}
-#power {
-  background: url("https://cdn.glitch.me/bc0ad395-12bd-4b0f-8eeb-7c1bf41db529/Power%20Icon.svg?v=1640293753946");
-  background-size: cover;
-}
-#peripherals {
-  background: url("https://cdn.glitch.me/bc0ad395-12bd-4b0f-8eeb-7c1bf41db529/Peripherals%20Icon.svg?v=1640325303491")
 }
 
 
@@ -98,7 +83,7 @@
   cursor      : pointer;
 }
 #selectors div:hover {
-  color       : #85d1cd;
+  color       : #ffafaf;
   background  : #00000066;
 }
 #selectors div:active {
