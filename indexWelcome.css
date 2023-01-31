@@ -58,10 +58,10 @@
 }
 
 @keyframes WelcomeText{
-  0%   {right: -10vw; width:   0vw; padding-left: 0vw;  }
-  33%  {right: -10vw; width: 100vw; padding-left: 10vw; }
-  63%  { left:   0px; width: 100vw; padding-left: 10vw; }
-  100% { left:   0px; width:   0vw; padding-left: 0vw;  }
+  0%   {right:  -10vw; width:   0vw; padding-left: 0vw;  opacity: 0}
+  20%  {right:  -10vw; width:  100%; padding-left: 10vw; opacity: 1}
+  80%  { left:   0px; width:  100%; padding-left: 10vw; opacity: 1}
+  100% { left:   0px; width:   0vw; padding-left: 0vw;  opacity: 0}
 }
 .Welcome_Text{
   position: absolute;
@@ -70,18 +70,18 @@
   width: 0vw;
   padding: 10vw -2vw;
 
-  animation: WelcomeText 2s cubic-bezier(0.59, 0.03, 0.24, 1.03) forwards;
+  animation: WelcomeText 3s cubic-bezier(0.59, 0.03, 0.24, 1.03) forwards;
 
   background: repeating-linear-gradient(90deg, #ce3b3b 0, #ce3b3b 05vw, #e18a30 05vw, #e18a30 12vw, #d4af27 12vw, #d4af27 18vw, #549d21 18vw, #549d21 26vw, #067ec4 26vw, #067ec4 32vw, #6c44ad 32vw, #6c44ad 46vw, #a73f7e 46vw, #a73f7e 62vw);
   color: white;
-  font-size: 200px;
+  font-size: 248px;
   font-family: "Staatliches";
   text-align: left;
   z-index: 3;
 }
-.Welcome_Text.text1   { left:  13%; top: 100px;                                     animation-delay: 2.4s; }
-.Welcome_Text.text2   {             top: 370px; text-align: center; width: 100%;    animation-delay: 2.8s; }
-.Welcome_Text.text3   { right: 13%; top: 640px;                                     animation-delay: 3.2s; }
+.Welcome_Text.text1   { top: 130px;  animation-delay:  .6s; }
+.Welcome_Text.text2   { top: 410px;  animation-delay: 1.2s; }
+.Welcome_Text.text3   { top: 690px;  animation-delay: 1.8s; }
 
 @keyframes fadein{
   from {opacity: 0;}
