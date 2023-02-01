@@ -4,7 +4,7 @@
 
 .light_overlay.article {
   left: 0;
-  height: 29.7vw; 
+  height: 400px; 
   background: linear-gradient(90deg, #FFFFFFDD 0%, #FFFFFFDD 99%, transparent 100%);
 }
 .Snippet.Article>h2, .Snippet.Article>h3, .Snippet.Article>h4{
