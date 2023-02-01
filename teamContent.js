@@ -87,7 +87,7 @@ var content =
    name:       "Veronica Jiang",
    roles:      ["Writer", "Researcher"],
    image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Veronica",
-   statement:  '<b>Things I\'m proud of in my heritage:</b> I come from Hong Kong, where I live iwht a diverse population and can learn many different languages.<br><b>What I want to convey through TFE:</b> I joined this team to share the cultures of diffrent Asian countires with other people.',
+   statement:  '<b>Things I\'m proud of in my heritage:</b> <br><b>What I want to convey through TFE:</b> ',
   },
   
   {
@@ -95,7 +95,7 @@ var content =
    name:       "Emma Liu 刘明美",
    roles:      ["Social Media Assistant"],
    image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Emma",
-   statement:  '<b>Things I\'m proud of in my heritage:</b> I come from Hong Kong, where I live iwht a diverse population and can learn many different languages.<br><b>What I want to convey through TFE:</b> I joined this team to share the cultures of diffrent Asian countires with other people.',
+   statement:  '<b>Things I\'m proud of in my heritage:</b> <br><b>What I want to convey through TFE:</b> ',
   },
   
   {
@@ -103,7 +103,7 @@ var content =
    name:       "Morgan Synn",
    roles:      ["Social Media Assistant"],
    image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Morgan",
-   statement:  '<b>Things I\'m proud of in my heritage:</b> I come from Hong Kong, where I live iwht a diverse population and can learn many different languages.<br><b>What I want to convey through TFE:</b> I joined this team to share the cultures of diffrent Asian countires with other people.',
+   statement:  '<b>Things I\'m proud of in my heritage:</b> <br><b>What I want to convey through TFE:</b> ',
   },
   
   

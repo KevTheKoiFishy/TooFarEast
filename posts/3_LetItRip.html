@@ -2,36 +2,30 @@
   <head>
     <title>TFE News | Iron Fist to Let it Rip | </title>
     <link rel="icon"       href="https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Icon1.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ultra&family=Allura&family=Arima+Madurai:wght@900&family=Arvo&family=DM+Serif+Display&family=Passions+Conflict&family=Prata&family=Marcellus&family=Bodoni+Moda&family=Yeseva+One&family=Staatliches&family=Kolker+Brush&family=Bowlby+One+SC&family=Alfa+Slab+One&family=Space+Mono:wght@700">
-    <!--
-      Font selection
-      Arvo
-      DM Serif Display
-      Passions Conflict
-      Prata
-      Marcellus
-      Bodoni Moda
-      Yeseva One
-      Staatliches
-      Kolker Brush
-    -->
-    <link rel="stylesheet" href="/posts/postStyle.css">
     <link rel="stylesheet" href="/all.css">
+    <link rel="stylesheet" href="/indexWelcome.css">
+    <link rel="stylesheet" href="/indexSidebar.css">
+    <link rel="stylesheet" href="/posts/postStyle.css">
   </head>
   
   
   <body>
     
     <div class="header">
-      <div id="logo"><div id="logoImg"></div></div>
-      <a href="/">              Welcome       </a>
-      <a href="/posts.html">    Posts         </a>
-      <a href="/team.html">     Meet the Team </a>
-      <a href="/contact.html">  Contact Us    </a>
+      <a class="      " href="/">              Welcome       </a>
+      <a class="active" href="/posts.html">    Posts         </a>
+      <a class="      " href="/team.html">     Meet the Team </a>
+      <a class="      " href="/contact.html">  Contact Us    </a>
     </div>
     <marquee id="LatestNews" scrollmount="2"></marquee>
+    
+    <div id="sidebar">
+      <div id="sunset"></div>
+      <div id="logo"><div id="logoIMG"></div></div>
+      <div id="selectors">
+      <div style="transform: translateX(-20px); width: 300px">🎓Learn About Asia!</div>
+      </div>
+    </div>
     
     <div id="CONTENT" style="background: url('https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2023-01/230117-rural-china-medicine-mb-0954-315516.jpg') center/cover;">
       
@@ -180,6 +174,7 @@
       </div>
     </div>
     
+    <script src="/indexSidebar.js"></script>
     <script src="/posts/0_SKYounger/content.js"></script>
     <script src="/all.js"></script>
     
