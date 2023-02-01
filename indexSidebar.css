@@ -20,12 +20,12 @@
   width  :     100%;
   height :     100%;
   opacity:     0.5;
-/*   background:  linear-gradient(0deg, hsl(350deg 80% 50%), hsl(55deg 90% 50%)); */
-  background:  #000;
+  /*   background:  linear-gradient(0deg, hsl(350deg 80% 50%), hsl(55deg 90% 50%)); */
+  background:  #000000cc;
   transition:  0.15s;
 }
 #sidebar:hover #sunset {
-  background:  #bf382f;
+  background:  #fee;
   opacity:     1;
 }
 
@@ -80,18 +80,19 @@
 }
 
 #selectors div {
-  padding-left: 15px;
-  padding-right:10px;
-  background  : transparent;
-  color       : white;
-  font-family : "Zilla Slab";
-  font-size   : 29px;
-  transition  : background 0.2s, color 0.2s;
-  cursor      : pointer;
+  padding-left  : 15px;
+  padding-right : 10px;
+  background    : transparent;
+  color         : #bf1e2d;
+  font-weight   : bold;
+  font-family   : "Zilla Slab";
+  font-size     : 29px;
+  transition    : background 0.2s, color 0.2s;
+  cursor        : pointer;
 }
 #selectors div:hover {
   color       : #ffafaf;
-  background  : #00000066;
+  background  : #00000022;
 }
 #selectors div:active {
   color       : #f5be48;

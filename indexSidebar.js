@@ -29,7 +29,7 @@ var HTMLToAdd = "";
 for (var c = 0; c < countries.length; c++)
 {
   HTMLToAdd += '<div id="selector_'+countries[c]+'">';
-  HTMLToAdd += '<svg class="icon" style="background-image: url(https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/'+countries[c]+');"></svg>';
+  HTMLToAdd += '<svg class="icon" style="background-image: url(https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/'+countries[c].replaceAll(" ", "-")+');"></svg>';
   HTMLToAdd += countries[c];
   
   for (var s = 0; s < subtopics.length; s++)
