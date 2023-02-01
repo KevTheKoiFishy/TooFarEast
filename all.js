@@ -16,6 +16,8 @@ var blogPosts =
   ["Iron Fist to Let it Rip - China's Reopening",     "/posts/3_LetItRip.html"              ],
   ["A Review of China's Zero-Covid Days",             "/posts/2_ChinaZeroTolerance.html"    ],
   ["180 Rohingya Refugees Presumed Dead at Sea",      "/posts/1_180RohingyaDead.html"       ],
+  ["Lunar New Year is More Than Chinese",             "/posts/5_MoreThanTheMajority.html"   ],
+
 ];
 
 for (var i = 0; i < blogPosts.length; ++i){
