@@ -11,28 +11,33 @@
   <body>
     
     <div class="header">
-      <div id="logo"><div id="logoImg"></div></div>
-      <a href="/">              Welcome       </a>
-      <a href="/posts.html">    Posts         </a>
-      <a href="/team.html">     Meet the Team </a>
-      <a href="/contact.html">  Contact Us    </a>
+      <a class="      " href="/">              Welcome       </a>
+      <a class="      " href="/posts.html">    Posts         </a>
+      <a class="active" href="/team.html">     Meet the Team </a>
+      <a class="      " href="/contact.html">  Contact Us    </a>
     </div>
     <marquee id="LatestNews" scrollmount="2"></marquee>
     
-    <div id="Welcome_Container" align="center">
-      <div class="dark_overlay"></div>
-      <div class="Welcome_Text" style="top: 7vw; animation-delay: .6s;">           Meet    </div>
-        <div class="Welcome_Text" style="top: 27vw; animation-delay: 1s;">         Our     </div>
-        <div class="Welcome_Text" style="top: 47vw; animation-delay: 1.4s;">       Amazing </div>
-        <h1  class="Title_Text left"   style="top: 05vw; animation-delay: 2.4s;" > Editors </h1>
-        <h1  class="Title_Text center" style="top: 25vw; animation-delay: 2.8s;" > Artists </h1>
-        <h1  class="Title_Text right"  style="top: 45vw; animation-delay: 3.1s;" > &Devs   </h1>
+    <div id="sidebar">
+      <div id="sunset"></div>
+      <div id="logo"><div id="logoIMG"></div></div>
+      <div id="selectors">
+      <div style="transform: translateX(-20px); width: 300px">🎓Learn About Asia!</div>
+      </div>
     </div>
     
-    <div id="scrollContainer">
-    <div id="SCROLLER">
-      
+    <div id="Welcome_Container" align="center">
+      <div class="dark_overlay"></div>
+        <div class="Welcome_Text text1"> Meet Our         </div>
+        <div class="Welcome_Text text2"> Amazing          </div>
+        <div class="Welcome_Text text3"> And Talented     </div>
+        <h1  class="Title_Text text1"  > Writers          </h1>
+        <h1  class="Title_Text text2"  > Artists          </h1>
+        <h1  class="Title_Text text3"  > & Devs           </h1>
     </div>
+    
+    <div id="CONTENT">
+      
     </div>
     
     <div id="footer">
@@ -57,6 +62,7 @@
       </div>
     </div>
     
+    <script src="/indexSidebar.js"></script>
     <script src="/teamContent.js"></script>
     <script src="/all.js"></script>
     

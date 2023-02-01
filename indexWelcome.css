@@ -119,8 +119,8 @@ h1{
 }
 .Title_Text{
   opacity: 0;
-  animation: title_color 5s linear 0s infinite, fadein 1s linear forwards;
+  animation: title_color 5s linear 0s infinite, fadein .2s linear forwards;
 }
-.Title_Text.text1   { left:  calc(50% - 600px); top: 100px;                                     animation-delay: 3.2s; }
-.Title_Text.text2   {             top: 370px; text-align: center; width: 100%;    animation-delay: 3.6s; }
-.Title_Text.text3   { right: calc(50% - 600px); top: 640px;                                     animation-delay: 3.0s; }
+.Title_Text.text1   { left:  calc(50% - 600px);         top: 100px;    animation-delay: 3.2s; }
+.Title_Text.text2   { text-align: center; width: 100%;  top: 370px;    animation-delay: 3.7s; }
+.Title_Text.text3   { right: calc(50% - 600px);         top: 640px;    animation-delay: 4.1s; }
