@@ -26,8 +26,6 @@ for (var i = 0; i < blogPosts.length; ++i){
 var contentDIV  = document.getElementById("CONTENT");
 var scrollerDIV = document.getElementById("SCROLLER");
 
-function updateContent(){
-  document.getElementById("CONTENT").innerHTML = "";
   for (var i = 0; i < content.length; ++i)
   {
     var HTMLToAdd = "";
@@ -84,7 +82,3 @@ function updateContent(){
     }
 
   }
-}
-
-updateContent();
-window.addEventListener("resize", updateContent);
