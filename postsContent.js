@@ -2,6 +2,16 @@ var content =
 [
   {
    type:     "Article Snippet",
+   title:    "More Than the Majority",
+   subtitle: "Lunar New Year isn't just what happens in the Middle Kingdom",
+   date:     "Jan 29 2023",
+   image:    "https://i.pinimg.com/originals/4e/6d/0b/4e6d0bbba27b5f2dc1daa33e4f3c47f7.jpg",
+   para:     'Although colloquially known as “Chinese New Year”, Lunar New Year celebrations and traditions vary depending on the culture one is from: in Vietnam, children may receive li xi, small red envelopes filled with money, from family and friends; similarly, Korean children learn elaborate bows, called “sebae”...',
+   buttons:  [["Read Full Article", "/posts/5_MoreThanTheMajority.html"]],
+  },
+  
+  {
+   type:     "Article Snippet",
    title:    "The Long Fight to Democracy",
    subtitle: "What can we learn about the Myanmar coup through the Gwangju uprising?",
    date:     "Jan 19 2023",
