@@ -38,10 +38,16 @@ a {
   -webkit-background-clip: text;
   transition: 0.15s;
 }
-a:hover{
-  background: #fb0;
+.header a:hover{
+  text-shadow: -4px -4px #fcc;
+  background: #930a0a !important;
+  -webkit-background-clip: text !important;
+}
+.header a.active{
+  background: #ffc107;
   -webkit-background-clip: text;
 }
+
 #LatestNews {
   z-index: 4;
 
