@@ -53,7 +53,6 @@ function updateContent(){
 
       case "Article Snippet":
         HTMLToAdd += '<div class="Snippet Article" style="background-image: url(' + content[i].image + ');" align="left">';
-        HTMLToAdd +=
         HTMLToAdd += '<h2>' + content[i].title + '</h2>';
         HTMLToAdd += '<h3>' + content[i].subtitle + '</h3>';
         HTMLToAdd += '<h4>' + content[i].date + '</h4>';

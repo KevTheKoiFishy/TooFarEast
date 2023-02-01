@@ -77,14 +77,16 @@ a {
   width: 100%;
   background-attachment: fixed;
   background-size: cover;
+  position: relative;
 }
 .Snippet>*{
+  position: relative !important;
+
   background: inherit;
   color: #000000AA;
   -webkit-background-clip: text;
 }
 .Snippet>div {
-  position: relative;
   width: 80%;
 }
 .textContainer{  
@@ -122,6 +124,8 @@ a {
 }
 .light_overlay{
   z-index: 0;
+  position: absolute !important;
+  top: 0;
   height: 100%;
   background: #FFFFFFCC;
 }
