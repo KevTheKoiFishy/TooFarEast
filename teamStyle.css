@@ -1,12 +1,12 @@
 #scrollContainer{
-  height: 40vw;
+  height: 900px;
   overflow: auto hidden;
 }
 
 .biography.snippet {
   position: relative;
-  width: 40vw;
-  height: 40vw;
+  width: 900px;
+  height: inherit;
   display: inline-table;
   
   background-attachment: unset;
@@ -15,8 +15,9 @@
 
 .biography.snippet>.light_overlay{
   left: inherit;
-  bottom: 0px !important;
-  height: 60px;
+  top: unset;
+  bottom: 0px;
+  height: 200px;
   width: 100%;
   
   background: #FFFFFFDE;
@@ -28,7 +29,6 @@
 
 .biography.snippet > *{
   position: relative;
-  width: 40vw;
   opacity: 0;
   transition: .2s, opacity 0s ease 0s;   //namecard moves down immediate
 }
@@ -39,17 +39,10 @@
 
 .biography.snippet>h2 {
   opacity: 1;
-  font-size: 3vw;
-  transform: translateY(-9vw);
-  background-position: 50% calc(50% - 15.2vw);
-}
-.biography.snippet:hover>h2 {
-  transform: translateY(-37vw);
-  background-position: 50% calc(50% + 13.5vw);
+  font-size: 50px;
 }
 .biography.snippet>.rolesList {
-  transform: translateY(-39vw);
-  font-size: 1.6vw;
+  font-size: 34px;
   font-style: italic;
   font-family: "Space Mono";
   width: 20vw;
@@ -59,9 +52,7 @@
   transition: opacity .2s ease .4s;
 }
 .biography.snippet>.paragraph {
-  transform: translateY(-51vw);
   left: inherit;
-  width: 35vw;
   text-align: justify;
   transition: opacity 0s ease 0s;
 }
