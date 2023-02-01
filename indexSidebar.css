@@ -84,15 +84,15 @@
   padding-right : 10px;
   background    : transparent;
   color         : #bf1e2d;
-  font-weight   : bold;
-  font-family   : "Zilla Slab";
-  font-size     : 29px;
+/*   font-weight   : bold; */
+  font-family   : "Staatliches";
+  font-size     : 34px;
   transition    : background 0.2s, color 0.2s;
   cursor        : pointer;
 }
 #selectors div:hover {
-  color       : #ffafaf;
-  background  : #00000022;
+  color       : #e39525;
+  background  : #ff000011;
 }
 #selectors div:active {
   color       : #f5be48;
