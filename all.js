@@ -80,6 +80,7 @@ function updateContent(){
         HTMLToAdd += "</div>";
         scrollerDIV.innerHTML += HTMLToAdd;
         break;
+    
     }
 
   }
