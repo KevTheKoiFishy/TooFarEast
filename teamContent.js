@@ -3,9 +3,9 @@ var content =
   
   {
    type:       "Biography",
-   name:       "Janet Wu 吳瑩瑩",
+   name:       "Janet Wu ",
    roles:      ["Executive Director", "Website Operator", "Social Media Manager", "Writer + Researcher"],
-   image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/JaneyWoo",
+   image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Janet",
    statement:  '<b>Things I\'m proud of in my heritage:</b> Growing up in Taiwan, I have always been happy and proud of my Taiwanese heritage. I am grateful for thie beautiful and unique culture, especially the yummy food like brown sugar bubble milk!<br><b>What I want to convey through TFE:</b> I wish everyone can respect and value foreing cultures as much as they value their own culture(s)!',
   },
   
@@ -19,7 +19,7 @@ var content =
   
   {
    type:       "Biography",
-   name:       "Amy Hwang 황시윈",
+   name:       "Amy Hwang 황지윈",
    roles:      ["Website Designer", "Writer", "Researcher"],
    image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Amy",
    statement:  '<b>Things I\'m proud of in my heritage:</b> Food, entertainment culture, and Korean culture of \'Jeong\'<br><b>What I want to convey through TFE:</b> To grow awareness of the current affairs in Asia and to be an advocate for my own country\'s culture(I wish to shwo that there are other appealing korean cultures other than the entertainment industry',
