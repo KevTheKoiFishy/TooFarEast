@@ -47,10 +47,9 @@
 }
 
 .biography.snippet>.rolesList {
-  font-size: 22px;
+  font-size: 24px;
   font-style: italic;
   font-family: "Space Mono";
-  width: 20vw;
   transition: opacity 0s ease 0s;
 }
 .biography.snippet:hover>.rolesList {
@@ -58,7 +57,7 @@
 }
 .biography.snippet>.paragraph {
   left: inherit;
-  font-size: 20px;
+  font-size: 25px;
   text-align: justify;
   transition: opacity 0s ease 0s;
 }
