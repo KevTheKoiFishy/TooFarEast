@@ -66,7 +66,7 @@ function updateContent(){
         break;
 
       case "Biography":
-        scrollerDIV.setAttribute("style", "width: " + (40*content.length) + "vw;")
+        scrollerDIV.setAttribute("style", "width: " + (40*content.length) + "vw;");
         HTMLToAdd += '<div class="snippet Biography" style="background-image: url(' + content[i].image + ');" align="center">';
         HTMLToAdd += '<div class="light_overlay biography"></div>';
         HTMLToAdd += '<h2>' + content[i].name + '</h2>';
