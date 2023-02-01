@@ -78,6 +78,11 @@ a {
   background-attachment: fixed;
   background-size: cover;
 }
+.Snippet>*{
+  background: inherit;
+  color: #000000AA;
+  -webkit-background-clip: text;
+}
 .Snippet>div {
   position: relative;
   width: 80%;

@@ -7,7 +7,7 @@
 }
 .Snippet.Article>*{
   margin: 0px;
-  padding-left: 70px;
+  padding-left: 70px !important;
   width: 80%;
 }
 .Snippet.Article>h2{
@@ -22,10 +22,7 @@
   font-style: italic;
 }
 .Snippet.Article>.paragraph{
-  width: 70%;
   background: inherit;
-  background-position: center;
-  background-attachment: fixed;
 
   color    : #00000059;
   font-size: 1.7vw;
