@@ -1,5 +1,5 @@
 #scrollContainer{
-  height: 900px;
+  height: 600px;
   overflow: auto hidden;
 }
 #scrollContainer::-webkit-scrollbar {
@@ -8,7 +8,7 @@
 
 .biography.snippet {
   position: relative;
-  width: 900px;
+  width: 600px;
   height: 100%;
   display: inline-table;
   
@@ -20,7 +20,7 @@
   left: inherit;
   top: unset;
   bottom: 0px;
-  height: 150px;
+  height: 80px;
   width: 100%;
   opacity: 1;
 }
@@ -39,15 +39,15 @@
 
 .biography.snippet>h2 {
   opacity: 1;
-  font-size: 60px;
-  transform: translateY(750px);
+  font-size: 40px;
+  transform: translateY(500px);
 }
 .biography.snippet:hover > h2{
   transform: translateY(0);
 }
 
 .biography.snippet>.rolesList {
-  font-size: 34px;
+  font-size: 22px;
   font-style: italic;
   font-family: "Space Mono";
   width: 20vw;
@@ -58,7 +58,7 @@
 }
 .biography.snippet>.paragraph {
   left: inherit;
-  font-size: 40px;
+  font-size: 20px;
   text-align: justify;
   transition: opacity 0s ease 0s;
 }

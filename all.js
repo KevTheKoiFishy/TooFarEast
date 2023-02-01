@@ -66,7 +66,7 @@ var scrollerDIV = document.getElementById("SCROLLER");
         break;
 
       case "Biography":
-        scrollerDIV.setAttribute("style", "width: " + (900*content.length) + "px;");
+        scrollerDIV.setAttribute("style", "width: " + (600*content.length) + "px;");
         HTMLToAdd += '<div class="snippet Biography" style="background-image: url(' + content[i].image + ');" align="center">';
         HTMLToAdd += '<div class="light_overlay biography" style="background: hsl(' + (360 * i / content.length) + 'deg 100% 92% / 90%)"></div>';
         HTMLToAdd += '<h2>' + content[i].name + '</h2>';
