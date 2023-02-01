@@ -80,6 +80,7 @@ a {
   position: relative;
 }
 .Snippet>*{
+  z-index: 1;
   position: relative !important;
 
   background: inherit;
@@ -103,14 +104,14 @@ a {
   font-family: "Alfa Slab One";
 }
 .Snippet>div.paragraph {
-  width: 80%;
+  width: 70%;
   padding: 1%;
   font-size: 30px;
   font-family: "Staatliches";
 }
 .Snippet>.buttonContainer{
+  width: 70%;
   margin-top: 20px;
-  width: inherit;
   display: grid;
 }
 .button{
@@ -126,6 +127,7 @@ a {
   z-index: 0;
   position: absolute !important;
   top: 0;
+  left: 10%;
   height: 100%;
   background: #FFFFFFCC;
 }

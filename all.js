@@ -36,19 +36,17 @@ function updateContent(){
     {
 
       case "Snippet":
-        HTMLToAdd += '<div id="Snippet_' + i + '" class="Snippet" align="center">';
-        HTMLToAdd += '<div class="textContainer snippet">';
+        HTMLToAdd += '<div class="Snippet" align="center" style="background-image: url(' + content[i].image + ');">';
         HTMLToAdd += '<h2>' + content[i].title + '</h2>';
         HTMLToAdd += '<div class="paragraph">' + content[i].para + '</div>';
         HTMLToAdd += "<div class=\"buttonContainer\">";
         for (var buttonNum = 0; buttonNum < content[i].buttons.length; ++buttonNum)
           HTMLToAdd += "<a class=\"button\" href=\"" + content[i].buttons[buttonNum][1] + "\">" + content[i].buttons[buttonNum][0] + "</a>";
-        HTMLToAdd += "</div></div></div>";
+        
+        HTMLToAdd += "</div>";
+        HTMLToAdd += '<div class="light_overlay snippet article"></div>';
+        HTMLToAdd += "</div>";
         contentDIV.innerHTML += HTMLToAdd;
-
-        var snippet = document.getElementById("Snippet_" + i);
-        snippet.setAttribute("style", 'background-image: url(' + content[i].image + '); height:' + (snippet.offsetHeight+50) + 'px;');
-        snippet.innerHTML += '<div class="light_overlay snippet" style="transform: translateY(' + (-snippet.offsetHeight+50) + 'px);"></div>'
         break;
 
       case "Article Snippet":
