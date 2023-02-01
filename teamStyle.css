@@ -6,7 +6,7 @@
 .biography.snippet {
   position: relative;
   width: 900px;
-  height: inherit;
+  height: 100%;
   display: inline-table;
   
   background-attachment: unset;
@@ -19,8 +19,6 @@
   bottom: 0px;
   height: 200px;
   width: 100%;
-  
-  background: #FFFFFFDE;
   opacity: 1;
 }
 .biography:hover > .light_overlay{
@@ -28,18 +26,21 @@
 }
 
 .biography.snippet > *{
-  position: relative;
   opacity: 0;
   transition: .2s, opacity 0s ease 0s;   //namecard moves down immediate
+  top: unset;
+  bottom: 0;
 }
 .biography.snippet:hover > *{
   opacity: 1;
   transition: .3s, opacity .2s ease .2s; //namecard moves up transition
+  top: 0;
+  bottom: 0;
 }
 
 .biography.snippet>h2 {
   opacity: 1;
-  font-size: 50px;
+  font-size: 60px;
 }
 .biography.snippet>.rolesList {
   font-size: 34px;
