@@ -52,10 +52,10 @@ function updateContent(){
       case "Article Snippet":
         HTMLToAdd += '<div class="Snippet Article" style="background-image: url(' + content[i].image + ');" align="left">';
         HTMLToAdd += '<h2>' + content[i].title + '</h2>';
-        HTMLToAdd += '<h3>' + content[i].subtitle + '</h3>';
-        HTMLToAdd += '<h4>' + content[i].date + '</h4>';
-        HTMLToAdd += '<div class="paragraph">' + content[i].para + '</div>';
-        HTMLToAdd += "<div class=\"buttonContainer\">";
+        HTMLToAdd += '<span class="date">' + content[i].date + '</span>';
+        HTMLToAdd += '<span class="subtitle">' + content[i].subtitle + '</span>';
+        HTMLToAdd += '<div  class="paragraph">' + content[i].para + '</div>';
+        HTMLToAdd += "<div  class=\"buttonContainer\">";
         for (var buttonNum = 0; buttonNum < content[i].buttons.length; ++buttonNum)
           HTMLToAdd += "<a class=\"button\" href=\"" + content[i].buttons[buttonNum][1] + "\">" + content[i].buttons[buttonNum][0] + "</a>";
         

@@ -3,33 +3,34 @@
 
 
 .light_overlay.article {
+  left: 0;
   background: linear-gradient(90deg, #FFFFFFDD 0%, #FFFFFFDD 99%, transparent 100%);
 }
 .Snippet.Article>*{
-  margin: 0px;
+  margin: 0;
   padding-left: 70px !important;
   width: 80%;
 }
 .Snippet.Article>h2{
-  font-size: 2.71828183vw;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 49px;
 }
-.Snippet.Article>h3{
-  font-size: 2vw;
+.Snippet.Article>.subtitle{
+  padding-left: 30px !important;
+  font-size: 34px;
   font-family: "Rokkitt";
 }
-.Snippet.Article>h4{  
+.Snippet.Article>.date{  
+  font-size: 34px;
   font-family: "Staatliches";
   font-style: italic;
 }
 .Snippet.Article>.paragraph{
   background: inherit;
-
   color    : #00000059;
   font-size: 1.7vw;
   font-family: "Gentium Book Plus";
   font-weight: 700;
   -webkit-background-clip: text;
-}
-.Snippet.Article>.buttonContainer{
-  width: 70%;
 }
