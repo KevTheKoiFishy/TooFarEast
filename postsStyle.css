@@ -4,12 +4,11 @@
 
 .light_overlay.article {
   left: 0;
-  background: linear-gradient(90deg, #FFFFFFDD 0%, #FFFFFFDD 99%, transparent 100%);
+  background: linear-gradient(90deg, #FFFFFFDD 0%, #FFFFFFDD 97%, #FFFFFFEE 99%, transparent 100%);
 }
 .Snippet.Article>*{
   margin: 0;
   padding-left: 70px !important;
-  width: 80%;
 }
 .Snippet.Article>h2{
   padding-top: 30px;
@@ -29,7 +28,7 @@
 .Snippet.Article>.paragraph{
   background: inherit;
   color    : #00000059;
-  font-size: 1.7vw;
+  font-size: 25px;
   font-family: "Gentium Book Plus";
   font-weight: 700;
   -webkit-background-clip: text;

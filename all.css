@@ -82,17 +82,8 @@ a {
 .Snippet>*{
   z-index: 1;
   position: relative !important;
+  width: calc(80% - 70px);
 
-  background: inherit;
-  color: #000000AA;
-  -webkit-background-clip: text;
-}
-.Snippet>div {
-  width: 80%;
-}
-.textContainer{  
-  z-index: 1;
-  width: 80%;
   background: inherit;
   color: #000000AA;
   -webkit-background-clip: text;
@@ -104,13 +95,11 @@ a {
   font-family: "Alfa Slab One";
 }
 .Snippet>div.paragraph {
-  width: 70%;
-  padding: 1%;
+  padding: 10px;
   font-size: 30px;
   font-family: "Staatliches";
 }
 .Snippet>.buttonContainer{
-  width: 70%;
   margin-top: 20px;
   display: grid;
 }
@@ -129,6 +118,7 @@ a {
   top: 0;
   left: 10%;
   height: 100%;
+  width: 80%;
   background: #FFFFFFCC;
 }
 
