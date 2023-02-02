@@ -1,7 +1,7 @@
 //mobile detection
 function zoomBody(){
-  if (window.innerWidth < 1200)
-    {document.body.setAttribute("style", "zoom : " + (window.innerWidth / 1200));}
+  if (window.innerWidth < 1400)
+    {document.body.setAttribute("style", "zoom : " + (window.innerWidth / 1400));}
   else
     {document.body.setAttribute("style", "zoom : .9");}
 }

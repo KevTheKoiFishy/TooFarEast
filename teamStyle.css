@@ -1,4 +1,5 @@
 #scrollContainer{
+  position: relative;
   height: 600px;
   overflow: auto hidden;
 }
@@ -66,6 +67,13 @@
 }
 
 .scrollbutton {
+  z-index: 4;
   position: absolute;
+  top: calc(50% - 30px);
   
+  width: 60px;
+  height: 60px;
+  background: black;
 }
+.scrollbutton.left{ left: 70px; }
+.scrollbutton.right{ right: 20px; }

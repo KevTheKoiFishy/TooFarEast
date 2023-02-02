@@ -71,8 +71,8 @@ a {
 }
 
 #CONTENT{
+  position: relative;
 }
-
 .Snippet {
   width: 100%;
   background-attachment: fixed;
