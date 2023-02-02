@@ -64,3 +64,7 @@
 .biography.snippet:hover>.paragraph {
   transition: opacity .2s ease .6s;
 }
+
+.button {
+  position: absolute;
+}
