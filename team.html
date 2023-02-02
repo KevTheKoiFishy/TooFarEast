@@ -38,8 +38,8 @@
     </div>
     
     <div id="CONTENT">
-      <input type="button" class="scrollbutton right" value="&gt;">
-      <input type="button" class="scrollbutton left" value="&lt;">
+      <input type="button" class="scrollbutton right" value="-&gt;" onclick="document.getElementById('scrollContainer').scrollBy(600, 0);">
+      <input type="button" class="scrollbutton left"  value="&lt;-" onclick="document.getElementById('scrollContainer').scrollBy(-600, 0);">
       <div id="scrollContainer">
         <div id="SCROLLER"></div>
       </div>

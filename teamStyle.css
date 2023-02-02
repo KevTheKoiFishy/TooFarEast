@@ -2,6 +2,7 @@
   position: relative;
   height: 600px;
   overflow: auto hidden;
+  scroll-behavior: smooth;
 }
 #scrollContainer::-webkit-scrollbar {
   display : none;
@@ -69,13 +70,21 @@
 .scrollbutton {
   z-index: 4;
   position: absolute;
-  top: calc(50% - 30px);
+  top: calc(50% - 35px);
+  width: 70px;
+  height: 70px;
   
-  width: 60px;
-  height: 60px;
-  background: #bf382fac;
+  background: #bf382f;
   border-top: 6px solid #ffc107;
   border-bottom: 6px solid #ffc107;
+  color: #ffc107;
+  font-size: 40px;
+  text-align: center;
+  opacity: .6;
+  cursor: pointer;
+}
+.scrollbutton:hover{
+  opacity: 1;
 }
 .scrollbutton.left{ left: 70px; }
 .scrollbutton.right{ right: 20px; }
