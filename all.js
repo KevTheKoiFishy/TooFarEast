@@ -1,3 +1,12 @@
+function zoomBody(){
+  if (window.innerWidth < 1200)
+    document.body.setAttribute("style", "zoom : 0.6");
+  else
+    document.body.setAttribute("style", "zoom : 1");
+}
+window.addEventListener("load", zoomBody);
+window.addEventListener("resize", zoomBody);
+
 //Marquee Title
 var titleTag = document.getElementsByTagName("title")[0];
 var marqueeTitle = window.setInterval(
