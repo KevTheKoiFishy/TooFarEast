@@ -1,9 +1,9 @@
 //mobile detection
 function zoomBody(){
-  if (window.innerWidth < 1200 && window.innerWidth < window.innerHeight)
-    document.body.setAttribute("style", "zoom : 0.4");
+  if (window.innerWidth < 1200)
+    {document.body.setAttribute("style", "zoom : " + (window.innerWidth / 1200));}
   else
-    document.body.setAttribute("style", "zoom : .9");
+    {document.body.setAttribute("style", "zoom : .9");}
 }
 window.addEventListener("load", zoomBody);
 window.addEventListener("resize", zoomBody);

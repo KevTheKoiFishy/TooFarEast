@@ -71,7 +71,7 @@
 #sidebar:hover #selectors {
   top     :    180px;
   width   :    290px;
-  height  :    calc(100vh - 190px);
+  height  :    calc(100% - 190px);
   overflow:    hidden auto;
 }
 #selectors::-webkit-scrollbar {

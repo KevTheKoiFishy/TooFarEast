@@ -65,6 +65,7 @@
   transition: opacity .2s ease .6s;
 }
 
-.button {
+.scrollbutton {
   position: absolute;
+  
 }
