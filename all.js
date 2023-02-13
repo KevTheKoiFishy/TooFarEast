@@ -3,7 +3,7 @@ function zoomBody(){
   if (window.innerWidth < 1400)
     {document.body.setAttribute("style", "zoom : " + (window.innerWidth / 1400));}
   else
-    {document.body.setAttribute("style", "zoom : .9");}
+    {document.body.setAttribute("style", "zoom : .7");}
 }
 window.addEventListener("load", zoomBody);
 window.addEventListener("resize", zoomBody);
@@ -22,6 +22,7 @@ var marqueeTitle = window.setInterval(
 var newsBar = document.getElementById("LatestNews");
 var blogPosts =
 [
+  ["The Hong Kong Housing Crisis",                    "/posts/6_HongKongHousingCrisis.html" ],
   ["Lunar New Year is More Than Chinese",             "/posts/5_MoreThanTheMajority.html"   ],
   ["Comparing the Myanmar Coup and Gwangju Uprising", "/posts/4_LongFightToDemocracy.html"  ],
   ["Iron Fist to Let it Rip - China's Reopening",     "/posts/3_LetItRip.html"              ],

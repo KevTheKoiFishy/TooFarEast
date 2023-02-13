@@ -5,16 +5,17 @@
 
 
 #ArticleContainer {
-  margin-left: 10vw;
-  width: 70vw;
-  padding: 200px 5vw;
+  zoom: 140%;
+  margin-left: 10%;
+  width: 70%;
+  padding: 200px 5%;
   background: #FFFFFFDC;
   color: #000;
 }
 
 #ArticleContainer>img {
-  padding-left: 10vw;
-  width: 50vw;
+  padding-left: 10%;
+  width: 50%;
   height: auto;
 }
 

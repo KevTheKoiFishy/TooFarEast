@@ -2,6 +2,16 @@ var content =
 [
   {
    type:     "Article Snippet",
+   title:    "The Hong Kong Housing Crisis",
+   subtitle: "This is why 200,000 people live in homes smaller than a car.",
+   date:     "Feb 10 2023",
+   image:    "https://cdn.theatlantic.com/thumbor/l-rjVfqYSX_IfJVDT9zxGlFRdk4=/900x600/media/img/photo/2017/05/the-coffin-homes-of-hong-kong/h10_AP17127167017602/original.jpg",
+   para:     'Imagine being forced to live in spaces smaller than an average parking space. A flat surrounded by thin walls, low ceilings, and little to no light. For many Hong Kongers, this is the affordable housing accommodation they could find.<br>The lack of affordable housing and government-subsidized public estates has forced many of Hong Kong’s residents to live in tight spaces, many of them having to cram into subdivided flats or cage homes, where a normal flat is shared with many people. This is the Hong Kong housing crisis. ',
+   buttons:  [["Read Full Article", "/posts/6_HongKongHousingCrisis.html"]],
+  },
+  
+  {
+   type:     "Article Snippet",
    title:    "More Than the Majority",
    subtitle: "Lunar New Year isn't just what happens in the Middle Kingdom",
    date:     "Jan 29 2023",
