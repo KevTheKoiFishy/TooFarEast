@@ -22,12 +22,13 @@ var marqueeTitle = window.setInterval(
 var newsBar = document.getElementById("LatestNews");
 var blogPosts =
 [
-  ["The Hong Kong Housing Crisis",                    "/posts/6_HongKongHousingCrisis.html" ],
-  ["Lunar New Year is More Than Chinese",             "/posts/5_MoreThanTheMajority.html"   ],
-  ["Comparing the Myanmar Coup and Gwangju Uprising", "/posts/4_LongFightToDemocracy.html"  ],
-  ["Iron Fist to Let it Rip - China's Reopening",     "/posts/3_LetItRip.html"              ],
-  ["A Review of China's Zero-Covid Days",             "/posts/2_ChinaZeroTolerance.html"    ],
-  ["180 Rohingya Refugees Presumed Dead at Sea",      "/posts/1_180RohingyaDead.html"       ],
+  ["China's Economy Back On Track",                   "/posts/7_ChinaEconomyRevitalized.html" ],
+  ["The Hong Kong Housing Crisis",                    "/posts/6_HongKongHousingCrisis.html"   ],
+  ["Lunar New Year is More Than Chinese",             "/posts/5_MoreThanTheMajority.html"     ],
+  ["Comparing the Myanmar Coup and Gwangju Uprising", "/posts/4_LongFightToDemocracy.html"    ],
+  ["Iron Fist to Let it Rip - China's Reopening",     "/posts/3_LetItRip.html"                ],
+  ["A Review of China's Zero-Covid Days",             "/posts/2_ChinaZeroTolerance.html"      ],
+  ["180 Rohingya Refugees Presumed Dead at Sea",      "/posts/1_180RohingyaDead.html"         ],
 
 ];
 
