@@ -22,6 +22,7 @@ var marqueeTitle = window.setInterval(
 var newsBar = document.getElementById("LatestNews");
 var blogPosts =
 [
+  ["South Korea's Power Problem",                     "/posts/7_ChinaEconomyRevitalized.html" ],
   ["China's Economy Back On Track",                   "/posts/7_ChinaEconomyRevitalized.html" ],
   ["The Hong Kong Housing Crisis",                    "/posts/6_HongKongHousingCrisis.html"   ],
   ["Lunar New Year is More Than Chinese",             "/posts/5_MoreThanTheMajority.html"     ],
