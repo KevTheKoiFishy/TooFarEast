@@ -2,6 +2,16 @@ var content =
 [
   {
    type:     "Article Snippet",
+   title:    "South Korea's Power Problem",
+   subtitle: "Here's How to Get Away with Assault",
+   date:     "Mar 12 2023",
+   image:    "https://ca-times.brightspotcdn.com/dims4/default/f56ce56/2147483647/strip/false/crop/2047x1151+0+0/resize/1486x836!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F90%2Fe6%2F12c59975666de319e243b5f90885%2Fla-1550796207-tfn6tutu8y-snap-image",
+   para:     'In July of 2021, 4 South Korean middle school students physically and sexually assaulted a fellow middle school girl with various objects for almost 2 hours. Her crime? Answering a phone call. A circulating picture of the 13-year old victim’s bloodied body caused immense public outrage; however, due to South Korea’s Juvenile Protection Act exempting children aged 10 to 14 from criminal punishment, the four perpetrators were released with minimal sentencing...',
+   buttons:  [["Read Full Article", "/posts/8_SouthKoreaPowerProblem.html"]],
+  },
+  
+  {
+   type:     "Article Snippet",
    title:    "China's Economy is Back on Track",
    subtitle: "Opening up after Zero-Covid Pays Off",
    date:     "Feb 19 2023",
