@@ -2,6 +2,16 @@ var content =
 [
   {
    type:     "Article Snippet",
+   title:    "Hollywood - A Beacon of Hope",
+   subtitle: "\"I spent a year in a refugee camp. And somehow, I ended up here on Hollywood’s biggest stage.\"",
+   date:     "Mar 24 2023",
+   image:    "https://media.npr.org/assets/img/2023/03/14/ap23072332548106-a161eeb29ec639b6efe15cb5a35b6f7288956a9e-s1100-c50.jpg",
+   para:     'In Oscars 93 years of history, no Asian female has ever received the Best Actress Award. However, the living legend Michelle Yeoh herself, makes this historic victory of becoming the first Asian female Best Actress Award winner. The movie “Every Everywhere All at Once” highlights her outstanding performance. Moreover, this masterpiece also marked a miracle for Chinese Actor, Ke Huy Quan, winning his first Oscars marks an important success in his film career.',
+   buttons:  [["Read Full Article", "/posts/9_AsianOscarMilestone.html"]],
+  },
+  
+  {
+   type:     "Article Snippet",
    title:    "South Korea's Power Problem",
    subtitle: "Here's How to Get Away with Assault",
    date:     "Mar 12 2023",
