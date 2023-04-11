@@ -98,3 +98,5 @@ var scrollerDIV = document.getElementById("SCROLLER");
     }
 
   }
+
+// reinterpret ASCII  
