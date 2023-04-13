@@ -1,18 +1,24 @@
 document.body.innerHTML += 
 `
-<div class="header">
-  <a class="active" href="/">              Welcome       </a>
-  <a class="      " href="/posts.html">    Posts         </a>
-  <a class="      " href="/team.html">     Meet the Team </a>
-  <a class="      " href="/contact.html">  Contact Us    </a>
-</div>
-<marquee id="LatestNews" scrollmount="2"></marquee>
-
-<div id="sidebar">
-  <div id="sunset"></div>
-  <div id="logo"><div id="logoIMG"></div></div>
-  <div id="selectors">
-  <div style="transform: translateX(-20px); width: 300px">🎓Learn About Asia!</div>
+<div id="footer">
+  <div>
+    <b>Contact</b><br>
+    <a href="mailto:yingyingwu051@gmail.com">yingyingwu051@gmail.com</a><br>
+    <a href="tel:860-318-6243">860-318-6243</a>
+  </div>
+  <div>
+    <b>Find us on Social Media</b><br>
+    <a href="https://www.instagram.com/toofareast_/">@toofareast_ Official Instagram</a>
+  </div>
+  <div>
+    <b>Subscribe to the Weekly</b><br>
+    <form action="/Subscribe.php" method="GET">
+      <input type="email" name="email" placeholder="no_spam@we.promise">
+      <input type="submit" class="button">
+    </form>
+  </div>
+  <div id="copyright">
+    © 2022-2023 Too Far East, Nonprofit. All Rights Reserved.
   </div>
 </div>
 `
