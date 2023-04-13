@@ -21,4 +21,4 @@ document.body.innerHTML +=
     © 2022-2023 Too Far East, Nonprofit. All Rights Reserved.
   </div>
 </div>
-`
+`;

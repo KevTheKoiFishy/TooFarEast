@@ -11,7 +11,7 @@
 .biography.snippet {
   position: relative;
   width: 600px;
-  height: 100%;
+  height: 600px;
   display: inline-table;
   
   background-attachment: unset;
@@ -19,6 +19,7 @@
 }
 
 .biography.snippet>.light_overlay{
+  z-index: 1;
   left: inherit;
   top: unset;
   bottom: 0px;
@@ -31,12 +32,15 @@
 }
 
 .biography.snippet > *{
+  z-index: 3;
   opacity: 0;
-  transition: .2s, opacity 0s ease 0s;   //namecard moves down immediate
+  transition: .2s, opacity 0s ease 0s;
+/*   //namecard moves down immediate */
 }
 .biography.snippet:hover > *{
   opacity: 1;
-  transition: .3s, opacity .2s ease .2s; //namecard moves up transition
+  transition: .3s, opacity .2s ease .2s;
+/*   //namecard moves up transition */
 }
 
 .biography.snippet>h2 {
