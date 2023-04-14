@@ -12,7 +12,7 @@ document.body.innerHTML +=
   </div>
   <div>
     <b>Subscribe to the Weekly</b><br>
-    <form action="/Subscribe.php" method="GET">
+    <form action="Subscribe.php" method="GET">
       <input type="email" name="email" placeholder="no_spam@we.promise">
       <input type="submit" class="button">
     </form>
