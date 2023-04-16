@@ -1,12 +1,13 @@
 var content =
 [
+  
   {
    type:     "Article Snippet",
    title:    "Filling a Bucket, or Lighting a Fire?",
    subtitle: "The world's manufacturing superpower runs its schools like factories.",
    date:     "April 16 2023",
    image:    "https://www.icecusa.org/wp-content/uploads/2015/05/Chinese_Classroom-1000x651.jpg",
-   para:     `Just a few decades ago, China’s slow economic and social growth correlates strongly with the illiteracy permeating through the mass population, which gives a strong contrast to China’s current situation. The question is, what was the price tag for China's success, and what are the possible consequences?`,
+   para:     'Just a few decades ago, China’s slow economic and social growth correlates strongly with the illiteracy permeating through the mass population, which gives a strong contrast to China’s current situation. The question is, what was the price tag for China\'s success, and what are the possible consequences?',
    buttons:  [["Read Full Article", "posts/A1_ChineseEducationSystem.html"]],
   },
   

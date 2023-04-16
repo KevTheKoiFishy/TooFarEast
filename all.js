@@ -22,7 +22,7 @@ var marqueeTitle = window.setInterval(
 var newsBar = document.getElementById("LatestNews");
 var blogPosts =
 [
-  [""],
+  ["China's Factory-style Education System",          "posts/A2_ChineseEducationSystem.html" ],
   ["Thailand's Air is in Danger",                     "posts/A1_ThailandAirPollution.html"   ],
   ["Hollywood - A Beacon of Hope",                    "posts/9_AsianOscarMilestone.html"     ],
   ["South Korea's Power Problem",                     "posts/8_SouthKoreaPowerProblem.html"  ],
