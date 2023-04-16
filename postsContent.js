@@ -2,12 +2,12 @@ var content =
 [
   {
    type:     "Article Snippet",
-   title:    "Thailand's Massive Air Pollution Problem",
-   subtitle: "This is the Lorax In Real Life.",
-   date:     "April 2 2023",
-   image:    "https://media.npr.org/assets/img/2023/03/14/ap23072332548106-a161eeb29ec639b6efe15cb5a35b6f7288956a9e-s1100-c50.jpg",
-   para:     'Over the past few weeks, 53 of Thailand’s 77 provinces’ air quality has plummeted to disturbing levels.\nThe Environmental Protection Agency (EPA) designates healthy PM 2.5 levels at 12 ug/m3 or lower. Thailand’s capital Bangkok had ranges between 55.6 µg/m³ and 81.4 µg/m³ consecutively from March 6th to 10th.\nReports from the year 2021 show that air pollution contributed to over 50,000 premature deaths in Thailand.',
-   buttons:  [["Read Full Article", "posts/A2_AsianOscarMilestone.html"]],
+   title:    "Filling a Bucket, or Lighting a Fire?",
+   subtitle: "The world's manufacturing superpower runs its schools like factories.",
+   date:     "April 16 2023",
+   image:    "https://www.icecusa.org/wp-content/uploads/2015/05/Chinese_Classroom-1000x651.jpg",
+   para:     `Just a few decades ago, China’s slow economic and social growth correlates strongly with the illiteracy permeating through the mass population, which gives a strong contrast to China’s current situation. The question is, what was the price tag for China's success, and what are the possible consequences?`,
+   buttons:  [["Read Full Article", "posts/A1_ChineseEducationSystem.html"]],
   },
   
   {
@@ -15,9 +15,9 @@ var content =
    title:    "Thailand's Massive Air Pollution Problem",
    subtitle: "This is the Lorax In Real Life.",
    date:     "April 2 2023",
-   image:    "https://media.npr.org/assets/img/2023/03/14/ap23072332548106-a161eeb29ec639b6efe15cb5a35b6f7288956a9e-s1100-c50.jpg",
+   image:    "https://static.bangkokpost.com/media/content/dcx/2021/02/10/3890255.jpg",
    para:     'Over the past few weeks, 53 of Thailand’s 77 provinces’ air quality has plummeted to disturbing levels.\nThe Environmental Protection Agency (EPA) designates healthy PM 2.5 levels at 12 ug/m3 or lower. Thailand’s capital Bangkok had ranges between 55.6 µg/m³ and 81.4 µg/m³ consecutively from March 6th to 10th.\nReports from the year 2021 show that air pollution contributed to over 50,000 premature deaths in Thailand.',
-   buttons:  [["Read Full Article", "posts/A1_ThailandAirPollution.html"]],
+   buttons:  [["Read Full Article", "posts/A0_ThailandAirPollution.html"]],
   },
   
   {
