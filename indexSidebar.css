@@ -106,6 +106,6 @@
 }
 #selectors > div:hover > div, #selectors > div > div:hover > div {
   height  :    auto;
-  transform:   translate(     0, 0);
+  transform:   translate(0, 0);
   opacity :    1;
 }
