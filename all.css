@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Alfa+Slab+One&family=Space+Mono:wght@700&family=Lexend:wght@700');
 
 html {scroll-behavior: smooth;}
-body {zoom: 0.75; margin: 0; overflow-x: hidden;}
+body {zoom: min(0.75, 0.9*calc(100vw / 1400px)); margin: 0; overflow-x: hidden;}
 
 ::-webkit-scrollbar                   { width: 1.3vw; height: 1.3vw; }
 ::-webkit-scrollbar-track             { background: #EEE; }
