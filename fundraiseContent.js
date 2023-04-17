@@ -2,11 +2,13 @@ var content =
 [
   {
    type:    "Snippet",
-   title:   "Asian Americans Advancing Justice",
+   title:   "Asian Americans<br>Advancing Justice",
    image:   "https://my-change-herokuapp.s3.amazonaws.com/organization_image/image/493/1.png",
-   para:    'We use legal advocacy to influence key civil rights issues affecting the AAPI and immigrant communites. We also do research and inveist',
+   para:    'We use legal advocacy to influence key civil rights issues affecting the AAPI and immigrant communites. We also do research and inveistigative journalism into government treatment and policy towards AAPI.',
    buttons: [
-             ["Help us Track Hate", "https://www.advancingjustice-aajc.org/"]
+             ["Visit Our Homepage", "https://www.advancingjustice-aajc.org/"],
+             ["Help Us Track Hate - Share Your Story", "https://www.standagainsthatred.org/"],
+             ["Support our fight for civil rights and community"]
             ],
   },
 
