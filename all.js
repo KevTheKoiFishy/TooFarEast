@@ -10,20 +10,25 @@ window.addEventListener("resize", zoomBody);
 
 //Marquee Title
 var titleTag = document.getElementsByTagName("title")[0];
-var marqueeTitle = window.setInterval(
-  function(){
-    var titleText = titleTag.innerText;
-    var newTitleText = titleText.substring(1, titleText.length) + titleText[0];
-    titleTag.innerText = newTitleText;
-  }
-  , 300);
+var marqueeTitle =
+    function () {
+      window.setInterval(
+      function(){
+        var titleText = titleTag.innerText;
+        var newTitleText = titleText.substring(1, titleText.length) + titleText[0];
+        titleTag.innerText = newTitleText;
+      }
+      , 300);
+    }
+    window.setTimeout(marqueeTitle, 5000);
 
 //Marquee Articles
 var newsBar = document.getElementById("LatestNews");
 var blogPosts =
 [
-  ["China's Factory-style Education System",          "posts/A2_ChineseEducationSystem.html" ],
-  ["Thailand's Air is in Danger",                     "posts/A1_ThailandAirPollution.html"   ],
+  ["The Book Rescuers",                               "posts/A2_TheBookRescuers.html"        ],
+  ["China's Factory-style Education System",          "posts/A1_ChineseEducationSystem.html" ],
+  ["Thailand's Air is in Danger",                     "posts/A0_ThailandAirPollution.html"   ],
   ["Hollywood - A Beacon of Hope",                    "posts/9_AsianOscarMilestone.html"     ],
   ["South Korea's Power Problem",                     "posts/8_SouthKoreaPowerProblem.html"  ],
   ["China's Economy Back On Track",                   "posts/7_ChinaEconomyRevitalized.html" ],
