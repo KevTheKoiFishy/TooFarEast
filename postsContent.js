@@ -3,6 +3,16 @@ var content =
   
   {
    type:     "Article Snippet",
+   title:    "The Book Rescuers",
+   subtitle: "How Taiwanese Researchers are Reviving An Ancient Text",
+   date:     "April 16 2023",
+   image:    "https://imgcdn.cna.com.tw/www/WebPhotos/1024/20230409/1024x768_wmkn_0_C20230409000097.jpg",
+   para:     'Islam is a precious and rare religion in Taiwan, making the recent accomplishment of The Taiwan National Library significant to the development of Taiwanese culture. On April 9th, Sean Scanaln from the Taiwan News reported that a 500-year-old handwritten Quran had been miraculously repaired by Hsu Mei-Wen-a, book restorer from The Taiwan National Library. The ancient Arabic language connects the Hui with their ancestors’ wisdom.',
+   buttons:  [["Read Full Article", "posts/A2_TheBookRescuers.html"]],
+  },
+  
+  {
+   type:     "Article Snippet",
    title:    "Filling a Bucket, or Lighting a Fire?",
    subtitle: "The world's manufacturing superpower runs its schools like factories.",
    date:     "April 16 2023",

@@ -4,7 +4,8 @@
 
 .light_overlay.article {
   left: 0;
-  background: linear-gradient(90deg, #FFFFFFDD 0%, #FFFFFFDD 97%, #FFFFFFEE 99%, transparent 100%);
+  background: #FFFC;
+/*   background: linear-gradient(90deg, #FFFFFFDD 0%, #FFFFFFDD 97%, #FFFFFFEE 99%, transparent 100%); */
 }
 .Snippet.Article>*{
   margin: 0;
