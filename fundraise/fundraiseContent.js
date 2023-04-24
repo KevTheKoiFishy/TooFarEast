@@ -2,10 +2,14 @@ var content =
 [
   {
    type:    "Snippet",
-   title:   "Who We Are",
-   image:   "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Who%2Bwe%2Bare.jpg",
-   para:    '"Too Far East!" is run by thirteen asian high school students. Finding our heritage in four different cultures, we endeavor to create a space of dialogue about different East and Southeast Asian cultures. Our mission is to spread awareness about current events, to provide well organized facts of the beautiful Asian cultures and to support Asian organizations in need',
-   buttons: [["More on our Authors", "team.html"]],
+   title:   "Asian Americans<br>Advancing Justice",
+   image:   "https://my-change-herokuapp.s3.amazonaws.com/organization_image/image/493/1.png",
+   para:    'We use legal advocacy to influence key civil rights issues affecting the AAPI and immigrant communites. We also do research and inveistigative journalism into government treatment and policy towards AAPI.',
+   buttons: [
+             ["Visit Our Homepage", "https://www.advancingjustice-aajc.org/"],
+             ["Help Us Track Hate - Share Your Story", "https://www.standagainsthatred.org/"],
+             ["Support our fight for civil rights and community"]
+            ],
   },
 
   {

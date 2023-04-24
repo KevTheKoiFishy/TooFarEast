@@ -1,13 +1,3 @@
-//mobile detection
-function zoomBody(){
-  if (window.innerWidth < 1400)
-    {document.body.setAttribute("style", "zoom : " + (.9*window.innerWidth / 1400));}
-  else
-    {document.body.setAttribute("style", "zoom : 0.75");}
-}
-window.addEventListener("load", zoomBody);
-window.addEventListener("resize", zoomBody);
-
 //Marquee Title
 var titleTag = document.getElementsByTagName("title")[0];
 var marqueeTitle =
