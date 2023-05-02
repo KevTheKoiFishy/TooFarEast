@@ -103,7 +103,7 @@ var content =
    type:       "Biography",
    name:       "Emma Liu 刘明美",
    roles:      ["Social Media Assistant"],
-   image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Emma.png",
+   image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/emma2_cropped2.jpg",
    statement:  '<b>Things I\'m proud of in my heritage:</b> <br><b>What I want to convey through TFE:</b> ',
   },
   
