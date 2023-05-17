@@ -16,6 +16,7 @@ var marqueeTitle =
 var newsBar = document.getElementById("LatestNews");
 var blogPosts =
 [
+  ["The Tiktok Controversy Explained",                "/posts/A5_TikTokBan.html"              ],
   ["2 Arrested for Water-Splashing HK Police",        "/posts/A4_SongkranPoliceIncident.html" ],
   ["The Book Rescuers",                               "/posts/A2_TheBookRescuers.html"        ],
   ["China's Factory-style Education System",          "/posts/A1_ChineseEducationSystem.html" ],

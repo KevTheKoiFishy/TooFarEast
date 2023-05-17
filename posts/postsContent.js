@@ -1,5 +1,14 @@
 var content =
 [
+  {
+   type:     "Article Snippet",
+   title:    "Caught in the Crossfire",
+   subtitle: "The Tiktok Controversy Explained",
+   date:     "May 17 2023",
+   image:    "https://www.hollywoodreporter.com/wp-content/uploads/2021/05/GettyImages-1225396413.jpg?w=1296",
+   para:     'On April 14th 2023, Montana became the first state to ban Tik Tok completely, and other states may follow suit. Proponents in Montana are concerned about not leaking citizen data to China, while opponents care more about preserving their platform for free speech.',
+   buttons:  [["Read Full Article", "/posts/A5_TikTokBan.html"]],
+  },
   
   {
    type:     "Article Snippet",
