@@ -1,6 +1,18 @@
 var content =
 [
   {
+
+  {
+    type:     "Article Snippet",
+    title:    "It’s Asian American and Pacific Islander Month!",
+    subtitle: "A proud heritage trumps our tough history.",
+    date:     "May 25 2023",
+    image:    "https://images.idgesg.net/images/article/2022/03/asia-fom-space-night_shutterstock_1422245984-100922022-large.jpg",
+    para:     'AAPI history in America has had its ups and downs. In some areas, there is still stigma related to these cultures. Having a time dedicated to celebrating the diverse and special cultures that AAPI Month recognizes counters the stigma, as it is an opportunity for people to inform themselves of and show respect to those of AAPI descent.',
+    buttons:  [["Read Full Article", "/posts/A6_AAPIMonth.html"]],
+  },
+
+  {
    type:     "Article Snippet",
    title:    "Caught in the Crossfire",
    subtitle: "The Tiktok Controversy Explained",

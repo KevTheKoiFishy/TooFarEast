@@ -16,15 +16,16 @@ var marqueeTitle =
 var newsBar = document.getElementById("LatestNews");
 var blogPosts =
 [
+  ["It's AAPI Month!",                                "/posts/A6_AAPIMonth.html"              ],
   ["The Tiktok Controversy Explained",                "/posts/A5_TikTokBan.html"              ],
   ["2 Arrested for Water-Splashing HK Police",        "/posts/A4_SongkranPoliceIncident.html" ],
   ["The Book Rescuers",                               "/posts/A2_TheBookRescuers.html"        ],
   ["China's Factory-style Education System",          "/posts/A1_ChineseEducationSystem.html" ],
-  ["Thailand's Air is in Danger",                     "/posts/A0_ThailandAirPollution.html"   ],
-  ["Hollywood - A Beacon of Hope",                    "/posts/9_AsianOscarMilestone.html"     ],
-  ["South Korea's Power Problem",                     "/posts/8_SouthKoreaPowerProblem.html"  ],
-  ["China's Economy Back On Track",                   "/posts/7_ChinaEconomyRevitalized.html" ],
-  ["The Hong Kong Housing Crisis",                    "/posts/6_HongKongHousingCrisis.html"   ],
+  // ["Thailand's Air is in Danger",                     "/posts/A0_ThailandAirPollution.html"   ],
+  // ["Hollywood - A Beacon of Hope",                    "/posts/9_AsianOscarMilestone.html"     ],
+  // ["South Korea's Power Problem",                     "/posts/8_SouthKoreaPowerProblem.html"  ],
+  // ["China's Economy Back On Track",                   "/posts/7_ChinaEconomyRevitalized.html" ],
+  // ["The Hong Kong Housing Crisis",                    "/posts/6_HongKongHousingCrisis.html"   ],
   // ["Lunar New Year is More Than Chinese",             "/posts/5_MoreThanTheMajority.html"     ],
   // ["Comparing the Myanmar Coup and Gwangju Uprising", "/posts/4_LongFightToDemocracy.html"    ],
   // ["Iron Fist to Let it Rip - China's Reopening",     "/posts/3_LetItRip.html"                ],
