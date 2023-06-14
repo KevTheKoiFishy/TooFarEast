@@ -1,6 +1,5 @@
 var content =
 [
-  {
 
   {
     type:     "Article Snippet",
