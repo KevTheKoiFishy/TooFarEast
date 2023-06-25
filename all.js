@@ -16,6 +16,7 @@ var marqueeTitle =
 var newsBar = document.getElementById("LatestNews");
 var blogPosts =
 [
+  ["The End of Affirmative Action?",                  "/posts/A7_AffirmativeActionCase.html"  ],
   ["It's AAPI Month!",                                "/posts/A6_AAPIMonth.html"              ],
   ["The Tiktok Controversy Explained",                "/posts/A5_TikTokBan.html"              ],
   ["2 Arrested for Water-Splashing HK Police",        "/posts/A4_SongkranPoliceIncident.html" ],

@@ -3,6 +3,16 @@ var content =
 
   {
     type:     "Article Snippet",
+    title:    "The End of Affirmative Action?",
+    subtitle: "Floridian Jon Wang takes his case for fair admissions to the Supreme Court",
+    date:     "June 23 2023",
+    image:    "https://www.ipr.northwestern.edu/images/news-story-images/affirmative-action-main.jpg",
+    para:     'One case in the lawsuit asserts that Harvard discriminates against Asian American students, which is backed up by Jon Wang, an Asian American student from Florida with a perfect GPA and 1590 SAT score, yet was still rejected from all of the elite colleges he applied to...',
+    buttons:  [["Read Full Article", "/posts/A7_AffirmativeActionCase.html"]],
+  },
+
+  {
+    type:     "Article Snippet",
     title:    "It’s Asian American and Pacific Islander Month!",
     subtitle: "A proud heritage trumps our tough history.",
     date:     "May 25 2023",
