@@ -29,7 +29,7 @@ var content =
    type:       "Biography",
    name:       "Kevin Yu 于笑涵",
    roles:      ["Lead Web Designer", "Writer + Researcher", "Chief Editor"],
-   image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Kevin",
+   image:      "/Assets/kevin.jpg",
    statement:  '<b>Things I\'m proud of in my heritage:</b> Traditional Chinese stories about love, betrayal, and war.<br><b>What I want to convey through TFE:</b> China is much more than social credit memes or cheap goods. 1.4B people come with a plethora of microcosms, each with unique beliefs and problems. We need a more multifaceted view of the world\'s most populous country—not just world politics but life on the ground.',
   },
   
