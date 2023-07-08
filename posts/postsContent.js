@@ -3,6 +3,16 @@ var content =
 
   {
     type:     "Article Snippet",
+    title:    "The Fading Next Generations of East Asia",
+    subtitle: "Exploring the Complexities of Declining Birth Rates and Social Dysfunction",
+    date:     "July 8 2023",
+    image:    "https://img.freepik.com/free-photo/asian-young-happy-family-enjoy-vacation-beach-evening-dad-mom-kid-relax-playing-together-near-sea-when-silhouette-sunset-lifestyle-travel-holiday-vacation-summer-concept_7861-2444.jpg",
+    para:     'Urbanization and lifestyle changes have shifted priorities, with a greater emphasis on education, career advancement, and individual ambitions. Economic factors, including expensive housing costs, and limited job opportunities, discourage individuals from starting or expanding their families. <br> South Korea has spent over €195.6 billion, or $210 billion, in multiple failed attempts to boost its birth rate over the span of 16 years. Similarly in China, the state\'s recent reversal on its historic one-child policy...<br><sub>Image by tirachardz on Freepik</sub>',
+    buttons:  [["Read Full Article", "/posts/A8_DecliningBirthRates.html"]],
+  },
+  
+  {
+    type:     "Article Snippet",
     title:    "The End of Affirmative Action?",
     subtitle: "Floridian Jon Wang takes his case for fair admissions to the Supreme Court",
     date:     "June 23 2023",
