@@ -8,7 +8,54 @@
   display : none;
 }
 
-.biography.snippet {
+/* PASTED FROM INDEX.HTML TO PREVENT INTERFERENCE TO THIS WHEN UPDATING INDEX.HTML*/
+.Snippet {
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+.Snippet .wordsContainer {
+  width: calc(var(--snippet-content-width) - 70px);
+  /* padding-left: 80px;
+  padding-right: 50px; */
+}
+.Snippet *{
+  z-index: 1;
+  position: relative !important;
+
+  background: inherit;
+  color: #000000AA;
+  -webkit-background-clip: text;
+}
+.Snippet h2 {
+  margin: 0px;
+  padding-top: 30px;
+  font-size: 70px;
+  font-family: "Alfa Slab One";
+}
+.Snippet .paragraph {
+  padding: 10px;
+  font-size: 30px;
+  font-family: "Staatliches";
+}
+.Snippet .buttonContainer{
+  margin-top: 20px;
+  padding-left: 70px !important;
+  width: var(--snippet-content-width);
+  display: grid;
+}
+.Snippet .light_overlay{
+  z-index: 0;
+  position: absolute !important;
+  top: 0;
+  width: calc(100px + var(--snippet-content-width));
+  height: 100%;
+  background: #FFFFFFCC;
+}
+/*END IMPORT FROM INDEX.HTML*/
+
+.Biography {
   position: relative;
   width: 600px;
   height: 600px;
@@ -18,7 +65,7 @@
   background-size: 100%;  
 }
 
-.biography.snippet>.light_overlay{
+.Biography .light_overlay{
   z-index: 1;
   left: inherit;
   top: unset;
@@ -27,43 +74,43 @@
   width: 100%;
   opacity: 1;
 }
-.biography:hover > .light_overlay{
+.Biography:hover .light_overlay{
   height: 100%;
 }
 
-.biography.snippet > *{
+.Biography *{
   z-index: 2;
   position: relative;
   opacity: 0;
   transition: .2s, opacity 0s ease 0s;
 /*   //namecard moves down immediate */
 }
-.biography.snippet:hover > *{
+.Biography:hover *{
   opacity: 1;
   transition: .3s, opacity .2s ease .2s;
 /*   //namecard moves up transition */
 }
 
-.biography.snippet>h2 {
+.Biography h2 {
   opacity: 1;
   font-size: 40px;
   transform: translateY(500px);
   font-family: "Alfa Slab One";
 }
-.biography.snippet:hover > h2{
+.Biography:hover h2{
   transform: translateY(0);
 }
 
-.biography.snippet>.rolesList {
+.Biography .rolesList {
   font-size: 24px;
   font-style: italic;
   font-family: "Space Mono";
   transition: opacity 0s ease 0s;
 }
-.biography.snippet:hover>.rolesList {
+.Biography:hover .rolesList {
   transition: opacity .2s ease .4s;
 }
-.biography.snippet>.paragraph {
+.Biography .paragraph {
   left: inherit;
   margin-top: 20px;
   width: 80%;
@@ -72,7 +119,7 @@
   text-align: justify;
   transition: opacity 0s ease 0s;
 }
-.biography.snippet:hover>.paragraph {
+.Biography:hover .paragraph {
   transition: opacity .2s ease .6s;
 }
 

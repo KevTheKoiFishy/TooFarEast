@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Alfa+Slab+One&family=Space+Mono:wght@700&family=Lexend:wght@700');
 
-html {scroll-behavior: smooth;}
+html { scroll-behavior: smooth; }
 body {
   margin: 0;
   overflow-x: hidden;
@@ -15,7 +15,7 @@ body {
 ::-webkit-scrollbar-track-piece:end   { /*background: repeating-linear-gradient(45deg, #e12d71, #e68642, #e3d63c);*/
                                         background: #bf382f;
                                       }
-::-webkit-scrollbar-thumb             { background: #ffc107; width: 20vw;}
+::-webkit-scrollbar-thumb             { background: #ffc107; width: 20vw; }
 ::-webkit-scrollbar-thumb:hover       { background: #fffaeb; }
 ::selection {
   color: #ffc107;
@@ -45,12 +45,12 @@ a {
   -webkit-background-clip: text;
   transition: 0.15s;
 }
-.header a:hover{
+.header a:hover {
   text-shadow: -4px -4px #fcc;
   background: #930a0a !important;
   -webkit-background-clip: text !important;
 }
-.header a.active{
+.header a.active {
   background: #ffc107;
   -webkit-background-clip: text;
 }
@@ -67,7 +67,7 @@ a {
   background: #000;
   marquee-speed: fast;
 }
-#LatestNews>a{
+#LatestNews a {
   font-family: "Space Mono";
   font-size: 35px;
   font-weight: bold;
@@ -77,39 +77,56 @@ a {
   -webkit-background-clip: text;
 }
 
-#CONTENT{
+#CONTENT {
   position: relative;
+  --snippet-content-width: 30%;
 }
 .Snippet {
   width: 100%;
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
   position: relative;
 }
-.Snippet>*{
+.Snippet .wordsContainer {
+  width: calc(var(--snippet-content-width) - 70px);
+  padding-left: 80px;
+  padding-right: 50px;
+}
+.Snippet *{
   z-index: 1;
   position: relative !important;
-  width: calc(80% - 70px);
 
   background: inherit;
   color: #000000AA;
   -webkit-background-clip: text;
 }
-.Snippet>h2 {
+.Snippet h2 {
   margin: 0px;
   padding-top: 30px;
   font-size: 70px;
   font-family: "Alfa Slab One";
 }
-.Snippet>div.paragraph {
+.Snippet .paragraph {
   padding: 10px;
   font-size: 30px;
   font-family: "Staatliches";
 }
-.Snippet>.buttonContainer{
+.Snippet .buttonContainer{
   margin-top: 20px;
+  padding-left: 70px !important;
+  width: var(--snippet-content-width);
   display: grid;
 }
+.Snippet .light_overlay{
+  z-index: 0;
+  position: absolute !important;
+  top: 0;
+  width: calc(100px + var(--snippet-content-width));
+  height: 100%;
+  background: #FFFFFFCC;
+}
+
 .button{
   margin-bottom: 20px;
   padding: 10px 20px;
@@ -119,15 +136,7 @@ a {
 .button:hover{
   background: repeating-linear-gradient(45deg, #1c78e9, #2d9cc6, #57c28d);
 }
-.light_overlay{
-  z-index: 0;
-  position: absolute !important;
-  top: 0;
-  left: 10%;
-  height: 100%;
-  width: 80%;
-  background: #FFFFFFCC;
-}
+
 
 
 #footer {
@@ -143,11 +152,11 @@ a {
   font-family: "Staatliches";
   font-size: 48px;
 }
-#footer>div {
+#footer div {
   margin: 40px;
 }
 
-#footer>*>a {
+#footer a {
   margin: 0;
 
   font-size: 22px;
@@ -157,7 +166,7 @@ a {
   background-attachment: fixed;
   -webkit-background-clip: text;
 }
-#footer>*>a:hover {
+#footer a:hover {
   background: repeating-linear-gradient(45deg, #ff8ec0, #e38aff, #64d5ff, #99ffcc);
   -webkit-background-clip: text;
 }
