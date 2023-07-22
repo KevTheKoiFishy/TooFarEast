@@ -16,6 +16,7 @@ var marqueeTitle =
 var newsBar = document.getElementById("LatestNews");
 var blogPosts =
 [
+  ["Coco's Death Sparks Attention to Mental Health",  "/posts/A9_CocoLeeDeath.html"           ],
   ["The Fading Next Generations of East Asia",        "/posts/A8_DecliningBirthRates.html"    ],
   ["The End of Affirmative Action?",                  "/posts/A7_AffirmativeActionCase.html"  ],
   ["It's AAPI Month!",                                "/posts/A6_AAPIMonth.html"              ],

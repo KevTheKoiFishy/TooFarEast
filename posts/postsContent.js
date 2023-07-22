@@ -3,6 +3,16 @@ var content =
 
   {
     type:     "Article Snippet",
+    title:    "Coco Lee's Death Sparks Much-Needed Attention To Mental Health",
+    subtitle: "One in every seven Chinese suffer from at least one type of mental illness in their lifetime. We need to talk.",
+    date:     "July 22 2023",
+    image:    "https://i.ytimg.com/vi/sjTCa9unmKg/maxresdefault.jpg",
+    para:     'Coco Lee, renowned Chinese-American singer, passed away from suicide on July 5 at the age of 48. Since her debut roughly 30 years ago, she has had a very successful career, from singing an Oscar-nominated song to becoming Chanel’s first Chinese ambassador, making her name as a pop icon. Some of her notable works include “A Love Before Time” from Crouching Tiger, Hidden Dragon and “Reflection” from Mulan, the live action film.',
+    buttons:  [["Read Full Article", "/posts/A9_CocoLeeDeath.html"]],
+  },
+
+  {
+    type:     "Article Snippet",
     title:    "The Fading Next Generations of East Asia",
     subtitle: "Exploring the Complexities of Declining Birth Rates and Social Dysfunction",
     date:     "July 8 2023",
