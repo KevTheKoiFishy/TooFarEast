@@ -28,3 +28,7 @@
 #ArticleContainer>*>a:hover {
   color: #bf382f;
 }
+
+#ArticleContainer h1 {
+  font-size: unset;
+}
