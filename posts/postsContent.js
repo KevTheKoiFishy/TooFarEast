@@ -3,6 +3,16 @@ var content =
 
   {
     type:     "Article Snippet",
+    title:    "Typhoon Watch",
+    subtitle: "Tracking Doksuri’s Wrath",
+    date:     "August 6 2023",
+    image:    "https://cloudfront-us-east-1.images.arcpublishing.com/gray/IAUEGXGNFNFBTAT7SM6SBB7FYM.jpg",
+    para:     'On July 26, Typhoon Doksuri hit the Northeast of the Philippines with winds of about 220 kilometers per hour (140 mph). Doksuri peaked at Category 4 strength, making it the second-strongest Typhoon so far this year. According to the National Disaster Risk Reduction and Management Council, the Typhoon has caused flooding across five regions and more than a dozen rain-induced landslides. The storm killed at least 39 people, many of whom were aboard an overcrowded boat that capsized in high winds...',
+    buttons:  [["Read Full Article", "/posts/B0_TyphoonDoksuri.html"]],
+  },
+
+  {
+    type:     "Article Snippet",
     title:    "Coco Lee's Death Sparks Much-Needed Attention To Mental Health",
     subtitle: "One in every seven Chinese suffer from at least one type of mental illness in their lifetime. We need to talk.",
     date:     "July 22 2023",

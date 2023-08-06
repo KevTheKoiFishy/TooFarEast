@@ -104,17 +104,14 @@
   100%        {color: #ffcaea66; }
 }
 h1{
-  position: absolute;        
+  position: absolute;
   margin: 0px;
-
   background: inherit;
   background-position: center;
   background-attachment: fixed;
-
-  font-size: 280px;
+  font-size: ;
   font-family: "Alfa Slab One";
   -webkit-background-clip: text;
-
   z-index: 2;
 }
 .Title_Text{
