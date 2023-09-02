@@ -5,7 +5,7 @@ var content =
     title:    "\"Don't Ask Why\" Stabbing Trend in South Korea",
     subtitle: "Street killings, death threats, and living in fear of your own neighborhood.",
     date:     "August 20 2023",
-    image:    "https://cloudfront-us-east-1.images.arcpublishing.com/gray/IAUEGXGNFNFBTAT7SM6SBB7FYM.jpg",
+    image:    "https://cdn.i-scmp.com/sites/default/files/d8/images/canvas/2023/08/03/07fa8507-701c-4296-b448-5bd455a304b3_134e1251.jpg",
     para:     '“I’ve always been telling my kids to be careful when they go abroad due to gun fears but now I’m more scared of being in South Korea,” Lee Young-ja, a 78-year-old Seongnam resident who fled after hearing people screaming during Thursday’s incident. Another resident in the area, Choi Jun-ho, 26, said he was staying extra vigilant on his way to work on Friday morning, near the mall where the stabbing took place. “It’s unnerving,” Choi said. “Something like this could happen right next to me.”',
     buttons:  [["Read Full Article", "/posts/B1_KoreaStabbing.html"]],
   },
