@@ -93,6 +93,9 @@ a {
   padding-left: 80px;
   padding-right: 50px;
 }
+.Snippet.Right>* {
+ margin-left: calc(100% - var(--snippet-content-width) - 100px)
+}
 .Snippet *{
   z-index: 1;
   position: relative !important;
@@ -125,6 +128,10 @@ a {
   width: calc(100px + var(--snippet-content-width));
   height: 100%;
   background: #FFFFFFCC;
+}
+
+#CONTENT .Embed{
+  width: 100%;
 }
 
 .button{

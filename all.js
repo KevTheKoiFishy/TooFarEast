@@ -1,3 +1,13 @@
+String.prototype.isExternalLink = function(){
+  let nativeLinkStart = ["../", "/", "//", "#"];
+  let isNativeLink = true;
+  nativeLinkStart.forEach( (value) => {
+    if (this.substring(0, value.length) == value)
+    isNativeLink = false;
+  });
+  return isNativeLink;
+}
+
 //Marquee Title
 var titleTag = document.getElementsByTagName("title")[0];
 var marqueeTitle =
@@ -46,71 +56,79 @@ for (var i = 0; i < blogPosts.length; ++i){
 var contentDIV  = document.getElementById("CONTENT");
 var scrollerDIV = document.getElementById("SCROLLER");
 
-  for (var i = 0; i < content.length; ++i)
+for (var i = 0; i < content.length; ++i)
+{
+  var HTMLToAdd = "";
+
+  switch (content[i].type)
   {
-    var HTMLToAdd = "";
 
-    switch (content[i].type)
-    {
+    case "Snippet":
+      HTMLToAdd += '<div class="Snippet ' + ((content[i].align) ? content[i].align : '')
+                + '" style="background-image: url(' + content[i].image + ');'
+                + (content[i].width ? '--snippet-content-width: ' + content[i].width + '%;' : '')
+                + '">';
 
-      case "Snippet":
-        HTMLToAdd += '<div class="Snippet" style="background-image: url(' + content[i].image + ');">';
+      HTMLToAdd += '<div class="wordsContainer" style="background-image: background-image: inherit;">';
+      HTMLToAdd += '<h2>' + content[i].title + '</h2>';
+      HTMLToAdd += '<div class="paragraph">' + content[i].para + '</div>';
+      HTMLToAdd += "</div>";
 
-        HTMLToAdd += '<div class="wordsContainer" style="background-image: background-image: inherit;">';
-        HTMLToAdd += '<h2>' + content[i].title + '</h2>';
-        HTMLToAdd += '<div class="paragraph">' + content[i].para + '</div>';
-        HTMLToAdd += "</div>";
+      HTMLToAdd += "<div class=\"buttonContainer\">";
+      for (var buttonNum = 0; buttonNum < content[i].buttons.length; ++buttonNum)
+      HTMLToAdd += "<a " + (content[i].buttons[buttonNum][1].isExternalLink() ? 'target="_blank" rel="noopener noreferrer"' : '')
+                + "class=\"button\" href=\"" + content[i].buttons[buttonNum][1] + "\">" + content[i].buttons[buttonNum][0] + "</a>";
+      HTMLToAdd += "</div>";
 
-        HTMLToAdd += "<div class=\"buttonContainer\">";
-        for (var buttonNum = 0; buttonNum < content[i].buttons.length; ++buttonNum)
-        HTMLToAdd += "<a class=\"button\" href=\"" + content[i].buttons[buttonNum][1] + "\">" + content[i].buttons[buttonNum][0] + "</a>";
-        HTMLToAdd += "</div>";
+      HTMLToAdd += '<div class="light_overlay"></div>';
 
-        HTMLToAdd += '<div class="light_overlay"></div>';
+      HTMLToAdd += "</div>";
+      contentDIV.innerHTML += HTMLToAdd;
+      break;
 
-        HTMLToAdd += "</div>";
-        contentDIV.innerHTML += HTMLToAdd;
-        break;
+    case "Article Snippet":
+      HTMLToAdd += '<div class="Snippet Article" style="background-image: url(' + content[i].image + ');">';
 
-      case "Article Snippet":
-        HTMLToAdd += '<div class="Snippet Article" style="background-image: url(' + content[i].image + ');">';
+      HTMLToAdd += '<div class="wordsContainer" style="background-image: inherit;">';
+      HTMLToAdd += '<h2>'                     + content[i].title    + '</h2>';
+      HTMLToAdd += '<span class="date">'      + content[i].date     + '</span>';
+      HTMLToAdd += '<span class="subtitle">'  + content[i].subtitle + '</span>';
+      HTMLToAdd += '<div  class="paragraph">' + content[i].para     + '</div>';
+      HTMLToAdd += "</div>";
 
-        HTMLToAdd += '<div class="wordsContainer" style="background-image: inherit;">';
-        HTMLToAdd += '<h2>'                     + content[i].title    + '</h2>';
-        HTMLToAdd += '<span class="date">'      + content[i].date     + '</span>';
-        HTMLToAdd += '<span class="subtitle">'  + content[i].subtitle + '</span>';
-        HTMLToAdd += '<div  class="paragraph">' + content[i].para     + '</div>';
-        HTMLToAdd += "</div>";
+      HTMLToAdd += "<div  class=\"buttonContainer\">";
+      for (var buttonNum = 0; buttonNum < content[i].buttons.length; ++buttonNum)
+      HTMLToAdd += "<a class=\"button\" href=\"" + content[i].buttons[buttonNum][1] + "\">" + content[i].buttons[buttonNum][0] + "</a>";
+      HTMLToAdd += "</div>";
 
-        HTMLToAdd += "<div  class=\"buttonContainer\">";
-        for (var buttonNum = 0; buttonNum < content[i].buttons.length; ++buttonNum)
-        HTMLToAdd += "<a class=\"button\" href=\"" + content[i].buttons[buttonNum][1] + "\">" + content[i].buttons[buttonNum][0] + "</a>";
-        HTMLToAdd += "</div>";
+      HTMLToAdd += '<div class="light_overlay"></div>';
 
-        HTMLToAdd += '<div class="light_overlay"></div>';
+      HTMLToAdd += "</div>";
+      contentDIV.innerHTML += HTMLToAdd;
+      break;
 
-        HTMLToAdd += "</div>";
-        contentDIV.innerHTML += HTMLToAdd;
-        break;
+    case "Biography":
+      scrollerDIV.setAttribute("style", "width: " + (600*content.length) + "px;");
+      HTMLToAdd += '<div class="Snippet Biography" style="background-image: url(' + content[i].image + ');" align="center">';
+      HTMLToAdd += '<div class="light_overlay" style="background: hsl(' + (360 * i / content.length) + 'deg 100% 92% / 90%)"></div>';
+      HTMLToAdd += '<h2>' + content[i].name + '</h2>';
+      HTMLToAdd += '<div class="rolesList">';
+        for (var j = 0; j < content[i].roles.length; ++j){
+          HTMLToAdd += content[i].roles[j] + "<br>";
+        }
+        HTMLToAdd += "</div>"
+      HTMLToAdd += '<div class="paragraph">' + content[i].statement + '</div>';
 
-      case "Biography":
-        scrollerDIV.setAttribute("style", "width: " + (600*content.length) + "px;");
-        HTMLToAdd += '<div class="Snippet Biography" style="background-image: url(' + content[i].image + ');" align="center">';
-        HTMLToAdd += '<div class="light_overlay" style="background: hsl(' + (360 * i / content.length) + 'deg 100% 92% / 90%)"></div>';
-        HTMLToAdd += '<h2>' + content[i].name + '</h2>';
-        HTMLToAdd += '<div class="rolesList">';
-          for (var j = 0; j < content[i].roles.length; ++j){
-            HTMLToAdd += content[i].roles[j] + "<br>";
-          }
-          HTMLToAdd += "</div>"
-        HTMLToAdd += '<div class="paragraph">' + content[i].statement + '</div>';
-
-        HTMLToAdd += "</div>";
-        scrollerDIV.innerHTML += HTMLToAdd;
-        break;
-    
-    }
-
+      HTMLToAdd += "</div>";
+      scrollerDIV.innerHTML += HTMLToAdd;
+      break;
+  
+    case "Embed":
+      HTMLToAdd += `<iframe class="Embed" id="${content[i].id}" src="${content[i].url}" style="height:${content[i].height}px;"></iframe>`;
+      contentDIV.innerHTML += HTMLToAdd;
+      break;
   }
+
+}
 
 // reinterpret ASCII  
