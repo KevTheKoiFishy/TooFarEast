@@ -125,7 +125,7 @@ a {
   z-index: 0;
   position: absolute !important;
   top: 0;
-  width: calc(100px + var(--snippet-content-width));
+  width: calc(140px + var(--snippet-content-width));
   height: 100%;
   background: #FFFFFFCC;
 }

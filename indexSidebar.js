@@ -13,7 +13,7 @@
     // Brunei-
     // Malaysia- Oliver, Nathan
     // Hong Kong - Nathan, Oliver
-
+/*
 var countries = ["China", "Mongolia", "Taiwan", "South Korea",
                  "Japan", "Thailand", "Philippines", "Vietnam",
                  "Indonesia", "Singapore", "Laos", "Myanmar",
@@ -35,4 +35,4 @@ for (var c = 0; c < countries.length; c++)
 
   HTMLToAdd += '</div>'
 }
-sidebarDIV.innerHTML += HTMLToAdd;
+sidebarDIV.innerHTML += HTMLToAdd;*/

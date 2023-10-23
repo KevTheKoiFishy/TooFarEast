@@ -19,7 +19,11 @@ document.body.innerHTML +=
   <a class="` + (window.location.pathname.replaceAll(".html", "").split("/")[1] == "PVSA"       ? "active" : "inactive") + `" href="/PVSA">      President's Award </a>
 </div>
 <marquee id="LatestNews" scrollmount="2"></marquee>
+`;
 
+/*
+document.body.innerHTML +=
+`
 <div id="sidebar">
   <div id="sunset"></div>
   <div id="logo"><div id="logoIMG"></div></div>
@@ -28,3 +32,4 @@ document.body.innerHTML +=
   </div>
 </div>
 `;
+*/
