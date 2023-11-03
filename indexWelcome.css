@@ -121,4 +121,4 @@ h1{
 }
 .Title_Text.text1   { left:  calc(50% - 600px);         top: 100px;    animation-delay: 3.2s; }
 .Title_Text.text2   { text-align: center; width: 100%;  top: 370px;    animation-delay: 3.7s; }
-.Title_Text.text3   { right: calc(50% - 600px);         top: 640px;    animation-delay: 4.1s; }
+.Title_Text.text3   { right: calc(50% - 600px);         top: 640px;    animation-delay: 4.1s; } 
