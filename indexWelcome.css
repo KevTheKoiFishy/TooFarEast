@@ -52,6 +52,7 @@
   background: black;
 
   animation: title_background 100s infinite;
+  animation-timing-function: cubic-bezier(1, -0.2, 0, 1.2);
 
   background-position: center;
   background-size: cover;

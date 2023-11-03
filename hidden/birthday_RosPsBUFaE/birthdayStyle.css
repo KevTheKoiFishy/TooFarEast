@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;1,700&family=Yeseva+One&display=swap');
+
+@keyframes title_background {
+    0% { background-image: url("pics/IMG_3620.jpg");                                          }
+   10% { background-image: url("pics/IMG_0103.jpg");                                          }
+   20% { background-image: url("pics/IMG_0452.jpg");                                          }
+   30% { background-image: url("pics/IMG_0556.jpg");                                          }
+   40% { background-image: url("pics/IMG_0952.JPG");                                          }
+   50% { background-image: url("pics/IMG_5833.jpg");                                          }
+   60% { background-image: url("pics/IMG_1777.jpg");                                          }
+   70% { background-image: url("pics/IMG_3618.jpg");                                          }
+   80% { background-image: url("pics/70295184716__5989B1C9-E2BE-4184-9810-DF5F1D10F78F.jpg"); }
+   90% { background-image: url("pics/IMG_5395.jpg");                                          }
+  100% { background-image: url("pics/IMG_3620.jpg");                                          }
+}
+#Welcome_Container {
+    animation: title_background 60s infinite;
+    animation-timing-function: step-end;
+}
+
+h1 {
+    font-size: 250px;
+    font-weight: normal;
+}
+
+.Title_Text {
+    left : unset !important;
+    right: unset !important;
+    color: #FFFC !important;
+}
+.Title_Text.text1   { text-align: center; width: 100%;  top: 100px;    animation-delay: 3.2s; }
+.Title_Text.text2   { text-align: center; width: 100%;  top: 370px;    animation-delay: 3.7s; }
+.Title_Text.text3   { text-align: center; width: 100%;  top: 640px;    animation-delay: 4.1s; }
+
+.Snippet .light_overlay{
+    width: calc(100px + var(--snippet-content-width));
+}  
