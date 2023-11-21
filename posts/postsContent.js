@@ -2,6 +2,16 @@ var content =
 [
   {
     type:     "Article Snippet",
+    title:    "The South Asain Dominance of Cricket",
+    subtitle: "Run every four years, the ICC Cricket World Cup is one of the most highly anticipated sport tournaments in the world.",
+    date:     "November 20 2023",
+    image:    "https://www.sportsadda.com/static-assets/waf-images/90/01/df/16-9/M45RW1dUNg.jpg",
+    para:     'Matching the fervor of baseball season in the US, Cricket is the most watched sport in South Asia, garnering over 2.5 billion spectators. The 13th edition took place in Narendra Modi Stadium in Ahmedabad, India this year.',
+    buttons:  [["Read Full Article", "/posts/B3_Cricket.html"]],
+  },
+
+  {
+    type:     "Article Snippet",
     title:    "\"Don't Ask Why\" Stabbing Trend in South Korea",
     subtitle: "Street killings, death threats, and living in fear of your own neighborhood.",
     date:     "August 20 2023",

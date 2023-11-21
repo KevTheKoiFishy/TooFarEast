@@ -26,6 +26,7 @@ var marqueeTitle =
 var newsBar = document.getElementById("LatestNews");
 var blogPosts =
 [
+  ["India vs. Pakistan",                              "/posts/B3_Cricket.html"                ],
   ["Korea's Stabbing and Death-Threat Trend",         "/posts/B1_KoreaStabbing.html"          ],
   ["Doksuri's Destructive Wake",                      "/posts/B0_TyphoonDoksuri.html"         ],
   ["Coco's Death Sparks Attention to Mental Health",  "/posts/A9_CocoLeeDeath.html"           ],
