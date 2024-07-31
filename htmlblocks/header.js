@@ -1,7 +1,7 @@
 //mobile detection
 function zoomBody(){
-  if (window.innerWidth < 1400)
-    {document.body.setAttribute("style", "zoom : " + (.9*window.innerWidth / 1400));}
+  if (window.innerWidth < 1000)
+    {document.body.setAttribute("style", "zoom : " + (.75*window.innerWidth / 1000));}
   else
     {document.body.setAttribute("style", "zoom : 0.75");}
 }
@@ -14,6 +14,7 @@ let getSubpath = function(level){
 document.body.innerHTML +=
 `
 <div class="header">
+  <div id="logo"> <div id="logoIMG"></div> </div>
   <a class="` +      (getSubpath(1) == ""              ? "active" : "inactive") + `" href="/">            Welcome            </a>
   <a class="` +      (getSubpath(1) == "posts"         ? "active" : "inactive") + `" href="/posts">       Posts              </a>
   <a class="` +      (getSubpath(1) == "ocean"         ? "active" : "inactive") + `" href="/ocean">       Ocean Awareness    </a>

@@ -8,7 +8,7 @@ String.prototype.isExternalLink = function(){
   return isNativeLink;
 }
 
-//Marquee Title
+//Scrolling Title
 var titleTag = document.getElementsByTagName("title")[0];
 var marqueeTitle =
     function () {
@@ -50,10 +50,10 @@ var blogPosts =
 ];
 
 for (var i = 0; i < blogPosts.length; ++i){
-  newsBar.innerHTML += " • <a href=\"" + blogPosts[i][1] + "\">" + blogPosts[i][0] + "</a>";
+  newsBar.innerHTML += "<a href=\"" + blogPosts[i][1] + "\">" + blogPosts[i][0] + "</a>";
 }
 
-//Content Blocks
+// Content Blocks
 var contentDIV  = document.getElementById("CONTENT");
 var scrollerDIV = document.getElementById("SCROLLER");
 

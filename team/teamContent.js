@@ -6,7 +6,7 @@ var content =
    name:       "Janet Wu 吳穎盈",
    roles:      ["Executive Director", "Social Media Manager", "Website Operator", "Writer + Researcher"],
    image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Janet",
-   statement:  '<b>Things I\'m proud of in my heritage:</b> Growing up in Taiwan, I have always been happy and proud of my Taiwanese heritage. I am grateful for thie beautiful and unique culture, especially the yummy food like brown sugar bubble milk!<br><b>What I want to convey through TFE:</b> I wish everyone can respect and value foreing cultures as much as they value their own culture(s)!',
+   statement:  '<b>Things I\'m proud of in my heritage:</b> Growing up in Taiwan, I have always been happy and proud of my Taiwanese heritage. I am grateful for this beautiful and unique culture, especially the yummy food like brown sugar bubble milk!<br><b>What I want to convey through TFE:</b> I wish everyone can respect and value foreign cultures as much as they value their own culture(s)!',
    identifies: 'Taiwanese',
   },
   
@@ -24,7 +24,7 @@ var content =
    name:       "Amy Hwang 황지윈",
    roles:      ["Website Designer", "Writer", "Researcher"],
    image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Amy",
-   statement:  '<b>Things I\'m proud of in my heritage:</b> Food, entertainment culture, and Korean culture of \'Jeong\'<br><b>What I want to convey through TFE:</b> To grow awareness of the current affairs in Asia and to be an advocate for my own country\'s culture(I wish to shwo that there are other appealing korean cultures other than the entertainment industry',
+   statement:  '<b>Things I\'m proud of in my heritage:</b> Food, entertainment culture, and Korean culture of \'Jeong\'<br><b>What I want to convey through TFE:</b> To grow awareness of the current affairs in Asia and to be an advocate for my own country\'s culture(I wish to show that there are other appealing korean cultures other than the entertainment industry',
    identifies: 'Korean',
   },
   
@@ -60,7 +60,7 @@ var content =
    name:       "Oliver Chan",
    roles:      ["Writer", "Researcher"],
    image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Oliver",
-   statement:  '<b>Things I\'m proud of in my heritage:</b> Dim Sum, Mahjong, and Egg Waffle<br><b>What I want to convey through TFE:</b> I wish to share my expriences in Asian culture and the side of Asian culture that non-Asians may not have been exposed to.',
+   statement:  '<b>Things I\'m proud of in my heritage:</b> Dim Sum, Mahjong, and Egg Waffle<br><b>What I want to convey through TFE:</b> I wish to share my experiences in Asian culture and the side of Asian culture that non-Asians may not have been exposed to.',
    identifies: 'Hong Kong',
   },
   
@@ -95,7 +95,7 @@ var content =
    name:       "Veronica Jiang",
    roles:      ["Writer", "Researcher"],
    image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Veronica",
-   statement:  '<b>Things I\'m proud of in my heritage:</b> <br><b>What I want to convey through TFE:</b> ',
+   statement:  '', //'<b>Things I\'m proud of in my heritage:</b> <br><b>What I want to convey through TFE:</b> ',
    identifies: 'Chinese',
   },
   
@@ -105,7 +105,7 @@ var content =
    name:       "Morgan Synn",
    roles:      ["Social Media Assistant"],
    image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/Morgan.png",
-   statement:  '<b>Things I\'m proud of in my heritage:</b> <br><b>What I want to convey through TFE:</b> ',
+   statement:  '', //'<b>Things I\'m proud of in my heritage:</b> <br><b>What I want to convey through TFE:</b> ',
    identifies: 'Korean',
   },
   
@@ -114,7 +114,7 @@ var content =
    name:       "Emma Liu 刘明美",
    roles:      ["Social Media Assistant"],
    image:      "https://cdn.glitch.global/2f875abb-5388-450d-8613-bd657c26368b/emma2_cropped2.jpg",
-   statement:  '<b>Things I\'m proud of in my heritage:</b> <br><b>What I want to convey through TFE:</b> ',
+   statement:  '', //'<b>Things I\'m proud of in my heritage:</b> <br><b>What I want to convey through TFE:</b> ',
    identifies: 'ABC',
   },
   

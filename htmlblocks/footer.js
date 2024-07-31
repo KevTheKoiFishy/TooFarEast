@@ -18,7 +18,7 @@ document.body.innerHTML +=
     </form>
   </div>
   <div id="copyright">
-    © 2022-2023 Too Far East, Nonprofit. All Rights Reserved.
+    © 2022-2024 Too Far East, Nonprofit. All Rights Reserved.
   </div>
 </div>
 `;
